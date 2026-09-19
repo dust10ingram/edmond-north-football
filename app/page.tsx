@@ -3,13 +3,13 @@ const games = [
   { date: 'AUG 28', opponent: 'Edmond Santa Fe', detail: 'Season opener · 7:00 PM', place: 'Home', logo: 'edmond-santa-fe-6c4a73a2.png' },
   { date: 'SEP 04', opponent: 'Deer Creek', detail: 'Friday · 7:00 PM', place: 'Away', logo: 'deer-creek-d9a03f17.png' },
   { date: 'SEP 11', opponent: 'Putnam City North', detail: 'Friday · 7:00 PM', place: 'Away', logo: 'putnam-city-north-c27f1bef.png' },
-  { date: 'SEP 25', opponent: 'Edmond Memorial', detail: 'Friday · 7:00 PM', place: 'Away', logo: 'edmond-memorial-45f59d00.png', ticket: 'https://gofan.co/events/6743866' },
-  { date: 'OCT 02', opponent: 'Norman North', detail: 'Homecoming · 7:00 PM', place: 'Home', logo: 'norman-north-b7d4bc4b.png', ticket: 'https://gofan.co/events/6739397' },
-  { date: 'OCT 09', opponent: 'Mustang', detail: 'Friday · 7:00 PM', place: 'Away', logo: 'mustang-6cf56a6f.png', ticket: 'https://gofan.co/events/6723321' },
+  { date: 'SEP 25', opponent: 'Edmond Memorial', detail: 'Friday · 7:00 PM', place: 'Away', logo: 'edmond-memorial-45f59d00.png', ticket: 'https://gofan.co/event/6743866?schoolId=OK21048' },
+  { date: 'OCT 02', opponent: 'Norman North', detail: 'Homecoming · 7:00 PM', place: 'Home', logo: 'norman-north-b7d4bc4b.png', ticket: 'https://gofan.co/event/6739397?schoolId=OK21048' },
+  { date: 'OCT 09', opponent: 'Mustang', detail: 'Friday · 7:00 PM', place: 'Away', logo: 'mustang-6cf56a6f.png', ticket: 'https://gofan.co/event/6723321?schoolId=OK21048' },
   { date: 'OCT 15', opponent: 'Westmoore', detail: 'Thursday · 7:00 PM', place: 'Home', logo: 'westmoore-edf593ef.png' },
-  { date: 'OCT 23', opponent: 'Bixby', detail: 'Friday · 7:00 PM', place: 'Home', logo: 'bixby-06708da4.png', ticket: 'https://gofan.co/events/6739395' },
+  { date: 'OCT 23', opponent: 'Bixby', detail: 'Friday · 7:00 PM', place: 'Home', logo: 'bixby-06708da4.png', ticket: 'https://gofan.co/event/6739395?schoolId=OK21048' },
   { date: 'OCT 30', opponent: 'Southmoore', detail: 'Friday · 7:00 PM', place: 'Away', logo: 'southmoore-823ad3d7.png' },
-  { date: 'NOV 05', opponent: 'Broken Arrow', detail: 'Senior Night · 7:00 PM', place: 'Home', logo: 'broken-arrow-84cc9e55.png', ticket: 'https://gofan.co/events/6739394' },
+  { date: 'NOV 05', opponent: 'Broken Arrow', detail: 'Senior Night · 7:00 PM', place: 'Home', logo: 'broken-arrow-84cc9e55.png', ticket: 'https://gofan.co/event/6739394?schoolId=OK21048' },
 ];
 
 const coaches = [['Carter Whitson','Head Coach'],['Joel Blumenthal','Offensive Coordinator / Quarterbacks'],['Tyler Caid','Defensive Coordinator / Linebackers'],['Will Taylor','Co-Defensive Coordinator / OLB']];
