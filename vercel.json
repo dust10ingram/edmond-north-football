@@ -1,0 +1,6 @@
+{
+  "framework": null,
+  "buildCommand": "echo 'Using committed static site'",
+  "outputDirectory": "static",
+  "cleanUrls": true
+}
