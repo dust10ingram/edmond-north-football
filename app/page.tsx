@@ -14,12 +14,12 @@ const games = [
 
 const coaches = [['Carter Whitson','Head Coach'],['Joel Blumenthal','Offensive Coordinator / Quarterbacks'],['Tyler Caid','Defensive Coordinator / Linebackers'],['Will Taylor','Co-Defensive Coordinator / OLB']];
 const recruits = [
-  ['75','Player 75','Offensive Line','2026','f75-8821a6a2.jpg'],
-  ['18','Player 18','Wide Receiver','2026','f18-3c46f50a.jpg'],
-  ['49','Player 49','Linebacker','2027','f49-8e881ab6.jpg'],
-  ['51','Player 51','Offensive Line','2027','f51-30e2bd94.jpg'],
-  ['85','Player 85','Tight End','2027','f85-34ada187.jpg'],
-  ['72','Player 72','Defensive Line','2028','f72-0599625c.jpg'],
+  ['75','Kyle Skrepnek','Offensive Line','2030','f75-8821a6a2.jpg'],
+  ['18','Tyson Castillo','Wide Receiver','2028','f18-3c46f50a.jpg'],
+  ['49','Jack Hayes','Linebacker','2028','f49-8e881ab6.jpg'],
+  ['51','Reed Weiny','Offensive Line','2028','f51-30e2bd94.jpg'],
+  ['85','Carson Stoddard','Tight End','2027','f85-34ada187.jpg'],
+  ['72','Jemil Jackson','Defensive Line','2029','f72-0599625c.jpg'],
 ];
 
 export default function Home() {
