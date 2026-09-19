@@ -3,13 +3,13 @@ const games = [
   { date: 'AUG 28', opponent: 'Edmond Santa Fe', detail: 'Season opener · 7:00 PM', place: 'Home', logo: 'edmond-santa-fe-6c4a73a2.png' },
   { date: 'SEP 04', opponent: 'Deer Creek', detail: 'Friday · 7:00 PM', place: 'Away', logo: 'deer-creek-d9a03f17.png' },
   { date: 'SEP 11', opponent: 'Putnam City North', detail: 'Friday · 7:00 PM', place: 'Away', logo: 'putnam-city-north-c27f1bef.png' },
-  { date: 'SEP 25', opponent: 'Edmond Memorial', detail: 'Friday · 7:00 PM', place: 'Away', logo: 'edmond-memorial-45f59d00.png' },
-  { date: 'OCT 02', opponent: 'Norman North', detail: 'Homecoming · 7:00 PM', place: 'Home', logo: 'norman-north-b7d4bc4b.png' },
-  { date: 'OCT 09', opponent: 'Mustang', detail: 'Friday · 7:00 PM', place: 'Away', logo: 'mustang-6cf56a6f.png' },
+  { date: 'SEP 25', opponent: 'Edmond Memorial', detail: 'Friday · 7:00 PM', place: 'Away', logo: 'edmond-memorial-45f59d00.png', ticket: 'https://gofan.co/events/6743866' },
+  { date: 'OCT 02', opponent: 'Norman North', detail: 'Homecoming · 7:00 PM', place: 'Home', logo: 'norman-north-b7d4bc4b.png', ticket: 'https://gofan.co/events/6739397' },
+  { date: 'OCT 09', opponent: 'Mustang', detail: 'Friday · 7:00 PM', place: 'Away', logo: 'mustang-6cf56a6f.png', ticket: 'https://gofan.co/events/6723321' },
   { date: 'OCT 15', opponent: 'Westmoore', detail: 'Thursday · 7:00 PM', place: 'Home', logo: 'westmoore-edf593ef.png' },
-  { date: 'OCT 23', opponent: 'Bixby', detail: 'Friday · 7:00 PM', place: 'Home', logo: 'bixby-06708da4.png' },
+  { date: 'OCT 23', opponent: 'Bixby', detail: 'Friday · 7:00 PM', place: 'Home', logo: 'bixby-06708da4.png', ticket: 'https://gofan.co/events/6739395' },
   { date: 'OCT 30', opponent: 'Southmoore', detail: 'Friday · 7:00 PM', place: 'Away', logo: 'southmoore-823ad3d7.png' },
-  { date: 'NOV 05', opponent: 'Broken Arrow', detail: 'Senior Night · 7:00 PM', place: 'Home', logo: 'broken-arrow-84cc9e55.png' },
+  { date: 'NOV 05', opponent: 'Broken Arrow', detail: 'Senior Night · 7:00 PM', place: 'Home', logo: 'broken-arrow-84cc9e55.png', ticket: 'https://gofan.co/events/6739394' },
 ];
 
 const coaches = [['Carter Whitson','Head Coach'],['Joel Blumenthal','Offensive Coordinator / Quarterbacks'],['Tyler Caid','Defensive Coordinator / Linebackers'],['Will Taylor','Co-Defensive Coordinator / OLB']];
@@ -33,7 +33,7 @@ export default function Home() {
 
     <section id="program" className="program-grid"><div className="program-photo"><img src="/assets/action.jpg" alt="Edmond North player carrying the ball into the end zone"/><div className="photo-stamp">North<br/>Football</div></div><div className="program-copy"><p className="eyebrow">The program</p><h2>More than four quarters.</h2><p>Edmond North Football develops disciplined teammates, confident leaders, and young men prepared to succeed beyond game night.</p><div className="program-links"><a id="team" href="#coaches"><b aria-hidden="true">01</b><span><strong>Meet the Huskies</strong><small>Varsity, JV, freshman & staff</small></span><b aria-hidden="true">›</b></a><a id="parents" href="#contact"><b aria-hidden="true">02</b><span><strong>Parent hub</strong><small>Dates, forms, camps & communication</small></span><b aria-hidden="true">›</b></a><a href="/recruiting/"><b aria-hidden="true">03</b><span><strong>Recruiting center</strong><small>Player profiles & coach contact</small></span><b aria-hidden="true">›</b></a><a href="#tradition"><b aria-hidden="true">04</b><span><strong>Tradition</strong><small>Alumni, records & program history</small></span><b aria-hidden="true">›</b></a></div></div></section>
 
-    <section id="media" className="media-feature"><img src="/assets/game-night.jpg" alt="Edmond North offense during a night game"/><div className="media-overlay"/><div className="media-copy"><p className="eyebrow">Game day</p><h2>Can&apos;t make the stands?</h2><p>Follow every Friday night with live KREF coverage and program updates from the sideline.</p><div><a className="button light" href="https://www.goenhsathletics.com/KREF-Streaming" target="_blank" rel="noreferrer"><span aria-hidden="true">●</span> Listen live</a><a className="button outline" href="https://www.instagram.com/edmondnorthfb/" target="_blank" rel="noreferrer"><span aria-hidden="true">◎</span> Follow the Huskies</a></div></div></section>
+    <section id="media" className="media-feature"><img src="/assets/game-night.jpg" alt="Edmond North offense during a night game"/><div className="media-overlay"/><div className="media-copy"><p className="eyebrow">Game day</p><h2>Can&apos;t make the stands?</h2><p>Follow every Friday night with live KREF coverage and program updates from the sideline.</p><div><a className="button light" href="https://krefsports.tv/edmond-north/" target="_blank" rel="noreferrer"><span aria-hidden="true">●</span> Watch every game</a><a className="button outline" href="https://www.instagram.com/edmondnorthfb/" target="_blank" rel="noreferrer"><span aria-hidden="true">◎</span> Follow the Huskies</a></div></div></section>
 
     <section id="coaches" className="coaches"><div className="section-lead"><div><p className="eyebrow blue">Leadership</p><h2>Meet the staff.</h2></div><a href="mailto:huskies@edmondnorthfb.com?subject=Coaching%20Staff">Contact the program <span aria-hidden="true">→</span></a></div><div className="coach-grid">{coaches.map(([name,role],i)=><article key={name}><span>0{i+1}</span><div><h3>{name}</h3><p>{role}</p></div></article>)}</div></section>
 
