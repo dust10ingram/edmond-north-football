@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 110" role="img" aria-labelledby="title">
+  <title id="title">W1N</title>
+  <rect width="320" height="110" fill="none"/>
+  <text x="8" y="83" fill="#071a35" font-family="Arial Black, Impact, sans-serif" font-size="84" font-style="italic" font-weight="900" letter-spacing="-9">W</text>
+  <text x="104" y="83" fill="#7bafd6" font-family="Arial Black, Impact, sans-serif" font-size="84" font-style="italic" font-weight="900" letter-spacing="-9">1</text>
+  <text x="159" y="83" fill="#071a35" font-family="Arial Black, Impact, sans-serif" font-size="84" font-style="italic" font-weight="900" letter-spacing="-9">N</text>
+  <path d="M7 94H306" stroke="#7bafd6" stroke-width="7"/>
+</svg>
