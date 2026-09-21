@@ -1,10 +1,10 @@
 const recruits = [
-  {number:'75',name:'Kyle Skrepnek',position:'Offensive Line',year:'2030',image:'f75-8821a6a2.jpg',recognition:['Team Captain','Honor Roll']},
-  {number:'18',name:'Tyson Castillo',position:'Wide Receiver',year:'2028',image:'f18-3c46f50a.jpg',recognition:['Player of the Week','High GPA']},
-  {number:'49',name:'Jack Hayes',position:'Linebacker',year:'2028',image:'f49-8e881ab6.jpg',recognition:['Team Captain','Player of the Week']},
-  {number:'51',name:'Reed Weiny',position:'Offensive Line',year:'2028',image:'f51-30e2bd94.jpg',recognition:['Honor Roll','Multi-Sport']},
-  {number:'85',name:'Carson Stoddard',position:'Tight End',year:'2027',image:'f85-34ada187.jpg',recognition:['Player of the Week']},
-  {number:'72',name:'Jemil Jackson',position:'Defensive Line',year:'2029',image:'f72-0599625c.jpg',recognition:['Honor Roll']},
+  {number:'75',name:'Kyle Skrepnek',position:'Offensive Line / Defensive Line',year:'2030',image:'recruit-play-1.jpg',recognition:['Team Captain','Honor Roll']},
+  {number:'18',name:'Tyson Castillo',position:'Tight End / Linebacker',year:'2028',image:'recruit-play-2.jpg',recognition:['Player of the Week','High GPA']},
+  {number:'49',name:'Jack Hayes',position:'Wide Receiver / Cornerback',year:'2028',image:'recruit-play-3.jpg',recognition:['Team Captain','Player of the Week']},
+  {number:'51',name:'Reed Weiny',position:'Center / Defensive Line',year:'2028',image:'recruit-play-4.jpg',recognition:['Honor Roll','Multi-Sport']},
+  {number:'85',name:'Carson Stoddard',position:'Strong Safety / Deep Safety',year:'2027',image:'recruit-play-5.jpg',recognition:['Player of the Week']},
+  {number:'72',name:'Jemil Jackson',position:'Offensive Guard / Defensive Line',year:'2029',image:'recruit-play-6.jpg',recognition:['Honor Roll']},
 ];
 
 const collegePrograms = [
