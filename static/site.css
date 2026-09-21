@@ -42,3 +42,5 @@ footer{background:var(--navy)}footer>*{position:relative;z-index:1}
 .photo-recap img{display:block;width:100%;aspect-ratio:1.5;object-fit:cover}
 
 .leader-grid .stat-jersey{display:inline-grid;place-items:center;min-width:22px;height:22px;margin-left:7px;padding:0 4px;background:var(--navy);color:#fff;font-style:normal;font-size:.58rem;letter-spacing:.04em;vertical-align:middle}
+
+.game .game-place{display:flex;align-items:center;gap:6px;margin-top:7px;color:#667a91;font-size:.62rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase}.game .game-place span{color:var(--blue);font-size:.52rem}.game-actions{display:flex;flex-direction:column;align-items:flex-end;gap:8px}.upcoming-preview{color:var(--navy);font-size:.62rem;font-weight:950;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap}@media(max-width:700px){.game-actions{grid-column:2/-1;align-items:flex-start;flex-direction:row;gap:16px;margin-top:5px}}
