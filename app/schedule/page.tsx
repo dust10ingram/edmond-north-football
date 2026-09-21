@@ -1,7 +1,7 @@
 const varsityGames = [
   ['AUG 20','Yukon','Scrimmage · 6:00 PM','Home','yukon-2a179732.png',''],
   ['AUG 28','Edmond Santa Fe','Season opener · 7:00 PM','Home','edmond-santa-fe-6c4a73a2.png','','W|48–21'],
-  ['SEP 04','Deer Creek','Friday · 7:00 PM','Away','deer-creek-d9a03f17.png','','L|27–38'],
+  ['SEP 04','Deer Creek','Friday · 7:00 PM','Away','deer-creek-d9a03f17.png','','L|40–30'],
   ['SEP 11','Putnam City North','Friday · 7:00 PM','Away','putnam-city-north-c27f1bef.png','','W|42–13'],
   ['SEP 25','Edmond Memorial','Friday · 7:00 PM','Away','edmond-memorial-45f59d00.png','https://gofan.co/event/6743866?schoolId=OK21048'],
   ['OCT 02','Norman North','Homecoming · 7:00 PM','Home','norman-north-b7d4bc4b.png','https://gofan.co/event/6739397?schoolId=OK21048'],
