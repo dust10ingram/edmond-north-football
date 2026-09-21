@@ -77,4 +77,4 @@ footer{background:var(--navy)}footer>*{position:relative;z-index:1}
 .tradition .roster-cta strong{color:var(--navy)!important;font-size:.9rem!important;font-weight:950;line-height:1!important;letter-spacing:.11em!important;text-transform:uppercase}
 .tradition .roster-cta b{display:grid;place-items:center;align-self:stretch;width:56px;margin-left:auto;background:var(--blue);color:#fff!important;font-size:1.2rem!important;line-height:1}
 .tradition .roster-cta:hover{background:#e6f2fb}
-@media(max-width:700px){.tradition .roster-cta{min-height:54px;margin-bottom:16px;padding-left:18px}.tradition .roster-cta strong{font-size:.88rem!important}.tradition .roster-cta b{width:54px}}
+@media(max-width:700px){.tradition .roster-cta{min-height:54px;margin-bottom:16px;padding-left:18px}.tradition .roster-cta strong{font-size:.88rem!important}.tradition .roster-cta b{width:54px}.tradition .program-levels .youth-card{margin-top:16px}}
