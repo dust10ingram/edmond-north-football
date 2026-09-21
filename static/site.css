@@ -49,3 +49,5 @@ footer{background:var(--navy)}footer>*{position:relative;z-index:1}
 
 .game-row:has(> .game:only-child) .game-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;align-items:center}.game-row:has(> .game:only-child) .game-actions .upcoming-ticket{grid-column:auto;width:100%;text-align:center}.game-row:has(> .game:only-child) .upcoming-preview{display:flex;align-items:center;justify-content:center;min-height:38px;border:1px solid #b8c8d7;color:var(--navy)}@media(max-width:560px){.game-row:has(> .game:only-child) .game-actions{grid-column:2/-1;display:grid;grid-template-columns:1fr 1fr;gap:9px;width:100%;margin-top:8px}.game-row:has(> .game:only-child) .game-actions .upcoming-ticket{width:100%;padding:10px 6px;font-size:.58rem}.game-row:has(> .game:only-child) .upcoming-preview{min-height:36px;font-size:.56rem}.game-row:has(> .game:only-child) .game-place{margin-top:6px}}
 .game .game-place{position:static;right:auto;bottom:auto}
+
+.roster-list .roster-freshman,.roster-list .roster-staff{display:none}
