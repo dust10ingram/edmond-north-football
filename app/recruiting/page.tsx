@@ -2,7 +2,7 @@ import {varsity} from '../roster-data';
 
 const recruits = [
   {number:'0',name:'Parker McMahan',position:'TE / DE',year:'2029',image:'f0-caab2257.jpg',recognition:[]},
-  {number:'1',name:'Chauncey Cravens',position:'QB / CB',year:'2027',image:'f1-191c46d9.jpg',recognition:[]},
+  {number:'1',name:'Chauncey Cravens',position:'QB / CB',year:'2027',image:'f1-191c46d9.jpg',recognition:['Team Captain','Player of the Week','Multi-Sport']},
   {number:'2',name:'Tripp Jones',position:'WR / FS',year:'2028',image:'f2-cc1bc1e6.jpg',recognition:[]},
   {number:'2',name:'Deuce Martin',position:'WR / CB',year:'2027',image:'f2-cc1bc1e6.jpg',recognition:[]},
   {number:'3',name:'Andrew Rankin',position:'WR / FS',year:'2029',image:'f3-767e543f.jpg',recognition:[]},
