@@ -2,7 +2,7 @@ import {varsity} from '../roster-data';
 
 const recruits = [
   {number:'0',name:'Parker McMahan',position:'TE / DE',year:'2029',image:'f0-caab2257.jpg',recognition:['Honor Roll']},
-  {number:'1',name:'Chauncey Cravens',position:'QB / CB',year:'2027',image:'f1-191c46d9.jpg',recognition:['Team Captain','Player of the Week','Multi-Sport']},
+  {number:'1',name:'Chauncey Cravens',position:'QB / CB',year:'2027',image:'f1-191c46d9.jpg',recognition:['Team Captain','4× Player of the Week','Multi-Sport']},
   {number:'2',name:'Tripp Jones',position:'WR / FS',year:'2028',image:'f2-cc1bc1e6.jpg',recognition:[]},
   {number:'2',name:'Deuce Martin',position:'WR / CB',year:'2027',image:'f2-cc1bc1e6.jpg',recognition:[]},
   {number:'3',name:'Andrew Rankin',position:'WR / FS',year:'2029',image:'f3-767e543f.jpg',recognition:[]},
@@ -20,7 +20,7 @@ const recruits = [
   {number:'15',name:'Jase Sullivan',position:'QB / FS',year:'2029',image:'recruiting-fallback.jpg',recognition:[]},
   {number:'16',name:'Breck Puckett',position:'WR / DE',year:'2028',image:'f16-5ce384c1.jpg',recognition:[]},
   {number:'17',name:'Cooper Bernier',position:'TE / LB',year:'2028',image:'f17-c7202269.jpg',recognition:[]},
-  {number:'18',name:'Tyson Castillo',position:'TE / LB',year:'2028',image:'f18-3c46f50a.jpg',recognition:['Player of the Week','Honor Roll']},
+  {number:'18',name:'Tyson Castillo',position:'TE / LB',year:'2028',image:'f18-3c46f50a.jpg',recognition:['2× Player of the Week','Honor Roll']},
   {number:'19',name:'Maddox Moore',position:'WR / FS',year:'2029',image:'f19-669efdea.jpg',recognition:[]},
   {number:'20',name:'Jaylen McCrary',position:'RB / FS',year:'2029',image:'f20-58094102.jpg',recognition:[]},
   {number:'21',name:'Brandon Bagheri',position:'RB / LB',year:'2027',image:'f21-12c8eaa1.jpg',recognition:[]},
@@ -44,7 +44,7 @@ const recruits = [
   {number:'44',name:'Branick Larson',position:'RB / DE',year:'2028',image:'f44-f98277b4.jpg',recognition:[]},
   {number:'45',name:'Max Mize',position:'TE / LB',year:'2029',image:'f45-ceab09b7.jpg',recognition:[]},
   {number:'48',name:'Braxton Jones',position:'TE / DE',year:'2029',image:'f48-942b143b.jpg',recognition:[]},
-  {number:'49',name:'Jack Hayes',position:'WR / CB',year:'2028',image:'f49-8e881ab6.jpg',recognition:['Team Captain','Player of the Week']},
+  {number:'49',name:'Jack Hayes',position:'WR / CB',year:'2028',image:'f49-8e881ab6.jpg',recognition:['Team Captain','2× Player of the Week']},
   {number:'50',name:'Maddox Ransom',position:'OT / DE',year:'2028',image:'f50-703e7f9e.jpg',recognition:[]},
   {number:'51',name:'Reed Weiny',position:'C / DL',year:'2028',image:'f51-30e2bd94.jpg',recognition:['Honor Roll','Multi-Sport']},
   {number:'52',name:'Otis Drain',position:'OL / DL',year:'2028',image:'f52-57cc4543.jpg',recognition:[]},
