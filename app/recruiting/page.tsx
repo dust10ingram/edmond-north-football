@@ -20,7 +20,7 @@ const recruits = [
   {number:'15',name:'Jase Sullivan',position:'QB / FS',year:'2029',image:'recruiting-fallback.jpg',recognition:[]},
   {number:'16',name:'Breck Puckett',position:'WR / DE',year:'2028',image:'f16-5ce384c1.jpg',recognition:[]},
   {number:'17',name:'Cooper Bernier',position:'TE / LB',year:'2028',image:'f17-c7202269.jpg',recognition:[]},
-  {number:'18',name:'Tyson Castillo',position:'TE / LB',year:'2028',image:'f18-3c46f50a.jpg',recognition:['Player of the Week','High GPA']},
+  {number:'18',name:'Tyson Castillo',position:'TE / LB',year:'2028',image:'f18-3c46f50a.jpg',recognition:['Player of the Week','Honor Roll']},
   {number:'19',name:'Maddox Moore',position:'WR / FS',year:'2029',image:'f19-669efdea.jpg',recognition:[]},
   {number:'20',name:'Jaylen McCrary',position:'RB / FS',year:'2029',image:'f20-58094102.jpg',recognition:[]},
   {number:'21',name:'Brandon Bagheri',position:'RB / LB',year:'2027',image:'f21-12c8eaa1.jpg',recognition:[]},
