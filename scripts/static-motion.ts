@@ -3,7 +3,7 @@ import {animate,hover,inView,stagger} from 'motion';
 if(!matchMedia('(prefers-reduced-motion: reduce)').matches){
   document.documentElement.classList.add('motion-ready');
   const hero=[...document.querySelectorAll<HTMLElement>('.hero .hero-line,.hero .hero-location,.hero .hero-actions,.hero .hero-stat')];
-  if(hero.length){hero.forEach(el=>{el.style.opacity='0';el.style.transform='translateY(26px)'});animate(hero,{opacity:1,transform:'translateY(0px)'},{duration:.9,delay:stagger(.13),ease:[.22,1,.36,1]})}
+  if(hero.length){hero.forEach(el=>{el.style.opacity='0';el.style.transform='translateY(26px)'});animate(hero,{opacity:1,transform:'translateY(0px)'},{duration:1.3,delay:stagger(.13),ease:[.22,1,.36,1]})}
   const reveal=(selector:string,children:string,amount=.12)=>document.querySelectorAll<HTMLElement>(selector).forEach(section=>inView(section,()=>{const items=[...section.querySelectorAll<HTMLElement>(children)];items.forEach(el=>{el.style.opacity='0';el.style.transform='translateY(18px)'});animate(items,{opacity:1,transform:'translateY(0px)'},{duration:.48,delay:stagger(.055),ease:[.22,1,.36,1]})},{amount}));
   reveal('.standalone-schedule','.schedule-list article',.08);reveal('.recruiting-standalone','.player-profile',.04);reveal('.tradition','.eyebrow,blockquote,.roster-cta,.program-levels article');reveal('.weekly-board','.leader-grid article');
   document.querySelectorAll<HTMLElement>('.upcoming-logo-crop').forEach(mark=>inView(mark,()=>{animate(mark,{opacity:[.35,1],transform:['translateX(-10px)','translateX(0px)']},{duration:.75,ease:[.22,1,.36,1]})},{amount:.5}));
