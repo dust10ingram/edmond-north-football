@@ -151,3 +151,6 @@ footer{background:var(--navy)}footer>*{position:relative;z-index:1}
 /* Game results now follow the photo recap as their own section */
 .program-results-section{padding:78px 7vw;background:var(--ice);border-top:1px solid var(--line)}.program-results-section .program-results{max-width:1120px;margin:auto}.program-results-section .program-results article{grid-template-columns:38px minmax(0,1fr) auto}.program-results-section .program-results>a{max-width:330px}
 @media(max-width:600px){.program-results-section{padding:62px 24px}}
+
+/* Complete footer navigation */
+footer{grid-template-columns:repeat(4,minmax(0,1fr))}.footer-brand{grid-column:1/-1}.footer-contact{grid-column:auto}@media(max-width:760px){footer{grid-template-columns:1fr 1fr}}@media(max-width:430px){footer{grid-template-columns:1fr}.footer-brand{grid-column:1}.copyright{grid-column:1}}
