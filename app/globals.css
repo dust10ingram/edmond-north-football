@@ -166,7 +166,7 @@ footer{grid-template-columns:repeat(4,minmax(0,1fr))}.footer-brand{grid-column:1
 .profile-social-links a{display:grid;place-items:center;width:39px;height:39px;border:1px solid #cbd8e4;background:#f7fafc;color:var(--navy);transition:background .18s,color .18s,border-color .18s}
 .profile-social-links a:hover{border-color:var(--blue);background:var(--blue);color:#fff}
 .profile-social-links svg{width:15px;height:15px;fill:currentColor}
-.hudl-icon,.maxpreps-icon{font:950 1rem/1 Arial,sans-serif}.hudl-icon{font-style:italic;text-transform:lowercase}.maxpreps-icon{font-size:.82rem}
+.profile-social-links .hudl-icon{width:20px;height:20px;fill:none}.profile-social-links .maxpreps-icon{width:18px;height:18px}
 .offers-panel{margin-top:12px;border:1px solid #cbd8e4;background:#f7fafc}
 .offers-panel>summary{display:grid;grid-template-columns:1fr auto 22px;align-items:center;gap:12px;padding:14px 15px}
 .offers-panel>summary>span{font-size:.68rem;font-weight:950;letter-spacing:.1em;text-transform:uppercase}
