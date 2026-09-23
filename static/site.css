@@ -130,3 +130,22 @@ footer{grid-template-columns:repeat(4,minmax(0,1fr))}.footer-brand{grid-column:1
 /* Keep the recruiting introduction close to the subpage header. */
 .recruiting-page .recruiting-standalone{padding-top:72px}
 @media(max-width:700px){.recruiting-page .recruiting-standalone{padding-top:36px}}
+
+/* Recruiting profile links and offer status */
+.profile-links-row{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:18px;padding-top:18px;border-top:1px solid var(--line)}
+.profile-links-row>span{color:#60748c;font-size:.6rem;font-weight:950;letter-spacing:.11em;text-transform:uppercase}
+.profile-social-links{display:flex;gap:8px}
+.profile-social-links a{display:grid;place-items:center;width:39px;height:39px;border:1px solid #cbd8e4;background:#f7fafc;color:var(--navy);transition:background .18s,color .18s,border-color .18s}
+.profile-social-links a:hover{border-color:var(--blue);background:var(--blue);color:#fff}
+.profile-social-links svg{width:15px;height:15px;fill:currentColor}
+.hudl-icon,.maxpreps-icon{font:950 1rem/1 Arial,sans-serif}.hudl-icon{font-style:italic;text-transform:lowercase}.maxpreps-icon{font-size:.82rem}
+.offers-panel{margin-top:12px;border:1px solid #cbd8e4;background:#f7fafc}
+.offers-panel>summary{display:grid;grid-template-columns:1fr auto 22px;align-items:center;gap:12px;padding:14px 15px}
+.offers-panel>summary>span{font-size:.68rem;font-weight:950;letter-spacing:.1em;text-transform:uppercase}
+.offers-panel>summary>b{color:#718096;font-size:.57rem;letter-spacing:.08em;text-transform:uppercase}
+.offers-panel>summary>i{display:grid;place-items:center;color:var(--blue);font-style:normal;font-size:1rem;transition:transform .2s}
+.offers-panel[open]>summary>i{transform:rotate(45deg)}
+.offers-panel>div{padding:0 15px 15px;border-top:1px solid #dbe4ec}
+.offers-panel p{margin:13px 0 0;color:#60748c;font-size:.72rem}.offers-panel ul{margin:12px 0 0;padding-left:18px;color:#32465d;font-size:.75rem}.offers-panel li+li{margin-top:6px}
+.offers-panel .commitment{display:flex;justify-content:space-between;gap:12px;padding:10px;background:#e7f4fd;color:var(--navy)}.offers-panel .commitment strong{color:var(--blue);font-size:.6rem;letter-spacing:.08em;text-transform:uppercase}
+.profile-actions{display:block;margin-top:12px}.profile-actions a,.profile-actions a:first-child{display:flex;justify-content:space-between;padding:13px 15px;background:var(--navy);color:#fff;font-size:.62rem;font-weight:950;letter-spacing:.08em;text-transform:uppercase}
