@@ -17,7 +17,9 @@ export default function GameDayProgram() {
   const [countdown, setCountdown] = useState({days: '00', hours: '00', minutes: '00', seconds: '00'});
 
   useEffect(() => {
-    const requested = new URLSearchParams(window.location.search).get('game');
+    const queryGame = new URLSearchParams(window.location.search).get('game');
+    const pathSlug = window.location.pathname.split('/').filter(Boolean).at(-1);
+    const requested = queryGame || (pathSlug && pathSlug !== 'program' ? pathSlug : null);
     if (!requested) return;
     const match = publishedPrograms.find((item) => item.slug === requested || item.game_id === requested);
     if (match) setProgram(match);

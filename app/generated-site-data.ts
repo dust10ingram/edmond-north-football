@@ -2303,7 +2303,7 @@ export const schedules = [
     "ticket_url": "https://gofan.co/event/6743866?schoolId=OK21048",
     "result": "",
     "score": "",
-    "program_url": "/program/?game=edlam-2026"
+    "program_url": "/program/edlam-2026/"
   },
   {
     "game_id": "2026-varsity-06",
