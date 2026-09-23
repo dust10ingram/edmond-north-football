@@ -10,7 +10,12 @@ const schemas = {
   schedules: ['game_id', 'team', 'season', 'date_label', 'date_iso', 'opponent', 'detail', 'location', 'logo', 'ticket_url', 'result', 'score', 'program_url'],
   badges: ['player_id', 'badge'],
   offers: ['player_id', 'school', 'status'],
+  gamePrograms: ['game_id', 'slug', 'week', 'story_label', 'story_headline', 'headline', 'headline_emphasis', 'opponent_mascot', 'hero_summary', 'intro_1', 'intro_2', 'north_record', 'opponent_record', 'game_fact_title', 'game_fact_body', 'photo_album_url', 'broadcast_url', 'published'],
+  gameLeaders: ['game_id', 'category', 'player_id', 'primary_stat', 'primary_label', 'secondary_stats', 'ranking', 'sort_order'],
+  gameCaptains: ['game_id', 'player_id', 'role'],
 };
+const filenames = {gamePrograms: 'game-programs', gameLeaders: 'game-leaders', gameCaptains: 'game-captains'};
+const filenameFor = (name) => filenames[name] || name;
 
 function parseCsv(text) {
   const rows = [];
@@ -45,7 +50,7 @@ function parseCsv(text) {
 }
 
 function load(name) {
-  const file = path.join(root, 'data', `${name}.csv`);
+  const file = path.join(root, 'data', `${filenameFor(name)}.csv`);
   const rows = parseCsv(fs.readFileSync(file, 'utf8'));
   const header = rows.shift() || [];
   if (header.join('|') !== schemas[name].join('|')) {
@@ -74,6 +79,7 @@ unique(data.players, 'player_id', 'players');
 unique(data.staff, 'staff_id', 'staff');
 unique(data.schedules, 'game_id', 'schedules');
 const playerIds = new Set(data.players.map((player) => player.player_id));
+const gameIds = new Set(data.schedules.map((game) => game.game_id));
 
 data.players.forEach((player, index) => {
   const row = index + 2;
@@ -110,6 +116,33 @@ for (const [file, rows] of [['badges', data.badges], ['offers', data.offers]]) {
 data.offers.forEach((offer, index) => {
   if (!offer.school || !['Offer', 'Committed', 'Interest'].includes(offer.status)) errors.push(`offers.csv row ${index + 2}: school is required and status must be Offer, Committed, or Interest.`);
 });
+
+unique(data.gamePrograms, 'slug', 'game-programs');
+const programGames = new Set();
+data.gamePrograms.forEach((program, index) => {
+  const row = index + 2;
+  if (!gameIds.has(program.game_id)) errors.push(`game-programs.csv row ${row}: unknown game_id “${program.game_id}”.`);
+  if (programGames.has(program.game_id)) errors.push(`game-programs.csv row ${row}: game_id “${program.game_id}” already has a program.`);
+  programGames.add(program.game_id);
+  if (!program.headline || !program.intro_1) errors.push(`game-programs.csv row ${row}: headline and intro_1 are required.`);
+  if (!validFlag(program.published)) errors.push(`game-programs.csv row ${row}: published must be yes or no.`);
+  for (const column of ['photo_album_url', 'broadcast_url']) if (!validUrl(program[column])) errors.push(`game-programs.csv row ${row}: ${column} must be a complete URL.`);
+});
+
+data.gameLeaders.forEach((leader, index) => {
+  const row = index + 2;
+  if (!gameIds.has(leader.game_id)) errors.push(`game-leaders.csv row ${row}: unknown game_id “${leader.game_id}”.`);
+  if (!playerIds.has(leader.player_id)) errors.push(`game-leaders.csv row ${row}: unknown player_id “${leader.player_id}”.`);
+  if (!leader.category || !leader.primary_stat || !leader.primary_label) errors.push(`game-leaders.csv row ${row}: category, primary_stat, and primary_label are required.`);
+  if (leader.sort_order && !/^\d+$/.test(leader.sort_order)) errors.push(`game-leaders.csv row ${row}: sort_order must be a whole number.`);
+});
+
+data.gameCaptains.forEach((captain, index) => {
+  const row = index + 2;
+  if (!gameIds.has(captain.game_id)) errors.push(`game-captains.csv row ${row}: unknown game_id “${captain.game_id}”.`);
+  if (!playerIds.has(captain.player_id)) errors.push(`game-captains.csv row ${row}: unknown player_id “${captain.player_id}”.`);
+  if (!captain.role) errors.push(`game-captains.csv row ${row}: role is required.`);
+});
 const committed = new Set();
 data.offers.filter((offer) => offer.status === 'Committed').forEach((offer) => {
   if (committed.has(offer.player_id)) errors.push(`offers.csv: ${offer.player_id} has more than one committed school.`);
@@ -128,6 +161,6 @@ if (checking) {
   fs.writeFileSync(output, generated);
   const publicData = path.join(root, 'static', 'data');
   fs.mkdirSync(publicData, {recursive: true});
-  for (const name of Object.keys(schemas)) fs.copyFileSync(path.join(root, 'data', `${name}.csv`), path.join(publicData, `${name}.csv`));
+  for (const name of Object.keys(schemas)) fs.copyFileSync(path.join(root, 'data', `${filenameFor(name)}.csv`), path.join(publicData, `${filenameFor(name)}.csv`));
   console.log(`Synchronized ${data.players.length} players, ${data.staff.length} staff, ${data.schedules.length} games, ${data.badges.length} badges, and ${data.offers.length} offers.`);
 }

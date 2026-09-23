@@ -3,7 +3,7 @@ game_id,team,season,date_label,date_iso,opponent,detail,location,logo,ticket_url
 2026-varsity-02,Varsity,2026,AUG 28,2026-08-28,Edmond Santa Fe,Season opener · 7:00 PM,Home,edmond-santa-fe-6c4a73a2.png,,W,48–21,
 2026-varsity-03,Varsity,2026,SEP 04,2026-09-04,Deer Creek,Friday · 7:00 PM,Away,deer-creek-d9a03f17.png,,L,40–30,
 2026-varsity-04,Varsity,2026,SEP 11,2026-09-11,Putnam City North,Friday · 7:00 PM,Away,putnam-city-north-c27f1bef.png,,W,42–13,
-2026-varsity-05,Varsity,2026,SEP 25,2026-09-25,Edmond Memorial,Friday · 7:00 PM,Away,edmond-memorial-45f59d00.png,https://gofan.co/event/6743866?schoolId=OK21048,,,/program/
+2026-varsity-05,Varsity,2026,SEP 25,2026-09-25,Edmond Memorial,Friday · 7:00 PM,Away,edmond-memorial-45f59d00.png,https://gofan.co/event/6743866?schoolId=OK21048,,,/program/?game=edlam-2026
 2026-varsity-06,Varsity,2026,OCT 02,2026-10-02,Norman North,Homecoming · 7:00 PM,Home,norman-north-b7d4bc4b.png,https://gofan.co/event/6739397?schoolId=OK21048,,,
 2026-varsity-07,Varsity,2026,OCT 09,2026-10-09,Mustang,Friday · 7:00 PM,Away,mustang-6cf56a6f.png,https://gofan.co/event/6723321?schoolId=OK21048,,,
 2026-varsity-08,Varsity,2026,OCT 15,2026-10-15,Westmoore,Thursday · 7:00 PM,Home,westmoore-edf593ef.png,,,,

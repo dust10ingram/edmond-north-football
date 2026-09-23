@@ -9,6 +9,9 @@ These CSV files are the editable source for roster, recruiting, staff, and sched
 | `schedules.csv` | Varsity, JV, and freshman games and results |
 | `badges.csv` | Repeatable recruiting badges tied to a `player_id` |
 | `offers.csv` | College offers, interest, and commitments tied to a `player_id` |
+| `game-programs.csv` | Weekly program copy, records, facts, broadcast links, and photo-album links tied to a `game_id` |
+| `game-leaders.csv` | Repeatable weekly stat leaders tied to a game and player |
+| `game-captains.csv` | Repeatable game captains tied to a game and player |
 
 ## Editing rules
 
@@ -16,6 +19,10 @@ These CSV files are the editable source for roster, recruiting, staff, and sched
 - Use the existing stable `player_id`, `staff_id`, and `game_id` values when updating a row.
 - Use `yes` or `no` in the player and staff flag columns.
 - Use `Offer`, `Interest`, or `Committed` in `offers.csv`. A player can have only one `Committed` row.
+- Connect every program row to the corresponding `game_id` in `schedules.csv`.
+- Set `published` to `yes` when a program is ready to become available. The first upcoming published program is used at `/program/`.
+- Put long program copy in `intro_1` and `intro_2`. Spreadsheet applications will quote these cells automatically when exporting CSV.
+- Add one row per leader or captain; do not add numbered columns for additional people.
 - Leave an unknown value blank. Do not type placeholders such as `TBD` for player measurements.
 - Do not add commas to a value unless your spreadsheet application saves the value with CSV quotes.
 

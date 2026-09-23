@@ -2303,7 +2303,7 @@ export const schedules = [
     "ticket_url": "https://gofan.co/event/6743866?schoolId=OK21048",
     "result": "",
     "score": "",
-    "program_url": "/program/"
+    "program_url": "/program/?game=edlam-2026"
   },
   {
     "game_id": "2026-varsity-06",
@@ -2622,3 +2622,71 @@ export const badges = [
 ];
 
 export const offers = [];
+
+export const gamePrograms = [
+  {
+    "game_id": "2026-varsity-05",
+    "slug": "edlam-2026",
+    "week": "5",
+    "story_label": "This week · Edlam",
+    "story_headline": "This is Edlam!",
+    "headline": "Huskies",
+    "headline_emphasis": "at Memorial.",
+    "opponent_mascot": "Bulldogs",
+    "hero_summary": "Friday night football from Edmond Memorial Stadium.",
+    "intro_1": "It’s Edlam, and the spotlight is on quarterback Chauncey Cravens. The Huskies’ signal-caller enters the cross-town rivalry with 909 passing yards, 11 touchdowns, and the top passing mark in 6A. Friday is the third Edmond North–Memorial meeting in 12 months—the kind of packed-stadium district battle that lives long after the clock hits zero.",
+    "intro_2": "Last week, Reece Fisher broke the Huskies’ single-game touchdown record with four scores. Now Cravens and Fisher bring that connection into a challenge against a Memorial defense that has not allowed more than 21 points in a game this season. Playoff implications and bragging rights are both on the line, and the Huskies are ready to crack the Bulldogs’ defense under the Friday-night lights.",
+    "north_record": "2–1",
+    "opponent_record": "2–1",
+    "game_fact_title": "Three meetings. One year. One city.",
+    "game_fact_body": "Edlam is the third Edmond North–Memorial meeting in 12 months, making every possession part of the rivalry story.",
+    "photo_album_url": "",
+    "broadcast_url": "https://krefsports.tv/edmond-north/",
+    "published": "yes"
+  }
+];
+
+export const gameLeaders = [
+  {
+    "game_id": "2026-varsity-05",
+    "category": "Passing",
+    "player_id": "varsity-chauncey-cravens",
+    "primary_stat": "909",
+    "primary_label": "YDS",
+    "secondary_stats": "11 TD · 67.7% COMP",
+    "ranking": "#1 in 6A",
+    "sort_order": "1"
+  },
+  {
+    "game_id": "2026-varsity-05",
+    "category": "Rushing",
+    "player_id": "varsity-chauncey-cravens",
+    "primary_stat": "158",
+    "primary_label": "YDS",
+    "secondary_stats": "2 TD · 26 CAR",
+    "ranking": "",
+    "sort_order": "2"
+  },
+  {
+    "game_id": "2026-varsity-05",
+    "category": "Receiving",
+    "player_id": "varsity-reece-fisher",
+    "primary_stat": "343",
+    "primary_label": "YDS",
+    "secondary_stats": "21 REC · 4 TD",
+    "ranking": "",
+    "sort_order": "3"
+  },
+  {
+    "game_id": "2026-varsity-05",
+    "category": "Defense",
+    "player_id": "varsity-hudson-hunter",
+    "primary_stat": "33",
+    "primary_label": "TKL",
+    "secondary_stats": "4 TFL",
+    "ranking": "",
+    "sort_order": "4"
+  }
+];
+
+export const gameCaptains = [];
