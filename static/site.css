@@ -126,3 +126,7 @@ footer{grid-template-columns:repeat(4,minmax(0,1fr))}.footer-brand{grid-column:1
 .motion-ready .standalone-schedule .schedule-list article,.motion-ready .level-schedule .level-game-list article,.motion-ready .roster-list article,.motion-ready .weekly-board .leader-grid article,.motion-ready .upcoming-logo-crop,
 .motion-ready .huskies-hero>.eyebrow,.motion-ready .huskies-hero>p:last-child,.motion-ready .coaches>.eyebrow,.motion-ready .coaches>div article,.motion-ready .all-time>.eyebrow,.motion-ready .all-time>p,.motion-ready .all-time>div article,.motion-ready .alumni>.eyebrow,.motion-ready .alumni>p,.motion-ready .alumni-years article,.motion-ready .alumni>small{opacity:0}
 }
+
+/* Keep the recruiting introduction close to the subpage header. */
+.recruiting-page .recruiting-standalone{padding-top:72px}
+@media(max-width:700px){.recruiting-page .recruiting-standalone{padding-top:36px}}
