@@ -1,33 +1,24 @@
-const varsityGames = [
-  ['AUG 20','Yukon','Scrimmage · 6:00 PM','Home','yukon-2a179732.png',''],
-  ['AUG 28','Edmond Santa Fe','Season opener · 7:00 PM','Home','edmond-santa-fe-6c4a73a2.png','','W|48–21'],
-  ['SEP 04','Deer Creek','Friday · 7:00 PM','Away','deer-creek-d9a03f17.png','','L|40–30'],
-  ['SEP 11','Putnam City North','Friday · 7:00 PM','Away','putnam-city-north-c27f1bef.png','','W|42–13'],
-  ['SEP 25','Edmond Memorial','Friday · 7:00 PM','Away','edmond-memorial-45f59d00.png','https://gofan.co/event/6743866?schoolId=OK21048'],
-  ['OCT 02','Norman North','Homecoming · 7:00 PM','Home','norman-north-b7d4bc4b.png','https://gofan.co/event/6739397?schoolId=OK21048'],
-  ['OCT 09','Mustang','Friday · 7:00 PM','Away','mustang-6cf56a6f.png','https://gofan.co/event/6723321?schoolId=OK21048'],
-  ['OCT 15','Westmoore','Thursday · 7:00 PM','Home','westmoore-edf593ef.png',''],
-  ['OCT 23','Bixby','Friday · 7:00 PM','Home','bixby-06708da4.png','https://gofan.co/event/6739395?schoolId=OK21048'],
-  ['OCT 30','Southmoore','Friday · 7:00 PM','Away','southmoore-823ad3d7.png',''],
-  ['NOV 05','Broken Arrow','Senior Night · 7:00 PM','Home','broken-arrow-84cc9e55.png','https://gofan.co/event/6739394?schoolId=OK21048'],
-];
+import {schedules} from '../generated-site-data';
 
-const jvGames = [
-  ['SEP 28','Edmond Memorial','7:00–9:00 PM','Home'],
-  ['OCT 05','Norman North','7:00–9:00 PM','Away'],
-  ['OCT 12','Opponent TBA','7:00–9:00 PM','TBD'],
-  ['OCT 19','Westmoore','7:00–9:00 PM','Away'],
-  ['OCT 26','Southmoore','7:00–9:00 PM','Home'],
-];
+const varsityGames = schedules
+  .filter((game) => game.team === 'Varsity')
+  .map((game) => [
+    game.date_label,
+    game.opponent,
+    game.detail,
+    game.location,
+    game.logo,
+    game.ticket_url,
+    game.result ? `${game.result}|${game.score}` : '',
+  ]);
 
-const freshmanGames = [
-  ['SEP 21','Moore','5:30–7:00 PM','Home'],
-  ['SEP 28','Edmond Memorial','5:30–7:00 PM','Home'],
-  ['OCT 05','Norman North','5:30–7:00 PM','Away'],
-  ['OCT 12','Opponent TBA','5:30–7:00 PM','TBD'],
-  ['OCT 19','Westmoore','5:30–7:00 PM','Away'],
-  ['OCT 26','Southmoore','5:30–7:00 PM','Home'],
-];
+const jvGames = schedules
+  .filter((game) => game.team === 'JV')
+  .map((game) => [game.date_label, game.opponent, game.detail, game.location]);
+
+const freshmanGames = schedules
+  .filter((game) => game.team === 'Freshman')
+  .map((game) => [game.date_label, game.opponent, game.detail, game.location]);
 
 function LevelSchedule({id,title,games}:{id:string;title:string;games:string[][]}) {
   return <section id={id} className="level-schedule"><div className="level-schedule-heading"><p className="eyebrow blue">Remaining 2026 games</p><h2>{title}</h2></div><div className="level-game-list">{games.map(([date,opponent,time,place])=><article key={`${date}-${opponent}`}><time>{date}</time><div><strong>{opponent}</strong><small>{time}</small></div><span className={`location ${place.toLowerCase()}`}>{place}</span></article>)}</div></section>;

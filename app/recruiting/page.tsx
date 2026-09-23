@@ -1,88 +1,35 @@
-import {varsity} from '../roster-data';
+import {badges, offers, players} from '../generated-site-data';
 
-const recruits = [
-  {number:'0',name:'Parker McMahan',position:'TE / DE',year:'2029',image:'f0-caab2257.jpg',recognition:['Honor Roll']},
-  {number:'1',name:'Chauncey Cravens',position:'QB / CB',year:'2027',image:'f1-191c46d9.jpg',recognition:['Team Captain','4× Player of the Week','Multi-Sport']},
-  {number:'2',name:'Tripp Jones',position:'WR / FS',year:'2028',image:'f2-cc1bc1e6.jpg',recognition:[]},
-  {number:'2',name:'Deuce Martin',position:'WR / CB',year:'2027',image:'f2-cc1bc1e6.jpg',recognition:[]},
-  {number:'3',name:'Andrew Rankin',position:'WR / FS',year:'2029',image:'f3-767e543f.jpg',recognition:[]},
-  {number:'4',name:'Kaden Collins',position:'TE / DE',year:'2027',image:'f4-5804baf2.jpg',recognition:[]},
-  {number:'5',name:'Ayden Brown',position:'WR / FS',year:'2027',image:'f5-8ab25dd6.jpg',recognition:[]},
-  {number:'6',name:'Brayden Hock',position:'TE / LB',year:'2027',image:'f6-991805b5.jpg',recognition:[]},
-  {number:'7',name:'Reece Fisher',position:'WR / CB',year:'2027',image:'f7-6b804bdc.jpg',recognition:[]},
-  {number:'8',name:'JT Whalen',position:'TE / LB',year:'2027',image:'f8-8455d3c9.jpg',recognition:[]},
-  {number:'9',name:'Lucas Coons',position:'QB / FS',year:'2029',image:'f9-da9aac23.jpg',recognition:[]},
-  {number:'9',name:'Owen Murrell',position:'RB / LB',year:'2027',image:'f9-da9aac23.jpg',recognition:[]},
-  {number:'10',name:'Peyson Roberts',position:'WR / CB',year:'2028',image:'f10-42097ee8.jpg',recognition:[]},
-  {number:'11',name:'Hudson Hunter',position:'RB / LB',year:'2028',image:'f11-46a33fc6.jpg',recognition:[]},
-  {number:'13',name:'Donnie Bly',position:'QB',year:'2029',image:'f13-1e834dad.jpg',recognition:[]},
-  {number:'14',name:'Isaiah Bond',position:'WR / FS',year:'2028',image:'f14-430dc27b.jpg',recognition:[]},
-  {number:'15',name:'Jase Sullivan',position:'QB / FS',year:'2029',image:'recruiting-fallback.jpg',recognition:[]},
-  {number:'16',name:'Breck Puckett',position:'WR / DE',year:'2028',image:'f16-5ce384c1.jpg',recognition:[]},
-  {number:'17',name:'Cooper Bernier',position:'TE / LB',year:'2028',image:'f17-c7202269.jpg',recognition:[]},
-  {number:'18',name:'Tyson Castillo',position:'TE / LB',year:'2028',image:'f18-3c46f50a.jpg',recognition:['2× Player of the Week','Honor Roll']},
-  {number:'19',name:'Maddox Moore',position:'WR / FS',year:'2029',image:'f19-669efdea.jpg',recognition:[]},
-  {number:'20',name:'Jaylen McCrary',position:'RB / FS',year:'2029',image:'f20-58094102.jpg',recognition:[]},
-  {number:'21',name:'Brandon Bagheri',position:'RB / LB',year:'2027',image:'f21-12c8eaa1.jpg',recognition:[]},
-  {number:'22',name:'Oliver Dickman',position:'WR / CB',year:'2028',image:'f22-9db5d26d.jpg',recognition:[]},
-  {number:'23',name:'Logan Gartman',position:'WR / FS',year:'2028',image:'f23-9bda070f.jpg',recognition:[]},
-  {number:'24',name:'Jack Hawkins',position:'RB / LB',year:'2029',image:'f24-41ded299.jpg',recognition:[]},
-  {number:'25',name:'Finley Thomason',position:'RB / FS',year:'2029',image:'f25-9047cd2d.jpg',recognition:[]},
-  {number:'26',name:'Kasen Rudek',position:'WR / FS',year:'2028',image:'f26-bee4c8c1.jpg',recognition:[]},
-  {number:'29',name:'Sutton Ames',position:'WR / DB',year:'2029',image:'f29-9bb4f666.jpg',recognition:[]},
-  {number:'30',name:'Caden Tunstall',position:'WR / FS',year:'2028',image:'f30-77ae5790.jpg',recognition:[]},
-  {number:'31',name:'Cade Hightower',position:'RB / FS',year:'2027',image:'f31-fcda105f.jpg',recognition:[]},
-  {number:'32',name:'Spencer Nowlin',position:'RB / LB',year:'2027',image:'f32-e770b27d.jpg',recognition:[]},
-  {number:'33',name:'Ty Fuller',position:'TE / LB',year:'2028',image:'recruiting-fallback.jpg',recognition:[]},
-  {number:'34',name:'Henry Bobich',position:'WR / LB',year:'2029',image:'f34-b2391d2c.jpg',recognition:[]},
-  {number:'35',name:'Calvin Cox',position:'WR / DB',year:'2029',image:'recruiting-fallback.jpg',recognition:[]},
-  {number:'36',name:'Isaac Oladele',position:'WR / DB',year:'2029',image:'recruiting-fallback.jpg',recognition:[]},
-  {number:'39',name:'Liam Marinko',position:'WR / DB',year:'2029',image:'f39-8c604ab2.jpg',recognition:[]},
-  {number:'40',name:'Nick Brown',position:'K',year:'2027',image:'f40-2a8d5052.jpg',recognition:[]},
-  {number:'41',name:'Knox McKinzie',position:'TE / DE',year:'2029',image:'f41-fa5901a9.jpg',recognition:[]},
-  {number:'42',name:'Jalen Hammer',position:'TE / DE',year:'2028',image:'recruiting-fallback.jpg',recognition:[]},
-  {number:'44',name:'Branick Larson',position:'RB / DE',year:'2028',image:'f44-f98277b4.jpg',recognition:[]},
-  {number:'45',name:'Max Mize',position:'TE / LB',year:'2029',image:'f45-ceab09b7.jpg',recognition:[]},
-  {number:'48',name:'Braxton Jones',position:'TE / DE',year:'2029',image:'f48-942b143b.jpg',recognition:[]},
-  {number:'49',name:'Jack Hayes',position:'WR / CB',year:'2028',image:'f49-8e881ab6.jpg',recognition:['Team Captain','2× Player of the Week']},
-  {number:'50',name:'Maddox Ransom',position:'OT / DE',year:'2028',image:'f50-703e7f9e.jpg',recognition:[]},
-  {number:'51',name:'Reed Weiny',position:'C / DL',year:'2028',image:'f51-30e2bd94.jpg',recognition:['Honor Roll','Multi-Sport']},
-  {number:'52',name:'Otis Drain',position:'OL / DL',year:'2028',image:'f52-57cc4543.jpg',recognition:[]},
-  {number:'54',name:'Gibson Davidson',position:'OL / DL',year:'2029',image:'f54-54ccd1a2.jpg',recognition:[]},
-  {number:'55',name:'Everett Kennon',position:'OL / DL',year:'2028',image:'recruiting-fallback.jpg',recognition:[]},
-  {number:'56',name:'Parker Amos',position:'OL / DL',year:'2028',image:'f56-5e6c3bd4.jpg',recognition:[]},
-  {number:'57',name:'Connor Barton',position:'OT / DE',year:'2029',image:'recruiting-fallback.jpg',recognition:[]},
-  {number:'58',name:'Landry Shreffler',position:'OT / DL',year:'2029',image:'f58-00fd4787.jpg',recognition:[]},
-  {number:'61',name:'Connor Aguirre',position:'OL / DL',year:'2029',image:'f61-f3865e12.jpg',recognition:[]},
-  {number:'64',name:'Boston Wheat',position:'OL / DL',year:'2029',image:'f64-7a4561a0.jpg',recognition:[]},
-  {number:'67',name:'Liam Bohanan',position:'OL / DL',year:'2029',image:'f67-2c0ab4aa.jpg',recognition:[]},
-  {number:'69',name:'Davin Riggar',position:'OL / DL',year:'2028',image:'f69-1995192c.jpg',recognition:[]},
-  {number:'71',name:'Tre English',position:'C / DL',year:'2029',image:'f71-93b0bb7f.jpg',recognition:[]},
-  {number:'72',name:'Jemil Jackson',position:'OG / DL',year:'2029',image:'f72-0599625c.jpg',recognition:['Honor Roll']},
-  {number:'73',name:'Torrion Jordan',position:'OL / DL',year:'Pending',image:'f73-3996fc24.jpg',recognition:[]},
-  {number:'74',name:'Ellis England',position:'OL / DL',year:'2027',image:'recruiting-fallback.jpg',recognition:[]},
-  {number:'75',name:'Kyle Skrepnek',position:'OL / DL',year:'2030',image:'f75-8821a6a2.jpg',recognition:['Team Captain','Honor Roll']},
-  {number:'76',name:'Cayden McGann',position:'OL / DL',year:'Pending',image:'f76-6dab0a5e.jpg',recognition:[]},
-  {number:'77',name:'Wyatt Knol',position:'OT / DE',year:'2028',image:'f77-34bbc545.jpg',recognition:[]},
-  {number:'78',name:'Jake Herndon',position:'OL / DL',year:'2028',image:'f78-419bcdb3.jpg',recognition:[]},
-  {number:'79',name:'KyNdol Davis',position:'OL / DL',year:'2029',image:'f79-5aceaefe.jpg',recognition:[]},
-  {number:'81',name:'Bryson Petropoulos',position:'WR / FS',year:'2028',image:'f81-a93be162.jpg',recognition:[]},
-  {number:'82',name:'Jaxson Petropoulos',position:'WR / DE',year:'2029',image:'f82-735b3fae.jpg',recognition:[]},
-  {number:'85',name:'Carson Stoddard',position:'SS / DS',year:'2027',image:'f85-34ada187.jpg',recognition:['Player of the Week']},
-  {number:'86',name:'Deon Atkins',position:'WR / CB',year:'2028',image:'f86-c167b0a1.jpg',recognition:[]},
-  {number:'88',name:'Isaac Día Tello',position:'WR / DB',year:'2027',image:'recruiting-fallback.jpg',recognition:[]},
-  {number:'89',name:'Owen Hughes',position:'TE / DE',year:'2027',image:'f89-833c1307.jpg',recognition:[]},
-  {number:'90',name:'Zion Kamwa',position:'OL / DL',year:'2027',image:'recruiting-fallback.jpg',recognition:[]},
-  {number:'93',name:'Rico Lopez',position:'Position pending',year:'2029',image:'f93-361b2efd.jpg',recognition:[]},
-  {number:'95',name:'Rhodes Molenda',position:'TE / DL',year:'2029',image:'f95-a0bdd278.jpg',recognition:[]},
-  {number:'99',name:'AJ Folami',position:'TE / DL',year:'2028',image:'f99-c87ccdf1.jpg',recognition:[]}
-];
+const activeRecruits = players.filter((player) =>
+  player.active === 'yes' && player.team === 'Varsity' && player.recruiting_profile === 'yes'
+);
 
-const playerProfiles: Record<string, {x?: string; hudl?: string; maxpreps?: string}> = {
-  'Chauncey Cravens': {hudl: 'https://www.hudl.com/profile/20706114'},
-};
+const recruits = activeRecruits.map((player) => ({
+  number: player.number,
+  name: player.name,
+  position: player.position || 'Position pending',
+  year: player.class_year || 'Pending',
+  image: player.image || 'recruiting-fallback.jpg',
+  recognition: badges.filter((badge) => badge.player_id === player.player_id).map((badge) => badge.badge),
+}));
 
-const recruitingStatus: Record<string, {offers?: string[]; committed?: string}> = {};
+const playerProfiles: Record<string, {x?: string; hudl?: string; maxpreps?: string}> = Object.fromEntries(
+  activeRecruits.map((player) => [player.name, {
+    x: player.x_url || undefined,
+    hudl: player.hudl_url || undefined,
+    maxpreps: player.maxpreps_url || undefined,
+  }])
+);
+
+const recruitingStatus: Record<string, {offers?: string[]; committed?: string}> = Object.fromEntries(
+  activeRecruits.map((player) => {
+    const playerOffers = offers.filter((offer) => offer.player_id === player.player_id);
+    return [player.name, {
+      offers: playerOffers.filter((offer) => offer.status !== 'Committed').map((offer) => offer.school),
+      committed: playerOffers.find((offer) => offer.status === 'Committed')?.school,
+    }];
+  })
+);
 
 const profileLink = (name: string, service: 'x' | 'hudl' | 'maxpreps') => {
   const direct = playerProfiles[name]?.[service];
@@ -93,43 +40,12 @@ const profileLink = (name: string, service: 'x' | 'hudl' | 'maxpreps') => {
   return `https://www.google.com/search?q=${encodeURIComponent(`site:${domain} "${name}" "Edmond North"`)}`;
 };
 
-const measurements: Record<string, {height?: string; weight?: string}> = {
-  'Parker McMahan': {height: `6'2"`, weight: '215'},
-  'Chauncey Cravens': {height: `6'0"`, weight: '165'},
-  'Deuce Martin': {height: `5'9"`, weight: '165'},
-  'Andrew Rankin': {height: `5'10"`, weight: '180'},
-  'Kaden Collins': {height: `6'3"`, weight: '205'},
-  'Brayden Hock': {height: `5'11"`, weight: '190'},
-  'Reece Fisher': {height: `5'10"`, weight: '165'},
-  'JT Whalen': {height: `5'10"`, weight: '180'},
-  'Owen Murrell': {height: `6'0"`},
-  'Peyson Roberts': {height: `5'8"`, weight: '145'},
-  'Hudson Hunter': {height: `6'0"`, weight: '190'},
-  'Jase Sullivan': {height: `6'1"`, weight: '155'},
-  'Breck Puckett': {height: `5'11"`, weight: '168'},
-  'Maddox Moore': {height: `5'8"`, weight: '135'},
-  'Jaylen McCrary': {height: `5'9"`, weight: '175'},
-  'Brandon Bagheri': {height: `5'10"`, weight: '185'},
-  'Jack Hawkins': {height: `5'10"`, weight: '175'},
-  'Finley Thomason': {height: `5'6"`, weight: '150'},
-  'Sutton Ames': {height: `5'7"`, weight: '145'},
-  'Cade Hightower': {height: `5'6"`, weight: '150'},
-  'Spencer Nowlin': {height: `5'9"`, weight: '170'},
-  'Braxton Jones': {height: `6'0"`, weight: '180'},
-  'Gibson Davidson': {height: `5'10"`, weight: '180'},
-  'Everett Kennon': {height: `6'4"`, weight: '225'},
-  'Connor Barton': {height: `6'0"`, weight: '160'},
-  'Davin Riggar': {height: `6'0"`, weight: '225'},
-  'Jemil Jackson': {height: `5'11"`, weight: '252'},
-  'Wyatt Knol': {height: `6'6"`, weight: '255'},
-  'Jake Herndon': {height: `6'3"`, weight: '230'},
-  'KyNdol Davis': {height: `6'4"`},
-  'Bryson Petropoulos': {height: `5'11"`, weight: '140'},
-  'Owen Hughes': {height: `6'3"`, weight: '210'},
-  'Rhodes Molenda': {height: `6'4"`, weight: '255'},
-  'AJ Folami': {height: `5'8"`, weight: '190'},
-};
-
+const measurements: Record<string, {height?: string; weight?: string}> = Object.fromEntries(
+  activeRecruits.map((player) => [player.name, {
+    height: player.height || undefined,
+    weight: player.weight || undefined,
+  }])
+);
 
 const collegePrograms = [
   {school:'Oklahoma', city:'Norman, OK', state:'Oklahoma', division:'NCAA Division I', conference:'SEC', url:'https://soonersports.com/sports/football/coaches'},

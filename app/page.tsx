@@ -1,16 +1,20 @@
-const games = [
-  { date: 'AUG 20', opponent: 'Yukon', detail: 'Scrimmage · 6:00 PM', place: 'Home', logo: 'yukon-2a179732.png' },
-  { date: 'AUG 28', opponent: 'Edmond Santa Fe', detail: 'Season opener · 7:00 PM', place: 'Home', logo: 'edmond-santa-fe-6c4a73a2.png' },
-  { date: 'SEP 04', opponent: 'Deer Creek', detail: 'Friday · 7:00 PM', place: 'Away', logo: 'deer-creek-d9a03f17.png' },
-  { date: 'SEP 11', opponent: 'Putnam City North', detail: 'Friday · 7:00 PM', place: 'Away', logo: 'putnam-city-north-c27f1bef.png' },
-  { date: 'SEP 25', opponent: 'Edmond Memorial', detail: 'Friday · 7:00 PM', place: 'Away', logo: 'edmond-memorial-45f59d00.png', ticket: 'https://gofan.co/event/6743866?schoolId=OK21048' },
-  { date: 'OCT 02', opponent: 'Norman North', detail: 'Homecoming · 7:00 PM', place: 'Home', logo: 'norman-north-b7d4bc4b.png', ticket: 'https://gofan.co/event/6739397?schoolId=OK21048' },
-  { date: 'OCT 09', opponent: 'Mustang', detail: 'Friday · 7:00 PM', place: 'Away', logo: 'mustang-6cf56a6f.png', ticket: 'https://gofan.co/event/6723321?schoolId=OK21048' },
-  { date: 'OCT 15', opponent: 'Westmoore', detail: 'Thursday · 7:00 PM', place: 'Home', logo: 'westmoore-edf593ef.png' },
-  { date: 'OCT 23', opponent: 'Bixby', detail: 'Friday · 7:00 PM', place: 'Home', logo: 'bixby-06708da4.png', ticket: 'https://gofan.co/event/6739395?schoolId=OK21048' },
-  { date: 'OCT 30', opponent: 'Southmoore', detail: 'Friday · 7:00 PM', place: 'Away', logo: 'southmoore-823ad3d7.png' },
-  { date: 'NOV 05', opponent: 'Broken Arrow', detail: 'Senior Night · 7:00 PM', place: 'Home', logo: 'broken-arrow-84cc9e55.png', ticket: 'https://gofan.co/event/6739394?schoolId=OK21048' },
-];
+import {schedules} from './generated-site-data';
+
+const games = schedules
+  .filter((game) => game.team === 'Varsity')
+  .map((game) => ({
+    date: game.date_label,
+    iso: game.date_iso,
+    opponent: game.opponent,
+    detail: game.detail,
+    place: game.location,
+    logo: game.logo,
+    ticket: game.ticket_url,
+    program: game.program_url,
+    result: game.result,
+  }));
+
+const featuredGame = games.find((game) => !game.result && !game.detail.toLowerCase().includes('scrimmage')) || games[0];
 
 const recruits = [
   ['75','Kyle Skrepnek','Offensive Line','2030','f75-8821a6a2.jpg'],
@@ -34,7 +38,7 @@ export default function Home() {
 
     <section id="top" className="hero"><video className="hero-photo" autoPlay muted loop playsInline poster="/assets/hero.jpg" aria-label="Edmond North Huskies football highlight video"><source src="/assets/hero-video.mov?v=720" type="video/quicktime"/></video><div className="hero-shade"/><div className="hero-copy"><h1><span className="hero-line">We Are</span><br/><em className="hero-line">the North.</em></h1><p className="eyebrow hero-location">Edmond, Oklahoma · Class 6A-I</p><div className="hero-actions"><a className="button light" href="/schedule/">2026 schedule <span aria-hidden="true">→</span></a><a className="text-link" href="#support">Join the Sled Team</a></div></div><div className="hero-stat"><span>2026</span><small>Varsity season</small></div></section>
 
-    <section id="schedule" className="schedule-strip"><div className="section-lead"><div><p className="eyebrow blue">Next up · September 25</p><h2>Friday nights start here.</h2></div><a href="/schedule/">Full schedule <span aria-hidden="true">→</span></a></div><div className="kickoff-countdown" data-kickoff="2026-09-25T19:00:00-05:00" aria-label="Countdown to kickoff"><p>Kickoff in</p><div><span><b data-unit="days">00</b><small>Days</small></span><span><b data-unit="hours">00</b><small>Hours</small></span><span><b data-unit="minutes">00</b><small>Minutes</small></span><span><b data-unit="seconds">00</b><small>Seconds</small></span></div></div><div className="game-row">{games.slice(4,5).map((game,index)=><article className={index===0?'game featured':'game'} key={game.opponent}><div className="game-date">{game.date}</div><div className="upcoming-logo-crop"><img src={`/assets/opponents/${game.logo}`} alt=""/></div><div><p>{game.opponent}</p><span>{game.detail}</span><div className="game-place"><span aria-hidden="true">◆</span>{game.place}</div></div>{game.ticket&&<div className="game-actions"><a className="upcoming-ticket" href={game.ticket} target="_blank" rel="noreferrer" aria-label={`Buy tickets for ${game.opponent}`}>🎟 Tickets</a><a className="upcoming-preview" href="/program/">Game preview →</a></div>}</article>)}</div></section>
+    <section id="schedule" className="schedule-strip"><div className="section-lead"><div><p className="eyebrow blue">Next up · {featuredGame.date}</p><h2>Friday nights start here.</h2></div><a href="/schedule/">Full schedule <span aria-hidden="true">→</span></a></div><div className="kickoff-countdown" data-kickoff={`${featuredGame.iso}T19:00:00-05:00`} aria-label="Countdown to kickoff"><p>Kickoff in</p><div><span><b data-unit="days">00</b><small>Days</small></span><span><b data-unit="hours">00</b><small>Hours</small></span><span><b data-unit="minutes">00</b><small>Minutes</small></span><span><b data-unit="seconds">00</b><small>Seconds</small></span></div></div><div className="game-row">{[featuredGame].map((game,index)=><article className={index===0?'game featured':'game'} key={game.opponent}><div className="game-date">{game.date}</div><div className="upcoming-logo-crop"><img src={`/assets/opponents/${game.logo}`} alt=""/></div><div><p>{game.opponent}</p><span>{game.detail}</span><div className="game-place"><span aria-hidden="true">◆</span>{game.place}</div></div>{(game.ticket || game.program) && <div className="game-actions">{game.ticket && <a className="upcoming-ticket" href={game.ticket} target="_blank" rel="noreferrer" aria-label={`Buy tickets for ${game.opponent}`}>🎟 Tickets</a>}{game.program && <a className="upcoming-preview" href={game.program}>Game preview →</a>}</div>}</article>)}</div></section>
 
 
     <section id="media" className="media-feature"><img src="/assets/game-night.jpg" alt="Edmond North offense during a night game"/><div className="media-overlay"/><div className="media-copy"><p className="eyebrow">Game day</p><h2>Can&apos;t make the stands?</h2><p>Follow every Friday night with live KREF coverage and program updates from the sideline.</p><div><a className="button light" href="https://krefsports.tv/edmond-north/" target="_blank" rel="noreferrer"><span aria-hidden="true">●</span> Watch every game</a><a className="button outline" href="https://www.instagram.com/edmondnorthfb/" target="_blank" rel="noreferrer"><span aria-hidden="true">◎</span> Follow the Huskies</a></div></div></section>
