@@ -21,7 +21,6 @@ if(!reduced){
 
   revealEach('.standalone-schedule .schedule-list article,.level-schedule .level-game-list article,.roster-list article',.12,2.1,24);
   revealEach('.huskies-hero > .eyebrow,.huskies-hero > p:last-child,.coaches > .eyebrow,.coaches > div article,.all-time > .eyebrow,.all-time > p,.all-time > div article,.alumni > .eyebrow,.alumni > p,.alumni-years article,.alumni > small',.12,2.1,24);
-  revealGroups('.recruiting-standalone','.player-profile',.04,2.1,.08);
   revealGroups('.weekly-board','.leader-grid article',.12,2.1,.1);
 
   document.querySelectorAll<HTMLElement>('.upcoming-logo-crop').forEach(mark=>{prepare([mark],18,.97);inView(mark,()=>animate(mark,{opacity:1,transform:'translateY(0px) scale(1)'},{duration:2.1,ease,onComplete:()=>finish([mark])}),{amount:.45})});
