@@ -113,3 +113,15 @@ footer{background:var(--navy)}footer>*{position:relative;z-index:1}
 
 /* Complete footer navigation */
 footer{grid-template-columns:repeat(4,minmax(0,1fr))}.footer-brand{grid-column:1/-1}.footer-contact{grid-column:auto}@media(max-width:760px){footer{grid-template-columns:1fr 1fr}}@media(max-width:430px){footer{grid-template-columns:1fr}.footer-brand{grid-column:1}.copyright{grid-column:1}}
+
+/* Motion elements are prepared before first paint; the bundle reveals them in view. */
+@media (prefers-reduced-motion:no-preference){
+.motion-ready .hero .hero-line,.motion-ready .hero .hero-location,.motion-ready .hero .hero-actions,.motion-ready .hero .hero-stat,
+.motion-ready .section-lead h2,.motion-ready .program-copy h2,.motion-ready .media-copy h2,.motion-ready .coaches>h2,.motion-ready .support-copy h2,.motion-ready .sponsors-copy h2,
+.motion-ready .standalone-schedule>h1,.motion-ready .level-schedule-heading h2,.motion-ready .recruiting-intro h1,.motion-ready .coach-finder-copy h2,.motion-ready .roster-hero h1,
+.motion-ready .camps-hero h1,.motion-ready .camp-list h2,.motion-ready .donate-hero h1,.motion-ready .donate-story h2,.motion-ready .donation-heading h2,
+.motion-ready .huskies-hero h1,.motion-ready .huskies-history h2,.motion-ready .all-time h2,.motion-ready .alumni h2,.motion-ready .menu-page section>h1,
+.motion-ready .gameday-hero h1,.motion-ready .program-story h2,.motion-ready .weekly-board-heading h2,.motion-ready .program-sponsors h2,.motion-ready .program-update h2,
+.motion-ready .tradition>.eyebrow,.motion-ready .tradition>blockquote,.motion-ready .tradition>.roster-cta,.motion-ready .tradition .program-levels article,
+.motion-ready .standalone-schedule .schedule-list article,.motion-ready .recruiting-standalone .player-profile,.motion-ready .weekly-board .leader-grid article,.motion-ready .upcoming-logo-crop{opacity:0}
+}
