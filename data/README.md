@@ -12,6 +12,7 @@ These CSV files are the editable source for roster, recruiting, staff, and sched
 | `game-programs.csv` | Weekly program copy, records, facts, broadcast links, and photo-album links tied to a `game_id` |
 | `game-leaders.csv` | Repeatable weekly stat leaders tied to a game and player |
 | `game-captains.csv` | Repeatable game captains tied to a game and player |
+| `lewisville-college-contacts.csv` | Reference snapshot of the 896 programs in Lewisville Recruiting's College Search Tool, including staff, camp, questionnaire, and program X links |
 
 ## Editing rules
 
@@ -25,6 +26,7 @@ These CSV files are the editable source for roster, recruiting, staff, and sched
 - Add one row per leader or captain; do not add numbered columns for additional people.
 - Leave an unknown value blank. Do not type placeholders such as `TBD` for player measurements.
 - Do not add commas to a value unless your spreadsheet application saves the value with CSV quotes.
+- Treat `lewisville-college-contacts.csv` as a reference list. Its links were copied from Lewisville Recruiting on September 23, 2026 and were not independently verified with each college.
 
 ## Update workflow
 
@@ -33,3 +35,5 @@ These CSV files are the editable source for roster, recruiting, staff, and sched
 3. Run `npm run build` and publish the updated site. The build automatically runs the sync step again.
 
 The deployed site currently uses committed static pages, so editing a CSV in GitHub alone does not immediately change the public page. After an edit, ask Codex to **sync the CSV data and deploy the site**. The CSV files are also copied to `/data/` in the deployed site for inspection.
+
+`lewisville-college-contacts.csv` is intentionally not consumed by the site or copied into the deployed `/data/` directory. It is kept in the repository for recruiting research and link checking only.
