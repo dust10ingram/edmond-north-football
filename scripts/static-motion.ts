@@ -22,8 +22,6 @@ if(!reduced){
   revealEach('.standalone-schedule .schedule-list article,.level-schedule .level-game-list article,.roster-list article',.12,2.1,24);
   revealEach('.huskies-hero > .eyebrow,.huskies-hero > p:last-child,.coaches > .eyebrow,.coaches > div article,.all-time > .eyebrow,.all-time > p,.all-time > div article,.alumni > .eyebrow,.alumni > p,.alumni-years article,.alumni > small',.12,2.1,24);
   revealGroups('.weekly-board','.leader-grid article',.12,2.1,.1);
-  revealGroups('.loo-promo','.loo-copy > *,.loo-shirt,.loo-drop-label',.12,.85,.1);
-  revealGroups('.store-coming-soon','.store-coming-copy > *,.store-lookbook > *',.12,.85,.1);
 
   document.querySelectorAll<HTMLElement>('.upcoming-logo-crop').forEach(mark=>{prepare([mark],18,.97);inView(mark,()=>animate(mark,{opacity:1,transform:'translateY(0px) scale(1)'},{duration:2.1,ease,onComplete:()=>finish([mark])}),{amount:.45})});
   document.querySelectorAll<HTMLElement>('.standalone-schedule .schedule-list article').forEach(card=>{const logo=card.querySelector<HTMLElement>('.opponent-mark img');if(logo)hover(card,()=>{animate(logo,{translateX:'-47%'},{duration:.22});return()=>animate(logo,{translateX:'-50%'},{duration:.22})})});
