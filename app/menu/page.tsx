@@ -24,6 +24,9 @@ export default function Menu() {
           <a href="/recruiting/">
             Recruiting <span>→</span>
           </a>
+          <a href="/store/">
+            The Loo Team Store <span>→</span>
+          </a>
           <a href="/#media">
             Media <span>→</span>
           </a>
