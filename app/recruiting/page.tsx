@@ -93,6 +93,14 @@ const schoolMark = (school: string) =>
     .join('')
     .toUpperCase();
 
+const schoolKey = (school: string) =>
+  school
+    .toLowerCase()
+    .replaceAll('&', ' and ')
+    .replace(/\b(university|college)\b/g, '')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim();
+
 export default function Recruiting() {
   return (
     <main className="recruiting-page">
@@ -423,6 +431,19 @@ export default function Recruiting() {
                     </a>
                   )}
                 </div>
+                <details
+                  className="school-staff-panel"
+                  data-school-key={schoolKey(program.school)}
+                >
+                  <summary>
+                    <span>Staff on X</span>
+                    <b>View staff</b>
+                    <i aria-hidden="true">+</i>
+                  </summary>
+                  <div className="school-staff-list">
+                    <p>Open to load staff profiles.</p>
+                  </div>
+                </details>
               </details>
             ))}
           </div>
@@ -431,11 +452,7 @@ export default function Recruiting() {
           </button>
         </section>
       </section>
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `(()=>{const viewButtons=[...document.querySelectorAll('[data-recruiting-tab]')];const viewPanels=[...document.querySelectorAll('[data-recruiting-view]')];const classButtons=[...document.querySelectorAll('.class-filter button')];const playerCards=[...document.querySelectorAll('.player-profile')];const search=document.querySelector('#school-search');const schoolCards=[...document.querySelectorAll('.school-profile')];const resultText=document.querySelector('.school-results');const loadMore=document.querySelector('.school-load-more');let schoolLimit=48;const applySchoolFilter=()=>{const query=(search?.value||'').trim().toLowerCase();let matches=0;let shown=0;schoolCards.forEach(card=>{const match=!query||card.dataset.search.includes(query);if(match)matches+=1;const visible=match&&shown<schoolLimit;if(visible)shown+=1;card.hidden=!visible;if(!visible)card.removeAttribute('open')});if(resultText)resultText.textContent=\`Showing \${shown} of \${matches} schools\`;if(loadMore)loadMore.hidden=shown>=matches};const activateView=view=>{viewButtons.forEach(button=>button.setAttribute('aria-selected',String(button.dataset.recruitingTab===view)));viewPanels.forEach(panel=>panel.hidden=panel.dataset.recruitingView!==view);if(view==='schools')applySchoolFilter()};viewButtons.forEach(button=>button.addEventListener('click',()=>activateView(button.dataset.recruitingTab)));classButtons.forEach(button=>button.addEventListener('click',()=>{const value=button.dataset.filter;classButtons.forEach(item=>item.setAttribute('aria-pressed',String(item===button)));playerCards.forEach(card=>{const show=value==='All'||card.dataset.class===value;card.hidden=!show;if(!show)card.removeAttribute('open')})}));search?.addEventListener('input',()=>{schoolLimit=48;applySchoolFilter()});loadMore?.addEventListener('click',()=>{schoolLimit+=48;applySchoolFilter()});applySchoolFilter()})()`,
-        }}
-      />
+      <script defer src="/assets/js/recruiting-directory.js?v=1" />
     </main>
   );
 }
