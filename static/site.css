@@ -149,3 +149,39 @@ footer{grid-template-columns:repeat(4,minmax(0,1fr))}.footer-brand{grid-column:1
 .offers-panel p{margin:13px 0 0;color:#60748c;font-size:.72rem}.offers-panel ul{margin:12px 0 0;padding-left:18px;color:#32465d;font-size:.75rem}.offers-panel li+li{margin-top:6px}
 .offers-panel .commitment{display:flex;justify-content:space-between;gap:12px;padding:10px;background:#e7f4fd;color:var(--navy)}.offers-panel .commitment strong{color:var(--blue);font-size:.6rem;letter-spacing:.08em;text-transform:uppercase}
 .profile-actions{display:block;margin-top:12px}.profile-actions a,.profile-actions a:first-child{display:flex;justify-content:space-between;padding:13px 15px;background:var(--navy);color:#fff;font-size:.62rem;font-weight:950;letter-spacing:.08em;text-transform:uppercase}
+
+/* Recruiting center views and college directory */
+.recruiting-view-switch{position:relative;z-index:2;display:grid;grid-template-columns:1fr 1fr;min-width:310px;border:1px solid #ffffff4a;background:#031126}
+.recruiting-view-switch button{min-height:52px;padding:0 24px;border:0;background:transparent;color:#aebfd0;font:inherit;font-size:.7rem;font-weight:950;letter-spacing:.12em;text-transform:uppercase;cursor:pointer}
+.recruiting-view-switch button+button{border-left:1px solid #ffffff4a}
+.recruiting-view-switch button[aria-selected="true"]{background:var(--electric);color:#fff}
+.recruiting-view-panel[hidden]{display:none}
+.school-directory{position:relative;z-index:2}
+.school-directory-heading{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:26px;border-bottom:1px solid #ffffff30;padding-bottom:22px}
+.school-directory-heading h2{margin:5px 0 0;font-size:clamp(2.6rem,5vw,5.2rem);line-height:.86;letter-spacing:-.055em;text-transform:uppercase}
+.school-search{margin-bottom:24px}
+.school-search>label{display:block;margin-bottom:8px;color:var(--sky);font-size:.63rem;font-weight:950;letter-spacing:.13em;text-transform:uppercase}
+.school-search>div{position:relative;max-width:720px}
+.school-search input{width:100%;min-height:54px;padding:0 52px 0 17px;border:1px solid #ffffff42;background:#031126;color:#fff;font:inherit;font-size:1rem;outline:none}
+.school-search input:focus{border-color:var(--sky);box-shadow:0 0 0 1px var(--sky)}
+.school-search input::placeholder{color:#8fa3ba}
+.school-search>div>span{position:absolute;right:18px;top:50%;transform:translateY(-50%);color:var(--sky);font-size:1.5rem}
+.school-results{min-height:18px;margin:9px 0 0;color:#92a8be;font-size:.66rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.school-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;align-items:start}
+.school-profile{background:#fff;color:var(--navy);border-left:4px solid var(--sky);box-shadow:0 12px 28px #00000020}
+.school-profile[hidden]{display:none}
+.school-profile summary{display:grid;grid-template-columns:58px 1fr 24px;align-items:center;gap:15px;min-height:148px;padding:20px;list-style:none;cursor:pointer}
+.school-profile summary::-webkit-details-marker{display:none}
+.school-mark{display:grid;place-items:center;width:58px;height:58px;background:var(--navy);color:var(--sky);font-size:1rem;font-weight:950;letter-spacing:.04em}
+.school-profile summary p{margin:0;color:var(--blue);font-size:.57rem;font-weight:950;letter-spacing:.09em;text-transform:uppercase}
+.school-profile summary h3{margin:9px 0 4px;font-size:1.08rem;line-height:1.08;text-transform:uppercase}
+.school-profile summary div>span{color:#687b91;font-size:.72rem}
+.school-profile summary>b{display:grid;place-items:center;width:24px;height:24px;border:1px solid #c9d5e1;color:var(--blue);font-size:1rem;transition:transform .2s}
+.school-profile[open] summary>b{transform:rotate(45deg)}
+.school-profile-detail{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:0 20px 20px;border-top:1px solid var(--line);padding-top:16px}
+.school-profile-detail a{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:43px;padding:0 13px;background:var(--blue);color:#fff;font-size:.62rem;font-weight:950;letter-spacing:.09em;text-transform:uppercase}
+.school-profile-detail a+ a{background:var(--navy)}
+.school-load-more{display:block;width:min(100%,340px);min-height:50px;margin:28px auto 0;border:1px solid #ffffff50;background:transparent;color:#fff;font:inherit;font-size:.67rem;font-weight:950;letter-spacing:.11em;text-transform:uppercase;cursor:pointer}
+.school-load-more:hover{background:#fff;color:var(--navy)}
+@media(max-width:900px){.recruiting-view-switch{width:100%;min-width:0;margin-top:26px}.school-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.recruiting-view-switch button{min-height:48px;padding:0 12px}.school-directory-heading{display:block;margin-bottom:22px}.school-grid{grid-template-columns:1fr}.school-profile summary{min-height:126px;padding:17px;grid-template-columns:52px 1fr 24px}.school-mark{width:52px;height:52px}.school-profile-detail{padding:14px 17px 17px}.school-search input{font-size:.9rem}}

@@ -37,4 +37,4 @@ These CSV files are the editable source for roster, recruiting, staff, and sched
 
 The deployed site currently uses committed static pages, so editing a CSV in GitHub alone does not immediately change the public page. After an edit, ask Codex to **sync the CSV data and deploy the site**. The CSV files are also copied to `/data/` in the deployed site for inspection.
 
-The `lewisville-*.csv` files are intentionally not consumed by the site or copied into the deployed `/data/` directory. They are kept in the repository for recruiting research and link checking only.
+`lewisville-college-contacts.csv` supplies the recruiting center's Schools directory but is not copied into the deployed `/data/` directory. `lewisville-coach-contacts.csv` remains reference-only and is not consumed by the site.
