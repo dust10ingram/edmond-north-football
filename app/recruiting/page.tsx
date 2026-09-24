@@ -398,6 +398,30 @@ export default function Recruiting() {
                       Camp page <span aria-hidden="true">↗</span>
                     </a>
                   )}
+                  {program.recruiting_questionnaire_url && (
+                    <a
+                      className="school-questionnaire-link"
+                      href={program.recruiting_questionnaire_url}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Recruiting questionnaire <span aria-hidden="true">↗</span>
+                    </a>
+                  )}
+                  {program.program_x_url && (
+                    <a
+                      className="school-x-link"
+                      href={program.program_x_url}
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label={`${program.school} on X`}
+                      title={`${program.school} on X`}
+                    >
+                      <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M18.2 2H22l-8.3 9.5L23.5 22h-7.7l-6-7.8L3 22H-.8l8.9-10.2L-1.3 2h7.9l5.4 7.1L18.2 2Zm-1.4 18h2.1L5.4 3.9H3.2L16.8 20Z" />
+                      </svg>
+                    </a>
+                  )}
                 </div>
               </details>
             ))}
