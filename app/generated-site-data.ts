@@ -2689,7 +2689,28 @@ export const gameLeaders = [
   }
 ];
 
-export const gameCaptains = [];
+export const gameCaptains = [
+  {
+    "game_id": "2026-varsity-05",
+    "player_id": "varsity-chauncey-cravens",
+    "role": "Captain"
+  },
+  {
+    "game_id": "2026-varsity-05",
+    "player_id": "varsity-kaden-collins",
+    "role": "Captain"
+  },
+  {
+    "game_id": "2026-varsity-05",
+    "player_id": "varsity-reece-fisher",
+    "role": "Captain"
+  },
+  {
+    "game_id": "2026-varsity-05",
+    "player_id": "varsity-brayden-hock",
+    "role": "Captain"
+  }
+];
 
 export const collegePrograms = [
   {
