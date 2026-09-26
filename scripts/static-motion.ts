@@ -89,6 +89,15 @@ const loadStaticProgram=async()=>{
     const paragraphs=[...story?.querySelectorAll<HTMLElement>(':scope > p')||[]].filter(item=>!item.classList.contains('eyebrow'));
     if(paragraphs[0])paragraphs[0].textContent=program.intro_1;
     if(paragraphs[1])paragraphs[1].textContent=program.intro_2;
+    if(program.game_id==='2026-varsity-06'){
+      const recap=page.querySelector('.photo-recap-track');
+      const photos=[
+        ['/assets/last-game/edlam-line.jpg','Edmond North defense lines up against Edmond Memorial'],
+        ['/assets/last-game/edlam-flags.jpg','Edmond North takes the field before Edlam'],
+        ['/assets/last-game/edlam-captains.jpg','Edmond North captains meet Edmond Memorial at midfield'],
+      ];
+      if(recap){recap.innerHTML='';photos.forEach(([src,alt])=>{const image=document.createElement('img');image.src=src;image.alt=alt;recap.append(image);});}
+    }
     const fact=page.querySelector('.program-fact');
     const factTitle=fact?.querySelector('h3');if(factTitle)factTitle.textContent=program.game_fact_title;
     const factCopy=[...fact?.querySelectorAll('p')||[]].find(item=>!item.classList.contains('eyebrow'));if(factCopy)factCopy.textContent=program.game_fact_body;

@@ -109,7 +109,7 @@ export default function GameDayProgram() {
         <article className="program-fact"><p className="eyebrow blue">Husky fact</p><h3>{program.game_fact_title}</h3><p>{program.game_fact_body}</p></article>
         <article className="program-standings"><p className="eyebrow blue">District standings</p><ol>{districtStandings.map(([team,overall,district],index)=><li key={team}><b>{index+1}</b><span>{team}</span><strong>{overall} · D {district}</strong></li>)}</ol><small>District 6A Division I-1 · Overall · District W–L</small></article>
       </div>
-      <MotionPhotoRecap albumUrl={program.photo_album_url}/>
+      <MotionPhotoRecap albumUrl={program.photo_album_url} gameId={program.game_id}/>
     </section>
 
     <section className="program-results-section"><div className="program-results"><p className="eyebrow blue">Results so far</p>{results.map((result) => <article key={result.game_id}><b className={result.result === 'W' ? 'win' : 'loss'}>{result.result}</b><span>{result.opponent}</span><strong>{result.score}</strong></article>)}<a href="/schedule/">Full varsity schedule <span>→</span></a></div></section>
