@@ -2,6 +2,21 @@ import {animate,hover,inView,stagger} from 'motion';
 
 const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+const mountHeroTicker=()=>{
+  const hero=document.querySelector<HTMLElement>('.hero');
+  if(!hero||hero.querySelector('.hero-ticker'))return;
+  const style=document.createElement('style');
+  style.textContent='.hero-ticker{position:absolute;z-index:2;top:26px;left:4vw;right:4vw;overflow:hidden;border-top:1px solid rgba(255,255,255,.58);border-bottom:1px solid rgba(255,255,255,.58);background:rgba(2,14,32,.52);color:#fff}.hero-ticker-track{display:flex;width:max-content;animation:hero-ticker-scroll 18s linear infinite}.hero-ticker span{display:flex;align-items:center;gap:26px;white-space:nowrap;padding:9px 26px;font-size:.66rem;font-weight:900;letter-spacing:.22em;text-transform:uppercase}.hero-ticker span:after{content:"◆";color:#4e9ff1;font-size:.5rem}@keyframes hero-ticker-scroll{to{transform:translateX(-50%)}}@media (prefers-reduced-motion:reduce){.hero-ticker-track{animation:none}}@media (max-width:640px){.hero-ticker{top:18px}.hero-ticker span{padding-block:8px;font-size:.6rem}}';
+  document.head.append(style);
+  const ticker=document.createElement('div');
+  ticker.className='hero-ticker';
+  ticker.setAttribute('aria-label','City Champions');
+  ticker.innerHTML='<div class="hero-ticker-track"><span>City Champions</span><span aria-hidden="true">City Champions</span><span aria-hidden="true">City Champions</span><span aria-hidden="true">City Champions</span></div>';
+  hero.querySelector('.hero-shade')?.insertAdjacentElement('afterend',ticker);
+};
+
+mountHeroTicker();
+
 const parseDataCsv=(text:string)=>{
   const [headers,...rows]=text.trim().split(/\r?\n/).map(line=>line.split(','));
   return rows.map(row=>Object.fromEntries(headers.map((header,index)=>[header,row[index]||''])));
