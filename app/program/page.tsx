@@ -11,6 +11,16 @@ const playerById = new Map(players.map((player) => [player.player_id, player]));
 const displayDate = (date: string) => new Date(`${date}T12:00:00`).toLocaleDateString('en-US', {
   month: 'long', day: 'numeric', year: 'numeric',
 });
+const districtStandings = [
+  ['Bixby', '4–0', '1–0'],
+  ['Broken Arrow', '4–0', '1–0'],
+  ['Edmond North', '3–1', '1–0'],
+  ['Westmoore', '1–3', '1–0'],
+  ['Edmond Memorial', '2–2', '0–1'],
+  ['Norman North', '3–1', '0–1'],
+  ['Mustang', '2–2', '0–1'],
+  ['Southmoore', '0–4', '0–1'],
+];
 
 export default function GameDayProgram() {
   const [program, setProgram] = useState<(typeof gamePrograms)[number] | undefined>(defaultProgram);
@@ -97,7 +107,7 @@ export default function GameDayProgram() {
       <div className="leader-grid">{leaders.map((leader) => {const player = playerById.get(leader.player_id); return <article key={`${leader.game_id}-${leader.category}`}><small>{leader.category}{leader.ranking ? ` · ${leader.ranking}` : ''}</small><strong>{player?.name || 'Player pending'} {player?.number && <i className="stat-jersey">#{player.number}</i>}</strong><b>{leader.primary_stat} <em>{leader.primary_label}</em></b><p>{leader.secondary_stats}</p></article>})}</div>
       <div className="weekly-details">
         <article className="program-fact"><p className="eyebrow blue">Husky fact</p><h3>{program.game_fact_title}</h3><p>{program.game_fact_body}</p></article>
-        <article className="program-standings"><p className="eyebrow blue">District standings</p><ol><li><b>1</b><span>Bixby</span><strong>3–0</strong></li><li><b>2</b><span>Broken Arrow</span><strong>3–0</strong></li><li><b>3</b><span>Norman North</span><strong>3–0</strong></li><li><b>4</b><span>Edmond North</span><strong>2–1</strong></li><li><b>5</b><span>Edmond Memorial</span><strong>2–1</strong></li><li><b>6</b><span>Mustang</span><strong>2–1</strong></li><li><b>7</b><span>Southmoore</span><strong>0–3</strong></li><li><b>8</b><span>Westmoore</span><strong>0–3</strong></li></ol><small>District 6A Division I-1 · Current standings</small></article>
+        <article className="program-standings"><p className="eyebrow blue">District standings</p><ol>{districtStandings.map(([team,overall,district],index)=><li key={team}><b>{index+1}</b><span>{team}</span><strong>{overall} · D {district}</strong></li>)}</ol><small>District 6A Division I-1 · Overall · District W–L</small></article>
       </div>
       <MotionPhotoRecap albumUrl={program.photo_album_url}/>
     </section>

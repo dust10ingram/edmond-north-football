@@ -2665,7 +2665,7 @@ export const gamePrograms = [
     "slug": "norman-north-2026",
     "week": "6",
     "story_label": "Week 6 · Homecoming",
-    "story_headline": "A statement game.",
+    "story_headline": "True North!",
     "headline": "Huskies",
     "headline_emphasis": "vs. Norman North.",
     "opponent_mascot": "Timberwolves",

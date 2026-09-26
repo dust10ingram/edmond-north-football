@@ -33,6 +33,17 @@ const parseDataCsv=(text:string)=>{
   return records.map(record=>Object.fromEntries(headers.map((header,index)=>[header,record[index]||''])));
 };
 
+const districtStandings=[
+  ['Bixby','4–0','1–0'],
+  ['Broken Arrow','4–0','1–0'],
+  ['Edmond North','3–1','1–0'],
+  ['Westmoore','1–3','1–0'],
+  ['Edmond Memorial','2–2','0–1'],
+  ['Norman North','3–1','0–1'],
+  ['Mustang','2–2','0–1'],
+  ['Southmoore','0–4','0–1'],
+];
+
 const setProgramCountdown=(game:Record<string,string>)=>{
   const current=document.querySelector<HTMLElement>('.gameday-page .program-countdown');
   if(!current)return;
@@ -80,6 +91,16 @@ const loadStaticProgram=async()=>{
     const fact=page.querySelector('.program-fact');
     const factTitle=fact?.querySelector('h3');if(factTitle)factTitle.textContent=program.game_fact_title;
     const factCopy=[...fact?.querySelectorAll('p')||[]].find(item=>!item.classList.contains('eyebrow'));if(factCopy)factCopy.textContent=program.game_fact_body;
+    const standings=page.querySelector<HTMLOListElement>('.program-standings ol');
+    if(standings){
+      standings.innerHTML='';
+      districtStandings.forEach(([team,overall,district],index)=>{
+        const row=document.createElement('li');
+        row.innerHTML=`<b>${index+1}</b><span>${team}</span><strong>${overall} · D ${district}</strong>`;
+        standings.append(row);
+      });
+      const note=page.querySelector('.program-standings > small');if(note)note.textContent='District 6A Division I-1 · Overall · District W–L';
+    }
     const weeklyNote=page.querySelector('.weekly-board-heading > span');if(weeklyNote)weeklyNote.textContent=`Updated for week ${program.week}`;
     const results=page.querySelector<HTMLElement>('.program-results');
     if(results){
