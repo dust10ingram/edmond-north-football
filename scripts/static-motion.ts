@@ -116,6 +116,104 @@ const loadMissingStaticPlayers=async()=>{
 
 void loadMissingStaticPlayers();
 
+const createResult=(game:Record<string,string>)=>{
+  const result=document.createElement('span');
+  result.className=`game-result ${game.result==='W'?'win':'loss'}`;
+  const letter=document.createElement('b');
+  letter.textContent=game.result;
+  result.append(letter,document.createTextNode(` ${game.score}`));
+  return result;
+};
+
+const setFeaturedCountdown=(game:Record<string,string>)=>{
+  const current=document.querySelector<HTMLElement>('.schedule-strip .kickoff-countdown');
+  if(!current)return;
+  // Replace the element to detach the original page's countdown interval before
+  // starting one for the next unplayed game.
+  const countdown=current.cloneNode(true) as HTMLElement;
+  current.replaceWith(countdown);
+  const target=new Date(`${game.date_iso}T19:00:00-05:00`).getTime();
+  countdown.dataset.kickoff=`${game.date_iso}T19:00:00-05:00`;
+  countdown.setAttribute('aria-label',`Countdown to ${game.opponent} kickoff`);
+  const tick=()=>{
+    const remaining=Math.max(0,target-Date.now());
+    const values={days:Math.floor(remaining/86400000),hours:Math.floor(remaining/3600000)%24,minutes:Math.floor(remaining/60000)%60,seconds:Math.floor(remaining/1000)%60};
+    Object.entries(values).forEach(([unit,value])=>{
+      const digit=countdown.querySelector<HTMLElement>(`[data-unit="${unit}"]`);
+      if(digit)digit.textContent=String(value).padStart(2,'0');
+    });
+    if(!remaining)countdown.classList.add('kickoff-live');
+  };
+  tick();
+  setInterval(tick,1000);
+};
+
+const updateFeaturedGame=(games:Record<string,string>[])=>{
+  const featured=document.querySelector<HTMLElement>('.game.featured');
+  const next=games.filter(game=>!game.result).sort((a,b)=>a.date_iso.localeCompare(b.date_iso))[0];
+  if(!featured||!next)return;
+  const date=featured.querySelector('.game-date');if(date)date.textContent=next.date_label;
+  const logo=featured.querySelector<HTMLImageElement>('.upcoming-logo-crop img');
+  if(logo){logo.src=`/assets/opponents/${next.logo}`;logo.alt=`${next.opponent} logo`;}
+  const details=featured.querySelector('.game-place')?.parentElement;
+  const opponent=details?.querySelector('p');if(opponent)opponent.textContent=next.opponent;
+  const detail=details?.querySelector(':scope > span');if(detail)detail.textContent=next.detail;
+  const location=details?.querySelector('.game-place');
+  if(location){location.innerHTML='<span aria-hidden="true">◆</span>';location.append(next.location);}
+  const ticket=featured.querySelector<HTMLAnchorElement>('.upcoming-ticket');
+  if(ticket&&next.ticket_url){ticket.href=next.ticket_url;ticket.setAttribute('aria-label',`Buy tickets for ${next.opponent}`);}
+  else ticket?.remove();
+  const preview=featured.querySelector<HTMLAnchorElement>('.upcoming-preview');
+  if(preview&&next.program_url)preview.href=next.program_url;
+  else preview?.remove();
+  setFeaturedCountdown(next);
+};
+
+const updateProgramResults=(games:Record<string,string>[])=>{
+  const results=document.querySelector<HTMLElement>('.program-results');
+  const week=document.querySelector('.gameday-hero > span')?.textContent?.match(/Week\s+(\d+)/)?.[1];
+  if(!results||!week)return;
+  void fetch('/data/game-programs.csv').then(response=>response.text()).then(programsText=>{
+    const program=parseDataCsv(programsText).find(row=>row.week===week);
+    const played=games.filter(game=>game.result&&(!program||game.game_id===program.game_id||game.date_iso<=games.find(item=>item.game_id===program.game_id)?.date_iso));
+    if(!played.length)return;
+    results.querySelectorAll(':scope > article').forEach(card=>card.remove());
+    const link=results.querySelector(':scope > a');
+    played.forEach(game=>{
+      const card=document.createElement('article');
+      const letter=document.createElement('b');letter.className=game.result==='W'?'win':'loss';letter.textContent=game.result;
+      const opponent=document.createElement('span');opponent.textContent=game.opponent;
+      const score=document.createElement('strong');score.textContent=game.score;
+      card.append(letter,opponent,score);
+      results.insertBefore(card,link);
+    });
+  }).catch(()=>{});
+};
+
+const loadStaticScheduleData=async()=>{
+  if(!document.querySelector('.schedule-list,.game.featured,.program-results'))return;
+  try{
+    const games=parseDataCsv(await fetch('/data/schedules.csv').then(response=>response.text())).filter(game=>game.team==='Varsity');
+    document.querySelectorAll<HTMLElement>('.schedule-list article').forEach(card=>{
+      const opponent=card.querySelector('strong')?.textContent?.trim();
+      const date=card.querySelector('time')?.textContent?.trim();
+      const game=games.find(item=>item.opponent===opponent&&item.date_label===date);
+      if(!game?.result)return;
+      card.classList.add('completed-game');
+      card.querySelector('.ticket-link')?.remove();
+      const details=card.querySelector('strong')?.parentElement;
+      details?.querySelector('.game-result')?.remove();
+      if(details)details.append(createResult(game));
+    });
+    updateFeaturedGame(games);
+    updateProgramResults(games);
+  }catch{
+    // Static markup remains readable while a data file is unavailable.
+  }
+};
+
+void loadStaticScheduleData();
+
 if(!reduced){
   const ease=[.22,1,.36,1] as const;
   const slowEase=[.16,1,.3,1] as const;

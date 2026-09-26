@@ -2317,8 +2317,8 @@ export const schedules = [
     "location": "Away",
     "logo": "edmond-memorial-45f59d00.png",
     "ticket_url": "https://gofan.co/event/6743866?schoolId=OK21048",
-    "result": "",
-    "score": "",
+    "result": "W",
+    "score": "39–36",
     "program_url": "/program/edlam-2026/"
   },
   {
