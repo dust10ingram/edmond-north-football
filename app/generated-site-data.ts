@@ -225,6 +225,22 @@ export const players = [
     "active": "yes"
   },
   {
+    "player_id": "varsity-prince-oliver",
+    "team": "Varsity",
+    "number": "12",
+    "name": "Prince Oliver",
+    "position": "RB / CB",
+    "class_year": "2028",
+    "image": "f12-f946f769.jpg",
+    "height": "",
+    "weight": "",
+    "x_url": "",
+    "hudl_url": "",
+    "maxpreps_url": "",
+    "recruiting_profile": "yes",
+    "active": "yes"
+  },
+  {
     "player_id": "varsity-donnie-bly",
     "team": "Varsity",
     "number": "13",

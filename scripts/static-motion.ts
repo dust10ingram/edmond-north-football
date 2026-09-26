@@ -50,6 +50,72 @@ const loadProgramCaptains=async()=>{
 
 void loadProgramCaptains();
 
+const displayMeasurement=(value:string)=>value||'TBD';
+
+const insertRosterPlayer=(player:Record<string,string>)=>{
+  const roster=document.querySelector<HTMLElement>('.roster-list');
+  if(!roster||[...roster.querySelectorAll('article strong')].some(node=>node.textContent===player.name))return;
+  const card=document.createElement('article');
+  card.className='roster-varsity';
+  const number=document.createElement('span');number.className='roster-number';number.textContent=player.number;
+  const details=document.createElement('div');
+  const name=document.createElement('strong');name.textContent=player.name;
+  const position=document.createElement('small');position.textContent=player.position;
+  details.append(name,position);
+  const graduating=document.createElement('span');graduating.className='roster-class';graduating.textContent=`Class of ${player.class_year}`;
+  const index=document.createElement('span');index.className='roster-index';
+  card.append(number,details,graduating,index);
+  const next=[...roster.querySelectorAll<HTMLElement>('article.roster-varsity')].find(item=>Number(item.querySelector('.roster-number')?.textContent)>Number(player.number));
+  roster.insertBefore(card,next||null);
+  [...roster.querySelectorAll<HTMLElement>('article.roster-varsity .roster-index')].forEach((item,position)=>item.textContent=String(position+1).padStart(2,'0'));
+};
+
+const insertRecruitingPlayer=(player:Record<string,string>)=>{
+  const grid=document.querySelector<HTMLElement>('#recruits-panel .recruiting-grid');
+  if(!grid||[...grid.querySelectorAll('.player-profile h2')].some(node=>node.textContent===player.name))return;
+  const source=grid.querySelector<HTMLDetailsElement>('.player-profile');
+  if(!source)return;
+  const card=source.cloneNode(true) as HTMLDetailsElement;
+  const key=`player-${player.number}-${player.name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')}`;
+  card.id=key;
+  card.dataset.class=player.class_year;
+  const photo=card.querySelector<HTMLImageElement>('.player-photo img');
+  if(photo){photo.src=`/assets/players/${player.image}`;photo.alt=`${player.name}, Edmond North football ${player.position}`;}
+  const number=card.querySelector('.player-number');if(number)number.textContent=player.number;
+  const position=card.querySelector('.player-position');if(position)position.textContent=player.position;
+  const name=card.querySelector('h2');if(name)name.textContent=player.name;
+  const meta=[...card.querySelectorAll<HTMLElement>('.player-meta > span')];
+  if(meta[0])meta[0].textContent=`Class of ${player.class_year}`;
+  if(meta[1])meta[1].innerHTML=`<small>HT</small> ${displayMeasurement(player.height)}`;
+  if(meta[2])meta[2].innerHTML=`<small>WT</small> ${displayMeasurement(player.weight)}`;
+  const links=[...card.querySelectorAll<HTMLAnchorElement>('.profile-social-links a')];
+  const query=encodeURIComponent(`"${player.name}" "Edmond North" football`);
+  if(links[0]){links[0].href=player.x_url||`https://x.com/search?q=${query}&src=typed_query`;links[0].setAttribute('aria-label',`Find ${player.name} on X`);}
+  if(links[1]){links[1].href=player.hudl_url||`https://www.hudl.com/search?query=${encodeURIComponent(player.name)}`;links[1].setAttribute('aria-label',`Find ${player.name} on Hudl`);}
+  if(links[2]){links[2].href=player.maxpreps_url||`https://www.maxpreps.com/search/?query=${encodeURIComponent(player.name)}`;links[2].setAttribute('aria-label',`Find ${player.name} on MaxPreps`);}
+  const contact=card.querySelector<HTMLAnchorElement>('.profile-actions a');
+  if(contact)contact.href=`mailto:huskies@edmondnorthfb.com?subject=${encodeURIComponent(`Recruiting inquiry: ${player.name} #${player.number}`)}`;
+  const next=[...grid.querySelectorAll<HTMLDetailsElement>('.player-profile')].find(item=>Number(item.querySelector('.player-number')?.textContent)>Number(player.number));
+  grid.insertBefore(card,next||null);
+};
+
+const loadMissingStaticPlayers=async()=>{
+  if(!document.querySelector('.roster-list,.recruiting-page'))return;
+  try{
+    const players=parseDataCsv(await fetch('/data/players.csv').then(response=>response.text()));
+    players
+      .filter(player=>player.team==='Varsity'&&player.active==='yes')
+      .forEach(player=>{
+        insertRosterPlayer(player);
+        if(player.recruiting_profile==='yes')insertRecruitingPlayer(player);
+      });
+  }catch{
+    // Existing static content remains available if the player data cannot load.
+  }
+};
+
+void loadMissingStaticPlayers();
+
 if(!reduced){
   const ease=[.22,1,.36,1] as const;
   const slowEase=[.16,1,.3,1] as const;
