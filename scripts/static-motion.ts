@@ -190,6 +190,25 @@ const updateFeaturedGame=(games:Record<string,string>[])=>{
   setFeaturedCountdown(next);
 };
 
+const updateLevelNextGames=(games:Record<string,string>[])=>{
+  const today=new Date().toLocaleDateString('en-CA');
+  const nextFor=(team:string)=>games.filter(game=>game.team===team&&!game.result&&game.date_iso>=today).sort((a,b)=>a.date_iso.localeCompare(b.date_iso))[0];
+  const levels:[string,string][]=[['JV','JV'],['9th Grade','Freshman']];
+  levels.forEach(([heading,team])=>{
+    const game=nextFor(team);
+    const card=[...document.querySelectorAll<HTMLElement>('.program-levels article')].find(item=>item.querySelector(':scope > strong')?.textContent===heading);
+    const compact=card?.querySelector<HTMLElement>('.compact-next-game');
+    if(!game||!compact)return;
+    const [month,day]=game.date_label.split(' ');
+    const date=compact.querySelector<HTMLTimeElement>('time');
+    if(date){date.dateTime=game.date_iso;date.innerHTML=`<b>${month}</b> ${day}`;}
+    const detail=game.detail.split('–')[0].trim();
+    const suffix=game.detail.match(/(AM|PM)$/)?.[1];
+    const info=compact.querySelector('span');
+    if(info)info.innerHTML=`<b>Next game · ${game.location}</b>${game.opponent} · ${detail}${suffix?` ${suffix}`:''}`;
+  });
+};
+
 const updateProgramResults=(games:Record<string,string>[])=>{
   const results=document.querySelector<HTMLElement>('.program-results');
   const week=document.querySelector('.gameday-hero > span')?.textContent?.match(/Week\s+(\d+)/)?.[1];
@@ -214,7 +233,8 @@ const updateProgramResults=(games:Record<string,string>[])=>{
 const loadStaticScheduleData=async()=>{
   if(!document.querySelector('.schedule-list,.game.featured,.program-results'))return;
   try{
-    const games=parseDataCsv(await fetch('/data/schedules.csv').then(response=>response.text())).filter(game=>game.team==='Varsity');
+    const allGames=parseDataCsv(await fetch('/data/schedules.csv').then(response=>response.text()));
+    const games=allGames.filter(game=>game.team==='Varsity');
     document.querySelectorAll<HTMLElement>('.schedule-list article').forEach(card=>{
       const opponent=card.querySelector('strong')?.textContent?.trim();
       const date=card.querySelector('time')?.textContent?.trim();
@@ -227,6 +247,7 @@ const loadStaticScheduleData=async()=>{
       if(details)details.append(createResult(game));
     });
     updateFeaturedGame(games);
+    updateLevelNextGames(allGames);
     updateProgramResults(games);
   }catch{
     // Static markup remains readable while a data file is unavailable.
