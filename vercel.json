@@ -2,8 +2,5 @@
   "framework": null,
   "buildCommand": "echo 'Using committed static site'",
   "outputDirectory": "static",
-  "cleanUrls": true,
-  "rewrites": [
-    {"source": "/program/norman-north-2026/:path*", "destination": "/program/"}
-  ]
+  "cleanUrls": true
 }

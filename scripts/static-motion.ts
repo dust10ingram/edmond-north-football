@@ -70,7 +70,8 @@ const loadStaticProgram=async()=>{
     const programs=parseDataCsv(programsText).filter(program=>program.published==='yes');
     const games=parseDataCsv(schedulesText);
     const path=location.pathname.split('/').filter(Boolean).at(-1);
-    const program=programs.find(item=>item.slug===path)||programs.find(item=>!games.find(game=>game.game_id===item.game_id)?.result)||programs.at(-1);
+    const requested=new URLSearchParams(location.search).get('game');
+    const program=programs.find(item=>item.slug===requested||item.slug===path)||programs.find(item=>!games.find(game=>game.game_id===item.game_id)?.result)||programs.at(-1);
     const game=games.find(item=>item.game_id===program?.game_id);
     if(!program||!game)return;
     const date=new Date(`${game.date_iso}T12:00:00`).toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});
