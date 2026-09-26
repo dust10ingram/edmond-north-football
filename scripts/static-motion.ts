@@ -2,6 +2,54 @@ import {animate,hover,inView,stagger} from 'motion';
 
 const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+const parseDataCsv=(text:string)=>{
+  const [headers,...rows]=text.trim().split(/\r?\n/).map(line=>line.split(','));
+  return rows.map(row=>Object.fromEntries(headers.map((header,index)=>[header,row[index]||''])));
+};
+
+const loadProgramCaptains=async()=>{
+  const container=document.querySelector<HTMLElement>('.gameday-page .captains');
+  const week=container?.closest('.gameday-page')?.querySelector('.gameday-hero > span')?.textContent?.match(/Week\s+(\d+)/)?.[1];
+  if(!container||!week)return;
+
+  try{
+    const [captainsText,playersText,programsText]=await Promise.all([
+      fetch('/data/game-captains.csv').then(response=>response.text()),
+      fetch('/data/players.csv').then(response=>response.text()),
+      fetch('/data/game-programs.csv').then(response=>response.text()),
+    ]);
+    const program=parseDataCsv(programsText).find(row=>row.week===week);
+    if(!program)return;
+    const players=new Map(parseDataCsv(playersText).map(player=>[player.player_id,player]));
+    const captains=parseDataCsv(captainsText)
+      .filter(captain=>captain.game_id===program.game_id)
+      .map(captain=>({...captain,player:players.get(captain.player_id)}))
+      .filter(captain=>captain.player);
+    if(!captains.length)return;
+
+    container.querySelectorAll(':scope > b,:scope > .captain-placeholders').forEach(node=>node.remove());
+    const list=document.createElement('div');
+    list.className='captain-list';
+    list.style.cssText='display:flex;flex-wrap:wrap;gap:10px;margin:9px 0';
+    captains.forEach(({player,role})=>{
+      const card=document.createElement('b');
+      card.style.cssText='display:flex;flex-direction:column;padding:11px 14px;background:#eaf4fc;border-left:3px solid #4da3f5';
+      card.textContent=player.name;
+      const label=document.createElement('small');
+      label.textContent=role;
+      label.style.cssText='margin-top:4px;color:#697b90;font-size:.58rem;letter-spacing:.08em';
+      card.append(label);
+      list.append(card);
+    });
+    const rosterLink=container.querySelector(':scope > a');
+    container.insertBefore(list,rosterLink);
+  }catch{
+    // The static page retains its existing placeholder if the data files cannot load.
+  }
+};
+
+void loadProgramCaptains();
+
 if(!reduced){
   const ease=[.22,1,.36,1] as const;
   const slowEase=[.16,1,.3,1] as const;
