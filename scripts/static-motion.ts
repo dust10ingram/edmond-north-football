@@ -41,6 +41,7 @@ const setProgramCountdown=(game:Record<string,string>)=>{
   const target=new Date(`${game.date_iso}T19:00:00-05:00`).getTime();
   countdown.dataset.kickoff=`${game.date_iso}T19:00:00-05:00`;
   countdown.setAttribute('aria-label',`Countdown to ${game.opponent} kickoff`);
+  const label=countdown.querySelector('p');if(label)label.textContent='Kickoff in';
   const tick=()=>{
     const remaining=Math.max(0,target-Date.now());
     const values={days:Math.floor(remaining/86400000),hours:Math.floor(remaining/3600000)%24,minutes:Math.floor(remaining/60000)%60,seconds:Math.floor(remaining/1000)%60};
