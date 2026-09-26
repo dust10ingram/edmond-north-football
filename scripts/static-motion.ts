@@ -150,8 +150,14 @@ const setFeaturedCountdown=(game:Record<string,string>)=>{
 
 const updateFeaturedGame=(games:Record<string,string>[])=>{
   const featured=document.querySelector<HTMLElement>('.game.featured');
-  const next=games.filter(game=>!game.result).sort((a,b)=>a.date_iso.localeCompare(b.date_iso))[0];
+  const today=new Date().toLocaleDateString('en-CA');
+  const next=games.filter(game=>!game.result&&game.date_iso>=today).sort((a,b)=>a.date_iso.localeCompare(b.date_iso))[0];
   if(!featured||!next)return;
+  const label=document.querySelector<HTMLElement>('.schedule-strip .section-lead .eyebrow');
+  if(label){
+    const date=new Date(`${next.date_iso}T12:00:00`);
+    label.textContent=`Next up · ${date.toLocaleDateString('en-US',{month:'long',day:'numeric'}).toUpperCase()}`;
+  }
   const date=featured.querySelector('.game-date');if(date)date.textContent=next.date_label;
   const logo=featured.querySelector<HTMLImageElement>('.upcoming-logo-crop img');
   if(logo){logo.src=`/assets/opponents/${next.logo}`;logo.alt=`${next.opponent} logo`;}
