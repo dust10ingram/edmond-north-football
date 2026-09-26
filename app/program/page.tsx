@@ -16,9 +16,9 @@ const districtStandings = [
   ['Broken Arrow', '4–0', '1–0'],
   ['Edmond North', '3–1', '1–0'],
   ['Westmoore', '1–3', '1–0'],
-  ['Edmond Memorial', '2–2', '0–1'],
   ['Norman North', '3–1', '0–1'],
   ['Mustang', '2–2', '0–1'],
+  ['Edmond Memorial', '2–2', '0–1'],
   ['Southmoore', '0–4', '0–1'],
 ];
 
