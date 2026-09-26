@@ -14979,7 +14979,7 @@ export const collegePrograms = [
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
     "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2122.png",
-    "distance_miles": "0"
+    "distance_miles": "0.2"
   },
   {
     "reference_id": "university-of-charleston-west-virginia-d2",

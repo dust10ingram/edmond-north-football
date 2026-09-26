@@ -102,8 +102,14 @@ const schoolKey = (school: string) =>
     .trim();
 
 const schoolPrograms = [...collegePrograms].sort((first, second) => {
-  const firstDistance = Number(first.distance_miles) || Number.POSITIVE_INFINITY;
-  const secondDistance = Number(second.distance_miles) || Number.POSITIVE_INFINITY;
+  const toDistance = (value: string) => {
+    const distance = Number(value);
+    return value && Number.isFinite(distance)
+      ? distance
+      : Number.POSITIVE_INFINITY;
+  };
+  const firstDistance = toDistance(first.distance_miles);
+  const secondDistance = toDistance(second.distance_miles);
   return firstDistance - secondDistance || first.school.localeCompare(second.school);
 });
 

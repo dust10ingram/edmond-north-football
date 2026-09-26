@@ -89,7 +89,12 @@
       if (schoolIndex < 0 || distanceIndex < 0) return;
       const distances = new Map(
         records.map((record) => {
-          return [record[schoolIndex], Number(record[distanceIndex]) || Infinity];
+          const value = record[distanceIndex];
+          const distance = Number(value);
+          return [
+            record[schoolIndex],
+            value && Number.isFinite(distance) ? distance : Infinity,
+          ];
         }),
       );
       schoolCards.sort((first, second) => {
