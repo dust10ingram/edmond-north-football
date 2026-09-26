@@ -378,11 +378,13 @@ const addSchoolLogos=async()=>{
       const logo=logos.get(school);
       const mark=card.querySelector<HTMLElement>('.school-mark');
       if(!logo||!mark)return;
+      const fallback=mark.textContent||'';
       const image=new Image();
       image.alt='';
       image.loading='lazy';
+      image.addEventListener('error',()=>mark.textContent=fallback,{once:true});
+      mark.replaceChildren(image);
       image.src=logo;
-      image.addEventListener('load',()=>mark.replaceChildren(image),{once:true});
     });
   }catch{
     // Initial badges remain in place if the logo data cannot be loaded.

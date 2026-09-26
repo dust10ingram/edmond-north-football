@@ -2802,7 +2802,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ACUFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2000.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2000.png",
+    "distance_miles": "256"
   },
   {
     "reference_id": "adams-state-university-colorado-d2",
@@ -2817,7 +2818,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/adamstateFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2001.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2001.png",
+    "distance_miles": "482"
   },
   {
     "reference_id": "adrian-college-michigan-d3",
@@ -2832,7 +2834,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/AdrianCollegeFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2003.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2003.png",
+    "distance_miles": "841"
   },
   {
     "reference_id": "air-force-colorado-d1-fbs",
@@ -2847,7 +2850,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/AF_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2005.png",
+    "distance_miles": "460"
   },
   {
     "reference_id": "akron-ohio-d1-fbs",
@@ -2862,7 +2866,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ZipsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2006.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2006.png",
+    "distance_miles": "941"
   },
   {
     "reference_id": "alabama-alabama-d1-fbs",
@@ -2877,7 +2882,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/AlabamaFTBL",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
+    "distance_miles": "589"
   },
   {
     "reference_id": "alabama-a-m-alabama-d1-fcs",
@@ -2892,7 +2898,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/AamufbR",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2010.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2010.png",
+    "distance_miles": "618"
   },
   {
     "reference_id": "alabama-state-alabama-d1-fcs",
@@ -2907,7 +2914,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/bamastatefb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2011.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2011.png",
+    "distance_miles": "679"
   },
   {
     "reference_id": "albany-new-york-d1-fcs",
@@ -2922,7 +2930,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ualbanyfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1354"
   },
   {
     "reference_id": "albany-state-university-georgia-d2",
@@ -2937,7 +2946,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/asugoldenramsfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2013.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2013.png",
+    "distance_miles": "816"
   },
   {
     "reference_id": "albion-college-michigan-d3",
@@ -2952,7 +2962,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/albionfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2790.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2790.png",
+    "distance_miles": "820"
   },
   {
     "reference_id": "albright-college-pennsylvania-d3",
@@ -2967,7 +2978,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/albright_fball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2015.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2015.png",
+    "distance_miles": "1214"
   },
   {
     "reference_id": "alcorn-state-mississippi-d1-fcs",
@@ -2982,7 +2994,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BRAVESSPORTS",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2016.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2016.png",
+    "distance_miles": "454"
   },
   {
     "reference_id": "alfred-state-college-new-york-d3",
@@ -2997,7 +3010,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/alfredstatefb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/3162.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/3162.png",
+    "distance_miles": "1148"
   },
   {
     "reference_id": "alfred-university-new-york-d3",
@@ -3012,7 +3026,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/AUSaxonFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/365.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/365.png",
+    "distance_miles": "1148"
   },
   {
     "reference_id": "allan-hancock-college-california-juco",
@@ -3027,7 +3042,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ahancockfball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1292"
   },
   {
     "reference_id": "allegheny-college-pennsylvania-d3",
@@ -3042,7 +3058,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/alleghenyfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2018.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2018.png",
+    "distance_miles": "1020"
   },
   {
     "reference_id": "allen-university-south-carolina-d2",
@@ -3057,7 +3074,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/auyellowjackets",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2019.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2019.png",
+    "distance_miles": "938"
   },
   {
     "reference_id": "alma-college-michigan-d3",
@@ -3072,7 +3090,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/almascotsfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2800.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2800.png",
+    "distance_miles": "865"
   },
   {
     "reference_id": "alvernia-university-pennsylvania-d3",
@@ -3087,7 +3106,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/alverniafb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/111674.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/111674.png",
+    "distance_miles": "1214"
   },
   {
     "reference_id": "american-international-college-massachusetts-d2",
@@ -3102,7 +3122,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/AICFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2022.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2022.png",
+    "distance_miles": "1405"
   },
   {
     "reference_id": "american-river-college-california-juco",
@@ -3117,7 +3138,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/arcbeaverball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1335"
   },
   {
     "reference_id": "amherst-college-massachusetts-d3",
@@ -3132,7 +3154,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/amherstcollfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/7.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/7.png",
+    "distance_miles": "1412"
   },
   {
     "reference_id": "anderson-university-indiana-indiana-d3",
@@ -3147,7 +3170,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/_ahs_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "712"
   },
   {
     "reference_id": "anderson-university-south-carolina-south-carolina-d2",
@@ -3162,7 +3186,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/AUTrojansFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "841"
   },
   {
     "reference_id": "andrew-college-georgia-naia",
@@ -3177,7 +3202,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/TigersAndrew",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "776"
   },
   {
     "reference_id": "angelo-state-university-texas-d2",
@@ -3192,7 +3218,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/AngeloStateFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2025.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2025.png",
+    "distance_miles": "336"
   },
   {
     "reference_id": "anna-maria-massachusetts-d3",
@@ -3207,7 +3234,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/AMCAT_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1441"
   },
   {
     "reference_id": "antelope-valley-college-california-juco",
@@ -3222,7 +3250,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/avcfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1166"
   },
   {
     "reference_id": "appalachian-state-north-carolina-d1-fbs",
@@ -3237,7 +3266,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/AppState_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "884"
   },
   {
     "reference_id": "arizona-arizona-d1-fbs",
@@ -3252,7 +3282,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ArizonaFBall",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/12.png",
+    "distance_miles": "806"
   },
   {
     "reference_id": "arizona-christian-university-arizona-naia",
@@ -3267,7 +3298,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/firestormfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "844"
   },
   {
     "reference_id": "arizona-state-arizona-d1-fbs",
@@ -3282,7 +3314,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ASUFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png",
+    "distance_miles": "835"
   },
   {
     "reference_id": "arkansas-arkansas-d1-fbs",
@@ -3297,7 +3330,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/RazorbackFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/8.png",
+    "distance_miles": "188"
   },
   {
     "reference_id": "arkansas-baptist-college-arkansas-juco",
@@ -3312,7 +3346,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/abc_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "300"
   },
   {
     "reference_id": "arkansas-state-arkansas-d1-fbs",
@@ -3327,7 +3362,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/AStateFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2032.png",
+    "distance_miles": "380"
   },
   {
     "reference_id": "arkansas-tech-university-arkansas-d2",
@@ -3342,7 +3378,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ATUFOOTBALL",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2033.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2033.png",
+    "distance_miles": "246"
   },
   {
     "reference_id": "arkansas-pine-bluff-arkansas-d1-fcs",
@@ -3357,7 +3394,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UAPBLionsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2029.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2029.png",
+    "distance_miles": "325"
   },
   {
     "reference_id": "army-new-york-d1-fbs",
@@ -3372,7 +3410,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ArmyWP_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/349.png",
+    "distance_miles": "1327"
   },
   {
     "reference_id": "ashland-university-ohio-d2",
@@ -3387,7 +3426,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ashlandfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/308.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/308.png",
+    "distance_miles": "896"
   },
   {
     "reference_id": "assumption-university-massachusetts-d2",
@@ -3402,7 +3442,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/assumptionfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2038.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2038.png",
+    "distance_miles": "1447"
   },
   {
     "reference_id": "auburn-alabama-d1-fbs",
@@ -3417,7 +3458,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/AuburnFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2.png",
+    "distance_miles": "717"
   },
   {
     "reference_id": "augsburg-university-minnesota-d3",
@@ -3432,7 +3474,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/augsburg_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/124.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/124.png",
+    "distance_miles": "681"
   },
   {
     "reference_id": "augustana-college-illinois-illinois-d3",
@@ -3447,7 +3490,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/AugieILfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "550"
   },
   {
     "reference_id": "augustana-university-south-dakota-south-dakota-d2",
@@ -3462,7 +3506,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/augiefb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "547"
   },
   {
     "reference_id": "aurora-university-illinois-d3",
@@ -3477,7 +3522,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/au_spartanfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2044.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2044.png",
+    "distance_miles": "649"
   },
   {
     "reference_id": "austin-college-texas-d3",
@@ -3492,7 +3538,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/roosfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2045.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2045.png",
+    "distance_miles": "148"
   },
   {
     "reference_id": "austin-peay-tennessee-d1-fcs",
@@ -3507,7 +3554,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/GovsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2046.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2046.png",
+    "distance_miles": "568"
   },
   {
     "reference_id": "ave-maria-university-florida-naia",
@@ -3522,7 +3570,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/GyreneFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1136"
   },
   {
     "reference_id": "averett-university-virginia-d3",
@@ -3537,7 +3586,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/AverettFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2047.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2047.png",
+    "distance_miles": "1010"
   },
   {
     "reference_id": "avila-university-missouri-naia",
@@ -3552,7 +3602,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Avila_Athletics",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "286"
   },
   {
     "reference_id": "azusa-pacific-university-california-d3",
@@ -3567,7 +3618,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/APUFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/guid/0aa67bb7-1cce-622a-b14f-d2a82aa2349b/logos/default.png"
+    "logo_url": "https://a.espncdn.com/guid/0aa67bb7-1cce-622a-b14f-d2a82aa2349b/logos/default.png",
+    "distance_miles": "1160"
   },
   {
     "reference_id": "baker-university-kansas-naia",
@@ -3582,7 +3634,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/bakeru_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "250"
   },
   {
     "reference_id": "bakersfield-college-california-juco",
@@ -3597,7 +3650,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/bcrenegadefb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1209"
   },
   {
     "reference_id": "baldwin-wallace-university-ohio-d3",
@@ -3612,7 +3666,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BWFootball_",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/188.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/188.png",
+    "distance_miles": "931"
   },
   {
     "reference_id": "ball-state-indiana-d1-fbs",
@@ -3627,7 +3682,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BallStateFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2050.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2050.png",
+    "distance_miles": "729"
   },
   {
     "reference_id": "barton-college-north-carolina-d2",
@@ -3642,7 +3698,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/barton_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/122666.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/122666.png",
+    "distance_miles": "1096"
   },
   {
     "reference_id": "bates-college-maine-d3",
@@ -3657,7 +3714,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/bates_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/121.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/121.png",
+    "distance_miles": "1550"
   },
   {
     "reference_id": "baylor-texas-d1-fbs",
@@ -3672,7 +3730,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BUFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
+    "distance_miles": "284"
   },
   {
     "reference_id": "belhaven-university-mississippi-d3",
@@ -3687,7 +3746,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BelhavenFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2056.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2056.png",
+    "distance_miles": "478"
   },
   {
     "reference_id": "beloit-college-wisconsin-d3",
@@ -3702,7 +3762,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BeloitBucsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/266.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/266.png",
+    "distance_miles": "655"
   },
   {
     "reference_id": "bemidji-state-university-minnesota-d2",
@@ -3717,7 +3778,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BSUBeaversFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/132.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/132.png",
+    "distance_miles": "828"
   },
   {
     "reference_id": "benedict-college-south-carolina-d2",
@@ -3732,7 +3794,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/GoTigers_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/490.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/490.png",
+    "distance_miles": "938"
   },
   {
     "reference_id": "benedictine-college-kansas-naia",
@@ -3747,7 +3810,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/RavenFootballBC",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "299"
   },
   {
     "reference_id": "benedictine-university-illinois-d3",
@@ -3762,7 +3826,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BenUFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "661"
   },
   {
     "reference_id": "bentley-university-massachusetts-d2",
@@ -3777,7 +3842,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/footballbentley",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2060.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2060.png",
+    "distance_miles": "1476"
   },
   {
     "reference_id": "berry-college-georgia-d3",
@@ -3792,7 +3858,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/berryfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2757.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2757.png",
+    "distance_miles": "702"
   },
   {
     "reference_id": "bethany-college-kansas-kansas-naia",
@@ -3807,7 +3874,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/footballbethany",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": ""
   },
   {
     "reference_id": "bethany-college-west-virginia-west-virginia-d3",
@@ -3822,7 +3890,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BethanyWV_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "973"
   },
   {
     "reference_id": "bethel-college-kansas-kansas-naia",
@@ -3837,7 +3906,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/threshers_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "166"
   },
   {
     "reference_id": "bethel-university-minnesota-minnesota-d3",
@@ -3852,7 +3922,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/bethelroyalsfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "688"
   },
   {
     "reference_id": "bethel-university-tennessee-tennessee-naia",
@@ -3867,7 +3938,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/bu_footballtn",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "502"
   },
   {
     "reference_id": "bethune-cookman-florida-d1-fcs",
@@ -3882,7 +3954,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BCUGridiron",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2065.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2065.png",
+    "distance_miles": "1056"
   },
   {
     "reference_id": "bismarck-state-college-north-dakota-naia",
@@ -3897,7 +3970,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/MysticsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "789"
   },
   {
     "reference_id": "black-hills-state-university-south-dakota-d2",
@@ -3912,7 +3986,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BHSUFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2069.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2069.png",
+    "distance_miles": "697"
   },
   {
     "reference_id": "blinn-college-texas-juco",
@@ -3927,7 +4002,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BLINNFBRECRUIT",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "384"
   },
   {
     "reference_id": "bloomsburg-university-of-pennsylvania-pennsylvania-d2",
@@ -3942,7 +4018,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/bloomufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1194"
   },
   {
     "reference_id": "bluefield-state-university-west-virginia-d2",
@@ -3957,7 +4034,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/bigblue_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/124180.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/124180.png",
+    "distance_miles": "909"
   },
   {
     "reference_id": "bluefield-university-virginia-naia",
@@ -3972,7 +4050,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BURamsFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "906"
   },
   {
     "reference_id": "bluffton-university-ohio-d3",
@@ -3987,7 +4066,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/bluffton_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2074.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2074.png",
+    "distance_miles": "820"
   },
   {
     "reference_id": "boise-state-idaho-d1-fbs",
@@ -4002,7 +4082,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BroncoSportsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/68.png",
+    "distance_miles": "1134"
   },
   {
     "reference_id": "boston-college-massachusetts-d1-fbs",
@@ -4017,7 +4098,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BCFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/103.png",
+    "distance_miles": "1479"
   },
   {
     "reference_id": "bowdoin-college-maine-d3",
@@ -4032,7 +4114,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/bowdoinfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/340.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/340.png",
+    "distance_miles": "1559"
   },
   {
     "reference_id": "bowie-state-university-maryland-d2",
@@ -4047,7 +4130,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/bowiestatefb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2075.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2075.png",
+    "distance_miles": "1160"
   },
   {
     "reference_id": "bowling-green-ohio-d1-fbs",
@@ -4062,7 +4146,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BG_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/189.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/189.png",
+    "distance_miles": "844"
   },
   {
     "reference_id": "brevard-college-north-carolina-d3",
@@ -4077,7 +4162,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/brevardf5",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2913.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2913.png",
+    "distance_miles": "830"
   },
   {
     "reference_id": "briar-cliff-university-iowa-naia",
@@ -4092,7 +4178,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BriarCliffFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "477"
   },
   {
     "reference_id": "bridgewater-college-virginia-d3",
@@ -4107,7 +4194,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/bh2ofootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2079.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2079.png",
+    "distance_miles": "1036"
   },
   {
     "reference_id": "bridgewater-state-university-massachusetts-d3",
@@ -4122,7 +4210,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/bsu_football_",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/18.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/18.png",
+    "distance_miles": "1485"
   },
   {
     "reference_id": "brown-rhode-island-d1-fcs",
@@ -4137,7 +4226,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BrownU_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/225.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/225.png",
+    "distance_miles": "1462"
   },
   {
     "reference_id": "bryant-rhode-island-d1-fcs",
@@ -4152,7 +4242,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BryantUFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2803.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2803.png",
+    "distance_miles": "1456"
   },
   {
     "reference_id": "bucknell-pennsylvania-d1-fcs",
@@ -4167,7 +4258,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Bucknell_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2083.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2083.png",
+    "distance_miles": "1172"
   },
   {
     "reference_id": "buena-vista-university-iowa-d3",
@@ -4182,7 +4274,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BVU_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/63.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/63.png",
+    "distance_miles": "498"
   },
   {
     "reference_id": "buffalo-new-york-d1-fbs",
@@ -4197,7 +4290,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UBFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2084.png",
+    "distance_miles": "1110"
   },
   {
     "reference_id": "butler-indiana-d1-fcs",
@@ -4212,7 +4306,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ButlerUFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2086.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2086.png",
+    "distance_miles": "680"
   },
   {
     "reference_id": "butler-community-college-kansas-juco",
@@ -4227,7 +4322,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/butlergrizzlyfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "153"
   },
   {
     "reference_id": "butte-college-california-juco",
@@ -4242,7 +4338,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/buttefootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1341"
   },
   {
     "reference_id": "byu-utah-d1-fbs",
@@ -4257,7 +4354,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BYUfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/252.png",
+    "distance_miles": "834"
   },
   {
     "reference_id": "cabrillo-college-california-juco",
@@ -4272,7 +4370,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/cabrillofb_",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1359"
   },
   {
     "reference_id": "cal-lutheran-california-d3",
@@ -4287,7 +4386,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CLUSports",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2094.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2094.png",
+    "distance_miles": "1212"
   },
   {
     "reference_id": "cal-poly-california-d1-fcs",
@@ -4302,7 +4402,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/calpolyfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/13.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/13.png",
+    "distance_miles": "1302"
   },
   {
     "reference_id": "california-california-d1-fbs",
@@ -4317,7 +4418,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CalFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/25.png",
+    "distance_miles": "1377"
   },
   {
     "reference_id": "california-university-of-pennsylvania-pennsylvania-d2",
@@ -4332,7 +4434,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/VulcanFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1005"
   },
   {
     "reference_id": "calvin-university-michigan-d3",
@@ -4347,7 +4450,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CalvinKnightsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "807"
   },
   {
     "reference_id": "campbell-north-carolina-d1-fcs",
@@ -4362,7 +4466,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/GoCamelsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2097.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2097.png",
+    "distance_miles": "1052"
   },
   {
     "reference_id": "campbellsville-university-kentucky-naia",
@@ -4377,7 +4482,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CvilleTigersFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "684"
   },
   {
     "reference_id": "capital-university-ohio-d3",
@@ -4392,7 +4498,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/capitalu_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/424.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/424.png",
+    "distance_miles": "843"
   },
   {
     "reference_id": "carleton-college-minnesota-d3",
@@ -4407,7 +4514,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CarletonFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2101.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2101.png",
+    "distance_miles": "650"
   },
   {
     "reference_id": "carnegie-mellon-university-pennsylvania-d3",
@@ -4422,7 +4530,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/tartanfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2102.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2102.png",
+    "distance_miles": "1005"
   },
   {
     "reference_id": "carroll-college-montana-naia",
@@ -4437,7 +4546,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/FootballCarroll",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1067"
   },
   {
     "reference_id": "carroll-university-wisconsin-d3",
@@ -4452,7 +4562,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/piofootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "708"
   },
   {
     "reference_id": "carson-newman-university-tennessee-d2",
@@ -4467,7 +4578,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/cnfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2105.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2105.png",
+    "distance_miles": "783"
   },
   {
     "reference_id": "carthage-college-wisconsin-d3",
@@ -4482,7 +4594,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/carthage_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2106.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2106.png",
+    "distance_miles": "704"
   },
   {
     "reference_id": "case-western-reserve-university-ohio-d3",
@@ -4497,7 +4610,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/cwrufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2963.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2963.png",
+    "distance_miles": "941"
   },
   {
     "reference_id": "castleton-university-vermont-d3",
@@ -4512,7 +4626,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CastletonFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1398"
   },
   {
     "reference_id": "catawba-college-north-carolina-d2",
@@ -4527,7 +4642,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CatawbaFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2107.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2107.png",
+    "distance_miles": "953"
   },
   {
     "reference_id": "catholic-university-of-america-d-c-d3",
@@ -4542,7 +4658,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CatholicU_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1143"
   },
   {
     "reference_id": "centenary-college-of-louisiana-louisiana-d3",
@@ -4557,7 +4674,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Gents_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "304"
   },
   {
     "reference_id": "central-arkansas-arkansas-d1-fcs",
@@ -4572,7 +4690,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UCA_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2110.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2110.png",
+    "distance_miles": "286"
   },
   {
     "reference_id": "central-college-iowa-d3",
@@ -4587,7 +4706,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CentralDutchFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2964.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2964.png",
+    "distance_miles": "468"
   },
   {
     "reference_id": "central-connecticut-connecticut-d1-fcs",
@@ -4602,7 +4722,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CCSUBlueDevils",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2115.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2115.png",
+    "distance_miles": "1390"
   },
   {
     "reference_id": "central-georgia-technical-college-georgia-juco",
@@ -4617,7 +4738,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CGTCAthletics",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "814"
   },
   {
     "reference_id": "central-lakes-college-brainerd-minnesota-juco",
@@ -4632,7 +4754,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/clcraidersports",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "759"
   },
   {
     "reference_id": "central-methodist-university-missouri-naia",
@@ -4647,7 +4770,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/cmueaglesfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "357"
   },
   {
     "reference_id": "central-michigan-michigan-d1-fbs",
@@ -4662,7 +4786,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CMU_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2117.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2117.png",
+    "distance_miles": "869"
   },
   {
     "reference_id": "central-state-university-ohio-d2",
@@ -4677,7 +4802,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/go_marauders",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2119.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2119.png",
+    "distance_miles": "794"
   },
   {
     "reference_id": "central-washington-university-washington-d2",
@@ -4692,7 +4818,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CWUFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2120.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2120.png",
+    "distance_miles": "1422"
   },
   {
     "reference_id": "centre-college-kentucky-d3",
@@ -4707,7 +4834,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/centrefootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2121.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2121.png",
+    "distance_miles": "717"
   },
   {
     "reference_id": "cerritos-college-california-juco",
@@ -4722,7 +4850,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/cerritosfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1173"
   },
   {
     "reference_id": "chabot-college-california-juco",
@@ -4737,7 +4866,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/chabotfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1367"
   },
   {
     "reference_id": "chadron-state-college-nebraska-d2",
@@ -4752,7 +4882,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/cscfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2123.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2123.png",
+    "distance_miles": "577"
   },
   {
     "reference_id": "chaffey-college-california-juco",
@@ -4767,7 +4898,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/chaffeyfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1143"
   },
   {
     "reference_id": "chapman-university-california-d3",
@@ -4782,7 +4914,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/chapman_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/411.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/411.png",
+    "distance_miles": "1162"
   },
   {
     "reference_id": "charleston-southern-south-carolina-d1-fcs",
@@ -4797,7 +4930,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CSU_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2127.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2127.png",
+    "distance_miles": "1017"
   },
   {
     "reference_id": "charlotte-north-carolina-d1-fbs",
@@ -4812,7 +4946,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CharlotteFTBL",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "936"
   },
   {
     "reference_id": "chattanooga-tennessee-d1-fcs",
@@ -4827,7 +4962,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/GoMocsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/236.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/236.png",
+    "distance_miles": "687"
   },
   {
     "reference_id": "chicago-state-illinois-d1-fcs",
@@ -4842,7 +4978,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/chicagostatefb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2130.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2130.png",
+    "distance_miles": "680"
   },
   {
     "reference_id": "chowan-university-north-carolina-d2",
@@ -4857,7 +4994,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/chowanfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2804.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2804.png",
+    "distance_miles": "1138"
   },
   {
     "reference_id": "christopher-newport-university-virginia-d3",
@@ -4872,7 +5010,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/cnu_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/3112.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/3112.png",
+    "distance_miles": "1173"
   },
   {
     "reference_id": "cincinnati-ohio-d1-fbs",
@@ -4887,7 +5026,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/GoBearcatsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2132.png",
+    "distance_miles": "750"
   },
   {
     "reference_id": "cisco-college-texas-juco",
@@ -4902,7 +5042,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CiscoCollegeFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "241"
   },
   {
     "reference_id": "citrus-college-california-juco",
@@ -4917,7 +5058,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/citrusfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1158"
   },
   {
     "reference_id": "city-college-of-san-francisco-california-juco",
@@ -4932,7 +5074,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ccsffootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1385"
   },
   {
     "reference_id": "claremont-mudd-scripps-colleges-california-d3",
@@ -4947,7 +5090,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/cmsstagsfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1150"
   },
   {
     "reference_id": "clarion-university-of-pennsylvania-pennsylvania-d2",
@@ -4962,7 +5106,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/clarionfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1049"
   },
   {
     "reference_id": "clark-atlanta-university-georgia-d2",
@@ -4977,7 +5122,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/cau_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2805.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2805.png",
+    "distance_miles": "755"
   },
   {
     "reference_id": "clarke-university-iowa-naia",
@@ -4992,7 +5138,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/clarkepridefb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "597"
   },
   {
     "reference_id": "clemson-south-carolina-d1-fbs",
@@ -5007,7 +5154,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ClemsonFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
+    "distance_miles": "829"
   },
   {
     "reference_id": "coahoma-community-college-mississippi-juco",
@@ -5022,7 +5170,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/coahomasports",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "404"
   },
   {
     "reference_id": "coastal-carolina-south-carolina-d1-fbs",
@@ -5037,7 +5186,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CoastalFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/324.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/324.png",
+    "distance_miles": "1052"
   },
   {
     "reference_id": "coe-college-iowa-d3",
@@ -5052,7 +5202,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/KohawksFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2141.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2141.png",
+    "distance_miles": "540"
   },
   {
     "reference_id": "coffeyville-community-college-kansas-juco",
@@ -5067,7 +5218,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/red_raven_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "141"
   },
   {
     "reference_id": "colby-college-maine-d3",
@@ -5082,7 +5234,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Colby_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/33.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/33.png",
+    "distance_miles": "1585"
   },
   {
     "reference_id": "colgate-new-york-d1-fcs",
@@ -5097,7 +5250,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ColgateFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2142.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2142.png",
+    "distance_miles": "1269"
   },
   {
     "reference_id": "college-of-dupage-illinois-juco",
@@ -5112,7 +5266,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/dupage_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "664"
   },
   {
     "reference_id": "college-of-san-mateo-california-juco",
@@ -5127,7 +5282,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/csm_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1380"
   },
   {
     "reference_id": "college-of-the-canyons-california-juco",
@@ -5142,7 +5298,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/cocfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1193"
   },
   {
     "reference_id": "college-of-the-desert-california-juco",
@@ -5157,7 +5314,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/cod_athletics",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1080"
   },
   {
     "reference_id": "college-of-the-redwoods-california-juco",
@@ -5172,7 +5330,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/_cr_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1485"
   },
   {
     "reference_id": "college-of-the-sequoias-california-juco",
@@ -5187,7 +5346,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/cosgiants_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1218"
   },
   {
     "reference_id": "college-of-the-siskiyous-california-juco",
@@ -5202,7 +5362,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/cosfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1398"
   },
   {
     "reference_id": "college-of-wooster-ohio-d3",
@@ -5217,7 +5378,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/woosterfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2748.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2748.png",
+    "distance_miles": "914"
   },
   {
     "reference_id": "colorado-colorado-d1-fbs",
@@ -5232,7 +5394,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CUBuffsFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/38.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/38.png",
+    "distance_miles": "521"
   },
   {
     "reference_id": "colorado-mesa-university-colorado-d2",
@@ -5247,7 +5410,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/cmumavericks",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/11.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/11.png",
+    "distance_miles": "652"
   },
   {
     "reference_id": "colorado-school-of-mines-colorado-d2",
@@ -5262,7 +5426,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/minesfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2146.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2146.png",
+    "distance_miles": "509"
   },
   {
     "reference_id": "colorado-state-colorado-d1-fbs",
@@ -5277,7 +5442,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CSUFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png",
+    "distance_miles": "535"
   },
   {
     "reference_id": "colorado-state-university-pueblo-colorado-d2",
@@ -5292,7 +5458,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/csupfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "433"
   },
   {
     "reference_id": "columbia-new-york-d1-fcs",
@@ -5307,7 +5474,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/culionsfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/171.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/171.png",
+    "distance_miles": "1317"
   },
   {
     "reference_id": "compton-college-california-juco",
@@ -5322,7 +5490,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/compton_college",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1181"
   },
   {
     "reference_id": "concord-university-west-virginia-d2",
@@ -5337,7 +5506,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/concordfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2148.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2148.png",
+    "distance_miles": "921"
   },
   {
     "reference_id": "concordia-college-at-moorhead-minnesota-d3",
@@ -5352,7 +5522,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Cobber_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "776"
   },
   {
     "reference_id": "concordia-university-chicago-illinois-d3",
@@ -5367,7 +5538,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/cucfbfamily",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2151.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2151.png",
+    "distance_miles": "675"
   },
   {
     "reference_id": "concordia-university-nebraska-nebraska-naia",
@@ -5382,7 +5554,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/cunefootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "364"
   },
   {
     "reference_id": "concordia-university-wisconsin-wisconsin-d3",
@@ -5397,7 +5570,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/cuwfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "725"
   },
   {
     "reference_id": "concordia-university-st-paul-minnesota-d2",
@@ -5412,7 +5586,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CSPBearsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/3066.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/3066.png",
+    "distance_miles": "682"
   },
   {
     "reference_id": "concordia-universitymichigan-michigan-naia",
@@ -5427,7 +5602,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/cuaa_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "867"
   },
   {
     "reference_id": "contra-costa-college-california-juco",
@@ -5442,7 +5618,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CCCFootball_24",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1381"
   },
   {
     "reference_id": "copiah-lincoln-community-college-mississippi-juco",
@@ -5457,7 +5634,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/colinfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "490"
   },
   {
     "reference_id": "cornell-new-york-d1-fcs",
@@ -5472,7 +5650,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BigRed_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/172.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/172.png",
+    "distance_miles": "1216"
   },
   {
     "reference_id": "cornell-college-iowa-d3",
@@ -5487,7 +5666,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/cornellramsfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/172.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/172.png",
+    "distance_miles": "542"
   },
   {
     "reference_id": "crown-college-minnesota-d3",
@@ -5502,7 +5682,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CrownCollegeFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/509.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/509.png",
+    "distance_miles": ""
   },
   {
     "reference_id": "culver-stockton-college-missouri-naia",
@@ -5517,7 +5698,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/cscwildcatsfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "448"
   },
   {
     "reference_id": "cumberland-university-tennessee-naia",
@@ -5532,7 +5714,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CumberlandFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "627"
   },
   {
     "reference_id": "curry-college-massachusetts-d3",
@@ -5547,7 +5730,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/curryfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/40.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/40.png",
+    "distance_miles": "1484"
   },
   {
     "reference_id": "dakota-state-university-south-dakota-naia",
@@ -5562,7 +5746,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/DSUFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/512.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/512.png",
+    "distance_miles": "577"
   },
   {
     "reference_id": "dakota-wesleyan-university-south-dakota-naia",
@@ -5577,7 +5762,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/dwtigerfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "557"
   },
   {
     "reference_id": "dartmouth-new-hampshire-d1-fcs",
@@ -5592,7 +5778,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/DartmouthFTBL",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/159.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/159.png",
+    "distance_miles": "1443"
   },
   {
     "reference_id": "davenport-university-michigan-d2",
@@ -5607,7 +5794,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/DU_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "807"
   },
   {
     "reference_id": "davidson-north-carolina-d1-fcs",
@@ -5622,7 +5810,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/DavidsonFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2166.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2166.png",
+    "distance_miles": "934"
   },
   {
     "reference_id": "dayton-ohio-d1-fcs",
@@ -5637,7 +5826,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/daytonfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2168.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2168.png",
+    "distance_miles": "779"
   },
   {
     "reference_id": "de-anza-college-california-juco",
@@ -5652,7 +5842,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/deanzaathletics",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1365"
   },
   {
     "reference_id": "dean-college-massachusetts-d3",
@@ -5667,7 +5858,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/deancollegefb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/110438.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/110438.png",
+    "distance_miles": "1465"
   },
   {
     "reference_id": "defiance-college-ohio-d3",
@@ -5682,7 +5874,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/DefiCollegeFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/190.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/190.png",
+    "distance_miles": "808"
   },
   {
     "reference_id": "delaware-delaware-d1-fbs",
@@ -5697,7 +5890,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Delaware_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/48.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/48.png",
+    "distance_miles": "1217"
   },
   {
     "reference_id": "delaware-state-delaware-d1-fcs",
@@ -5712,7 +5906,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/delst_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2169.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2169.png",
+    "distance_miles": "1226"
   },
   {
     "reference_id": "delaware-valley-university-pennsylvania-d3",
@@ -5727,7 +5922,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/dvufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2808.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2808.png",
+    "distance_miles": "1255"
   },
   {
     "reference_id": "delta-state-university-mississippi-d2",
@@ -5742,7 +5938,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/DeltaStateFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2170.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2170.png",
+    "distance_miles": "406"
   },
   {
     "reference_id": "denison-university-ohio-d3",
@@ -5757,7 +5954,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/dufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2171.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2171.png",
+    "distance_miles": "870"
   },
   {
     "reference_id": "depauw-university-indiana-d3",
@@ -5772,7 +5970,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/depauwtigersfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/83.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/83.png",
+    "distance_miles": "642"
   },
   {
     "reference_id": "diablo-valley-college-california-juco",
@@ -5787,7 +5986,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/DVCVikingsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1365"
   },
   {
     "reference_id": "dickinson-college-pennsylvania-d3",
@@ -5802,7 +6002,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/dcreddevilfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2175.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2175.png",
+    "distance_miles": "1147"
   },
   {
     "reference_id": "dickinson-state-university-north-dakota-naia",
@@ -5817,7 +6018,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BlueHawkFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "823"
   },
   {
     "reference_id": "doane-university-nebraska-naia",
@@ -5832,7 +6034,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/DoaneFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "345"
   },
   {
     "reference_id": "dodge-city-community-college-kansas-juco",
@@ -5847,7 +6050,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/goconqsfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "202"
   },
   {
     "reference_id": "dordt-university-iowa-naia",
@@ -5862,7 +6066,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/DordtFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "518"
   },
   {
     "reference_id": "drake-iowa-d1-fcs",
@@ -5877,7 +6082,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/drakebulldogsfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2181.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2181.png",
+    "distance_miles": "461"
   },
   {
     "reference_id": "duke-north-carolina-d1-fbs",
@@ -5892,7 +6098,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/DukeFOOTBALL",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+    "distance_miles": "1040"
   },
   {
     "reference_id": "duquesne-pennsylvania-d1-fcs",
@@ -5907,7 +6114,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/DuqFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2184.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2184.png",
+    "distance_miles": "1005"
   },
   {
     "reference_id": "east-carolina-north-carolina-d1-fbs",
@@ -5922,7 +6130,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ECUPiratesFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/151.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/151.png",
+    "distance_miles": "1127"
   },
   {
     "reference_id": "east-central-community-college-mississippi-juco",
@@ -5937,7 +6146,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/eccc_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "528"
   },
   {
     "reference_id": "east-central-university-oklahoma-d2",
@@ -5952,7 +6162,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ecutigersfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2191.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2191.png",
+    "distance_miles": "76"
   },
   {
     "reference_id": "east-los-angeles-college-california-juco",
@@ -5967,7 +6178,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ELAC_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1173"
   },
   {
     "reference_id": "east-mississippi-community-college-mississippi-juco",
@@ -5982,7 +6194,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/EMCCathletics",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "550"
   },
   {
     "reference_id": "east-stroudsburg-university-pennsylvania-d2",
@@ -5997,7 +6210,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/esu_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2188.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2188.png",
+    "distance_miles": "1260"
   },
   {
     "reference_id": "east-tennessee-state-tennessee-d1-fcs",
@@ -6012,7 +6226,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ETSUFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2193.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2193.png",
+    "distance_miles": "846"
   },
   {
     "reference_id": "east-texas-a-m-texas-d1-fcs",
@@ -6027,7 +6242,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Lions_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2837.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2837.png",
+    "distance_miles": "189"
   },
   {
     "reference_id": "east-texas-baptist-university-texas-d3",
@@ -6042,7 +6258,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ETBU_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2194.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2194.png",
+    "distance_miles": "279"
   },
   {
     "reference_id": "eastern-illinois-illinois-d1-fcs",
@@ -6057,7 +6274,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/EIU_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2197.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2197.png",
+    "distance_miles": "574"
   },
   {
     "reference_id": "eastern-kentucky-kentucky-d1-fcs",
@@ -6072,7 +6290,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/EKUFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2198.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2198.png",
+    "distance_miles": "744"
   },
   {
     "reference_id": "eastern-michigan-michigan-d1-fbs",
@@ -6087,7 +6306,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/EMUFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2199.png",
+    "distance_miles": "871"
   },
   {
     "reference_id": "eastern-new-mexico-university-new-mexico-d2",
@@ -6102,7 +6322,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/enmufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2201.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2201.png",
+    "distance_miles": "347"
   },
   {
     "reference_id": "eastern-oregon-university-oregon-naia",
@@ -6117,7 +6338,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/eoufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1267"
   },
   {
     "reference_id": "eastern-university-pennsylvania-d3",
@@ -6132,7 +6354,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/EUEaglesFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/127954.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/127954.png",
+    "distance_miles": "1241"
   },
   {
     "reference_id": "eastern-washington-washington-d1-fcs",
@@ -6147,7 +6370,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ewuathletics",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/331.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/331.png",
+    "distance_miles": "1315"
   },
   {
     "reference_id": "edinboro-university-pennsylvania-d2",
@@ -6162,7 +6386,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/edinborofb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2205.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2205.png",
+    "distance_miles": "1026"
   },
   {
     "reference_id": "edward-waters-university-florida-d2",
@@ -6177,7 +6402,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ewc_tigersfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2206.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2206.png",
+    "distance_miles": "986"
   },
   {
     "reference_id": "el-camino-college-california-juco",
@@ -6192,7 +6418,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/fbwarriorsecc",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1189"
   },
   {
     "reference_id": "elizabeth-city-state-university-north-carolina-d2",
@@ -6207,7 +6434,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ecsufbl",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2207.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2207.png",
+    "distance_miles": "1185"
   },
   {
     "reference_id": "ellsworth-community-college-iowa-juco",
@@ -6222,7 +6450,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ellsworthftball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "526"
   },
   {
     "reference_id": "elmhurst-university-illinois-d3",
@@ -6237,7 +6466,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ElmhurstU_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/72.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/72.png",
+    "distance_miles": "670"
   },
   {
     "reference_id": "elon-north-carolina-d1-fcs",
@@ -6252,7 +6482,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ElonFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2210.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2210.png",
+    "distance_miles": "1005"
   },
   {
     "reference_id": "emory-henry-university-virginia-d3",
@@ -6267,7 +6498,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/EmoryHenry_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2213.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2213.png",
+    "distance_miles": "874"
   },
   {
     "reference_id": "emory-and-henry-college-virginia-d2",
@@ -6282,7 +6514,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/EmoryHenry_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2213.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2213.png",
+    "distance_miles": "874"
   },
   {
     "reference_id": "emporia-state-university-kansas-d2",
@@ -6297,7 +6530,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ESUHornetsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2214.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2214.png",
+    "distance_miles": "203"
   },
   {
     "reference_id": "endicott-college-massachusetts-d3",
@@ -6312,7 +6546,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/EndicottFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/452.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/452.png",
+    "distance_miles": "1496"
   },
   {
     "reference_id": "erskine-college-south-carolina-d2",
@@ -6327,7 +6562,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/FleetFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/101784.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/101784.png",
+    "distance_miles": "858"
   },
   {
     "reference_id": "eureka-college-illinois-d3",
@@ -6342,7 +6578,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ECRDFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/101.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/101.png",
+    "distance_miles": "566"
   },
   {
     "reference_id": "evangel-university-missouri-naia",
@@ -6357,7 +6594,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/evangel_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "256"
   },
   {
     "reference_id": "fairleigh-dickinson-university-college-at-florham-new-jersey-d3",
@@ -6372,7 +6610,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/FDUFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1297"
   },
   {
     "reference_id": "fairmont-state-university-west-virginia-d2",
@@ -6387,7 +6626,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/fairmontstatefb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2986.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2986.png",
+    "distance_miles": "984"
   },
   {
     "reference_id": "faulkner-university-alabama-naia",
@@ -6402,7 +6642,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/FaulknerFTBL",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "679"
   },
   {
     "reference_id": "fayetteville-state-university-north-carolina-d2",
@@ -6417,7 +6658,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/FSUBroncos",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2220.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2220.png",
+    "distance_miles": "1047"
   },
   {
     "reference_id": "feather-river-college-california-juco",
@@ -6432,7 +6674,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/frc_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1311"
   },
   {
     "reference_id": "ferris-state-university-michigan-d2",
@@ -6447,7 +6690,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ferrisfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2222.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2222.png",
+    "distance_miles": "845"
   },
   {
     "reference_id": "ferrum-college-virginia-d3",
@@ -6462,7 +6706,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/FerrumFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/366.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/366.png",
+    "distance_miles": "975"
   },
   {
     "reference_id": "fitchburg-state-university-massachusetts-d3",
@@ -6477,7 +6722,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/FSUFalconsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/114.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/114.png",
+    "distance_miles": "1451"
   },
   {
     "reference_id": "fiu-florida-d1-fbs",
@@ -6492,7 +6738,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/FIUFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2229.png",
+    "distance_miles": "1230"
   },
   {
     "reference_id": "florida-florida-d1-fbs",
@@ -6507,7 +6754,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/GatorsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/57.png",
+    "distance_miles": "973"
   },
   {
     "reference_id": "florida-a-m-florida-d1-fcs",
@@ -6522,7 +6770,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/FAMU_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/50.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/50.png",
+    "distance_miles": "844"
   },
   {
     "reference_id": "florida-atlantic-florida-d1-fbs",
@@ -6537,7 +6786,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/faufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2226.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2226.png",
+    "distance_miles": "1211"
   },
   {
     "reference_id": "florida-memorial-university-florida-naia",
@@ -6552,7 +6802,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/fmulionsfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1220"
   },
   {
     "reference_id": "florida-state-florida-d1-fbs",
@@ -6567,7 +6818,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/FSUFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/52.png",
+    "distance_miles": "844"
   },
   {
     "reference_id": "foothill-college-california-juco",
@@ -6582,7 +6834,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/owlfootball_",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1371"
   },
   {
     "reference_id": "fordham-new-york-d1-fcs",
@@ -6597,7 +6850,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/FORDHAMFOOTBALL",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2230.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2230.png",
+    "distance_miles": "1317"
   },
   {
     "reference_id": "fort-hays-state-university-kansas-d2",
@@ -6612,7 +6866,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/fhsufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "245"
   },
   {
     "reference_id": "fort-lauderdale-florida-naia",
@@ -6627,7 +6882,8 @@ export const collegePrograms = [
     "program_x_url": "https://mobile.twitter.com/uftlfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1218"
   },
   {
     "reference_id": "fort-lewis-college-colorado-d2",
@@ -6642,7 +6898,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/flcskyhawks",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2237.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2237.png",
+    "distance_miles": "588"
   },
   {
     "reference_id": "fort-scott-cc-kansas-juco",
@@ -6657,7 +6914,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/fsccfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "215"
   },
   {
     "reference_id": "fort-valley-state-university-georgia-d2",
@@ -6672,7 +6930,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/fvsufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2232.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2232.png",
+    "distance_miles": "806"
   },
   {
     "reference_id": "framingham-state-university-massachusetts-d3",
@@ -6687,7 +6946,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/fsuramsfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2967.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2967.png",
+    "distance_miles": "1466"
   },
   {
     "reference_id": "franklin-marshall-college-pennsylvania-d3",
@@ -6702,7 +6962,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/fandmfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2234.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2234.png",
+    "distance_miles": "1191"
   },
   {
     "reference_id": "franklin-college-indiana-d3",
@@ -6717,7 +6978,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/FCGrizFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2233.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2233.png",
+    "distance_miles": "679"
   },
   {
     "reference_id": "franklin-pierce-university-new-hampshire-d2",
@@ -6732,7 +6994,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ravens_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/112334.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/112334.png",
+    "distance_miles": "1442"
   },
   {
     "reference_id": "fresno-city-college-california-juco",
@@ -6747,7 +7010,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/goramfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1243"
   },
   {
     "reference_id": "fresno-state-california-d1-fbs",
@@ -6762,7 +7026,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/FresnoStateFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/278.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/278.png",
+    "distance_miles": "1243"
   },
   {
     "reference_id": "friends-university-kansas-naia",
@@ -6777,7 +7042,8 @@ export const collegePrograms = [
     "program_x_url": "https://mobile.twitter.com/falconsfu",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "141"
   },
   {
     "reference_id": "frostburg-state-university-maryland-d2",
@@ -6792,7 +7058,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/frostburgfball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/341.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/341.png",
+    "distance_miles": "1050"
   },
   {
     "reference_id": "fullerton-college-california-juco",
@@ -6807,7 +7074,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/fullcoll_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1165"
   },
   {
     "reference_id": "furman-south-carolina-d1-fcs",
@@ -6822,7 +7090,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/PaladinFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/231.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/231.png",
+    "distance_miles": "852"
   },
   {
     "reference_id": "gallaudet-university-d-c-d3",
@@ -6837,7 +7106,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/GallaudetBison",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/417.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/417.png",
+    "distance_miles": "1143"
   },
   {
     "reference_id": "gannon-university-pennsylvania-d2",
@@ -6852,7 +7122,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/footballgannon",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/367.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/367.png",
+    "distance_miles": "1034"
   },
   {
     "reference_id": "garden-city-community-college-kansas-juco",
@@ -6867,7 +7138,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/gccc_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "247"
   },
   {
     "reference_id": "gardner-webb-north-carolina-d1-fcs",
@@ -6882,7 +7154,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/GWUFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2241.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2241.png",
+    "distance_miles": "889"
   },
   {
     "reference_id": "gavilan-college-california-juco",
@@ -6897,7 +7170,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/gavilanramsfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1341"
   },
   {
     "reference_id": "geneva-college-pennsylvania-d3",
@@ -6912,7 +7186,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/genevacollegefb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2242.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2242.png",
+    "distance_miles": "994"
   },
   {
     "reference_id": "george-fox-university-oregon-d3",
@@ -6927,7 +7202,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/gfufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/415.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/415.png",
+    "distance_miles": "1488"
   },
   {
     "reference_id": "georgetown-d-c-d1-fcs",
@@ -6942,7 +7218,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/HoyasFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/46.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/46.png",
+    "distance_miles": "1143"
   },
   {
     "reference_id": "georgetown-college-kentucky-naia",
@@ -6957,7 +7234,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/gtown_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/46.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/46.png",
+    "distance_miles": "734"
   },
   {
     "reference_id": "georgia-georgia-d1-fbs",
@@ -6972,7 +7250,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/GeorgiaFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+    "distance_miles": "808"
   },
   {
     "reference_id": "georgia-military-college-milledgeville-georgia-juco",
@@ -6987,7 +7266,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/gmc_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "831"
   },
   {
     "reference_id": "georgia-southern-georgia-d1-fbs",
@@ -7002,7 +7282,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/GSAthletics_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/290.png",
+    "distance_miles": "924"
   },
   {
     "reference_id": "georgia-state-georgia-d1-fbs",
@@ -7017,7 +7298,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/GeorgiaStateFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2247.png",
+    "distance_miles": "755"
   },
   {
     "reference_id": "georgia-tech-georgia-d1-fbs",
@@ -7032,7 +7314,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/GeorgiaTechFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/59.png",
+    "distance_miles": "755"
   },
   {
     "reference_id": "gettysburg-college-pennsylvania-d3",
@@ -7047,7 +7330,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/gburgfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1141"
   },
   {
     "reference_id": "glendale-community-college-california-california-juco",
@@ -7062,7 +7346,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/glendalecollege",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1180"
   },
   {
     "reference_id": "glenville-state-university-west-virginia-d2",
@@ -7077,7 +7362,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/gscfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2249.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2249.png",
+    "distance_miles": "941"
   },
   {
     "reference_id": "golden-west-college-california-juco",
@@ -7092,7 +7378,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/gwcfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1172"
   },
   {
     "reference_id": "graceland-university-iowa-naia",
@@ -7107,7 +7394,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/gracelandfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/530.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/530.png",
+    "distance_miles": "394"
   },
   {
     "reference_id": "grambling-state-louisiana-d1-fcs",
@@ -7122,7 +7410,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/GSUFootball01",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "348"
   },
   {
     "reference_id": "grand-valley-state-university-michigan-d2",
@@ -7137,7 +7426,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/gvsufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/125.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/125.png",
+    "distance_miles": "796"
   },
   {
     "reference_id": "grand-view-university-iowa-naia",
@@ -7152,7 +7442,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/gvvikingfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2254.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2254.png",
+    "distance_miles": "461"
   },
   {
     "reference_id": "greensboro-college-north-carolina-d3",
@@ -7167,7 +7458,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/gc_pride_fball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2256.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2256.png",
+    "distance_miles": "989"
   },
   {
     "reference_id": "greenville-university-illinois-d3",
@@ -7182,7 +7474,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/EMAPFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2257.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2257.png",
+    "distance_miles": "496"
   },
   {
     "reference_id": "grinnell-college-iowa-d3",
@@ -7197,7 +7490,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/grinnell_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/65.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/65.png",
+    "distance_miles": "493"
   },
   {
     "reference_id": "grossmont-college-california-juco",
@@ -7212,7 +7506,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/gcghouse",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1129"
   },
   {
     "reference_id": "grove-city-college-pennsylvania-d3",
@@ -7227,7 +7522,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/gcc_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/146.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/146.png",
+    "distance_miles": "1013"
   },
   {
     "reference_id": "guilford-college-north-carolina-d3",
@@ -7242,7 +7538,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/guilfordfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2258.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2258.png",
+    "distance_miles": "989"
   },
   {
     "reference_id": "gustavus-adolphus-college-minnesota-d3",
@@ -7257,7 +7554,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/gustiefootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2968.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2968.png",
+    "distance_miles": ""
   },
   {
     "reference_id": "hamilton-college-new-york-d3",
@@ -7272,7 +7570,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/bigbluefb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/348.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/348.png",
+    "distance_miles": "1282"
   },
   {
     "reference_id": "hamline-university-minnesota-d3",
@@ -7287,7 +7586,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/hamlinefootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/162.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/162.png",
+    "distance_miles": "682"
   },
   {
     "reference_id": "hampden-sydney-college-virginia-d3",
@@ -7302,7 +7602,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/hsc__football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/297.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/297.png",
+    "distance_miles": "1061"
   },
   {
     "reference_id": "hampton-virginia-d1-fcs",
@@ -7317,7 +7618,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/hupirates_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2261.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2261.png",
+    "distance_miles": "1178"
   },
   {
     "reference_id": "hanover-college-indiana-d3",
@@ -7332,7 +7634,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/hanoverftbl",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2262.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2262.png",
+    "distance_miles": "693"
   },
   {
     "reference_id": "hardin-simmons-university-texas-d3",
@@ -7347,7 +7650,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/hsucowboys",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2810.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2810.png",
+    "distance_miles": "256"
   },
   {
     "reference_id": "harding-university-arkansas-d2",
@@ -7362,7 +7666,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/harding_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2264.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2264.png",
+    "distance_miles": "324"
   },
   {
     "reference_id": "hartnell-college-california-juco",
@@ -7377,7 +7682,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/hmob_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1347"
   },
   {
     "reference_id": "hartwick-college-new-york-d3",
@@ -7392,7 +7698,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/hartwickfball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/173.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/173.png",
+    "distance_miles": "1286"
   },
   {
     "reference_id": "harvard-massachusetts-d1-fcs",
@@ -7407,7 +7714,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/harvardfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/108.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/108.png",
+    "distance_miles": "1483"
   },
   {
     "reference_id": "hastings-college-nebraska-naia",
@@ -7422,7 +7730,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/HCBroncoFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "344"
   },
   {
     "reference_id": "hawaii-hawaii-d1-fbs",
@@ -7437,7 +7746,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/HawaiiFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "3740"
   },
   {
     "reference_id": "heidelberg-university-ohio-d3",
@@ -7452,7 +7762,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/bergfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/191.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/191.png",
+    "distance_miles": "860"
   },
   {
     "reference_id": "henderson-state-university-arkansas-d2",
@@ -7467,7 +7778,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/reddiesfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2271.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2271.png",
+    "distance_miles": "272"
   },
   {
     "reference_id": "hendrix-college-arkansas-d3",
@@ -7482,7 +7794,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/HendrixFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/418.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/418.png",
+    "distance_miles": "286"
   },
   {
     "reference_id": "highland-community-college-kansas-kansas-juco",
@@ -7497,7 +7810,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/hccscotties",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "315"
   },
   {
     "reference_id": "hilbert-college-new-york-d3",
@@ -7512,7 +7826,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/HilbertHawksFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/125974.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/125974.png",
+    "distance_miles": "1108"
   },
   {
     "reference_id": "hillsdale-college-michigan-d2",
@@ -7527,7 +7842,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/hillsdale_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2273.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2273.png",
+    "distance_miles": "815"
   },
   {
     "reference_id": "hinds-community-college-mississippi-juco",
@@ -7542,7 +7858,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/HindsCC_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "467"
   },
   {
     "reference_id": "hiram-college-ohio-d3",
@@ -7557,7 +7874,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/hiram_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2274.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2274.png",
+    "distance_miles": "964"
   },
   {
     "reference_id": "hobart-william-smith-colleges-new-york-d3",
@@ -7572,7 +7890,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/HobartFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1201"
   },
   {
     "reference_id": "hocking-college-ohio-juco",
@@ -7587,7 +7906,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/hockingfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "874"
   },
   {
     "reference_id": "holmes-community-college-mississippi-juco",
@@ -7602,7 +7922,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/HolmesccFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "470"
   },
   {
     "reference_id": "holy-cross-massachusetts-d1-fcs",
@@ -7617,7 +7938,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/HCrossFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/107.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/107.png",
+    "distance_miles": "1447"
   },
   {
     "reference_id": "hope-college-michigan-d3",
@@ -7632,7 +7954,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/hopecollegefb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2812.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2812.png",
+    "distance_miles": "782"
   },
   {
     "reference_id": "houston-texas-d1-fbs",
@@ -7647,7 +7970,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UHCougarFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/248.png",
+    "distance_miles": "425"
   },
   {
     "reference_id": "houston-christian-texas-d1-fcs",
@@ -7662,7 +7986,8 @@ export const collegePrograms = [
     "program_x_url": "https://mobile.twitter.com/hcufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2277.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2277.png",
+    "distance_miles": "425"
   },
   {
     "reference_id": "howard-d-c-d1-fcs",
@@ -7677,7 +8002,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/hubisonfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/47.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/47.png",
+    "distance_miles": "1143"
   },
   {
     "reference_id": "howard-payne-university-texas-d3",
@@ -7692,7 +8018,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/hpufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2758.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2758.png",
+    "distance_miles": "286"
   },
   {
     "reference_id": "huntingdon-college-alabama-d3",
@@ -7707,7 +8034,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/HawksFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2938.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2938.png",
+    "distance_miles": "679"
   },
   {
     "reference_id": "husson-university-maine-d3",
@@ -7722,7 +8050,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/hussonfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2280.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2280.png",
+    "distance_miles": "1630"
   },
   {
     "reference_id": "hutchinson-community-college-kansas-juco",
@@ -7737,7 +8066,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BlueDragonsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "168"
   },
   {
     "reference_id": "idaho-idaho-d1-fcs",
@@ -7752,7 +8082,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/VandalFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1265"
   },
   {
     "reference_id": "idaho-state-idaho-d1-fcs",
@@ -7767,7 +8098,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BengalGridiron",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/304.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/304.png",
+    "distance_miles": "941"
   },
   {
     "reference_id": "illinois-illinois-d1-fbs",
@@ -7782,7 +8114,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/IlliniFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": ""
   },
   {
     "reference_id": "illinois-college-illinois-d3",
@@ -7797,7 +8130,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ic_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "486"
   },
   {
     "reference_id": "illinois-state-illinois-d1-fcs",
@@ -7812,7 +8146,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/RedbirdFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2287.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2287.png",
+    "distance_miles": "570"
   },
   {
     "reference_id": "illinois-wesleyan-university-illinois-d3",
@@ -7827,7 +8162,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/iwutitanfball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/306.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/306.png",
+    "distance_miles": "569"
   },
   {
     "reference_id": "incarnate-word-texas-d1-fcs",
@@ -7842,7 +8178,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UIWFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2916.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2916.png",
+    "distance_miles": "434"
   },
   {
     "reference_id": "independence-community-college-kansas-juco",
@@ -7857,7 +8194,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/DreamU_IndyFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "147"
   },
   {
     "reference_id": "indiana-indiana-d1-fbs",
@@ -7872,7 +8210,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/IndianaFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/84.png",
+    "distance_miles": "648"
   },
   {
     "reference_id": "indiana-state-indiana-d1-fcs",
@@ -7887,7 +8226,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/IndStFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/282.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/282.png",
+    "distance_miles": "610"
   },
   {
     "reference_id": "indiana-university-of-pennsylvania-pennsylvania-d2",
@@ -7902,7 +8242,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/iupcrimsonhawk",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1051"
   },
   {
     "reference_id": "indiana-wesleyan-university-indiana-naia",
@@ -7917,7 +8258,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/IndWesleyan_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "726"
   },
   {
     "reference_id": "iowa-iowa-d1-fbs",
@@ -7932,7 +8274,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/HawkeyeFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
+    "distance_miles": "524"
   },
   {
     "reference_id": "iowa-central-community-college-iowa-juco",
@@ -7947,7 +8290,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/TritonNation",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "505"
   },
   {
     "reference_id": "iowa-state-iowa-d1-fbs",
@@ -7962,7 +8306,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CycloneFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png",
+    "distance_miles": "487"
   },
   {
     "reference_id": "iowa-western-community-college-iowa-juco",
@@ -7977,7 +8322,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ReiverFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "397"
   },
   {
     "reference_id": "itawamba-community-college-fulton-campus-mississippi-juco",
@@ -7992,7 +8338,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/LetsGoICC_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "522"
   },
   {
     "reference_id": "ithaca-college-new-york-d3",
@@ -8007,7 +8354,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ithacabomberfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/175.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/175.png",
+    "distance_miles": "1216"
   },
   {
     "reference_id": "jackson-state-mississippi-d1-fcs",
@@ -8022,7 +8370,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/GoJSUTigersFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2296.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2296.png",
+    "distance_miles": "478"
   },
   {
     "reference_id": "jacksonville-state-alabama-d1-fbs",
@@ -8037,7 +8386,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/JaxStateFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/55.png",
+    "distance_miles": "677"
   },
   {
     "reference_id": "james-madison-virginia-d1-fbs",
@@ -8052,7 +8402,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/JMUFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+    "distance_miles": "1042"
   },
   {
     "reference_id": "john-carroll-university-ohio-d3",
@@ -8067,7 +8418,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/jcufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2302.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2302.png",
+    "distance_miles": "949"
   },
   {
     "reference_id": "johns-hopkins-university-maryland-d3",
@@ -8082,7 +8434,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/jhu_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/118.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/118.png",
+    "distance_miles": "1169"
   },
   {
     "reference_id": "johnson-c-smith-university-north-carolina-d2",
@@ -8097,7 +8450,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/jcsufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2304.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2304.png",
+    "distance_miles": "936"
   },
   {
     "reference_id": "jones-county-junior-college-mississippi-juco",
@@ -8112,7 +8466,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/jc_bobcatsfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "552"
   },
   {
     "reference_id": "judson-university-illinois-naia",
@@ -8127,7 +8482,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/judsonufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "662"
   },
   {
     "reference_id": "juniata-college-pennsylvania-d3",
@@ -8142,7 +8498,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/juniatafootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/246.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/246.png",
+    "distance_miles": "1108"
   },
   {
     "reference_id": "kalamazoo-college-michigan-d3",
@@ -8157,7 +8514,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/KzooFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/126.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/126.png",
+    "distance_miles": "785"
   },
   {
     "reference_id": "kansas-kansas-d1-fbs",
@@ -8172,7 +8530,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/KU_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2305.png",
+    "distance_miles": "260"
   },
   {
     "reference_id": "kansas-state-kansas-d1-fbs",
@@ -8187,7 +8546,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/KStateFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2306.png",
+    "distance_miles": "249"
   },
   {
     "reference_id": "kansas-wesleyan-university-kansas-naia",
@@ -8202,7 +8562,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/kwucoyotes",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "220"
   },
   {
     "reference_id": "kean-university-new-jersey-d3",
@@ -8217,7 +8578,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/kufootball212",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2871.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2871.png",
+    "distance_miles": "1304"
   },
   {
     "reference_id": "keiser-university-florida-naia",
@@ -8232,7 +8594,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/keiserfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1198"
   },
   {
     "reference_id": "kennesaw-state-georgia-d1-fbs",
@@ -8247,7 +8610,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/kennesawstfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/338.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/338.png",
+    "distance_miles": "738"
   },
   {
     "reference_id": "kent-state-ohio-d1-fbs",
@@ -8262,7 +8626,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/KentStFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2309.png",
+    "distance_miles": "950"
   },
   {
     "reference_id": "kentucky-kentucky-d1-fbs",
@@ -8277,7 +8642,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UKFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
+    "distance_miles": "736"
   },
   {
     "reference_id": "kentucky-christian-university-kentucky-naia",
@@ -8292,7 +8658,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/GoKnightsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "822"
   },
   {
     "reference_id": "kentucky-state-university-kentucky-d2",
@@ -8307,7 +8674,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/kysufb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2310.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2310.png",
+    "distance_miles": "717"
   },
   {
     "reference_id": "kentucky-wesleyan-college-kentucky-d2",
@@ -8322,7 +8690,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/kwc_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2316.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2316.png",
+    "distance_miles": "592"
   },
   {
     "reference_id": "kenyon-college-ohio-d3",
@@ -8337,7 +8706,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/kenyonfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/352.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/352.png",
+    "distance_miles": "882"
   },
   {
     "reference_id": "keystone-college-pennsylvania-d3",
@@ -8352,7 +8722,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/keystoneftbl",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/122774.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/122774.png",
+    "distance_miles": "1238"
   },
   {
     "reference_id": "kilgore-college-texas-juco",
@@ -8367,7 +8738,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/kc_mtxe",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "270"
   },
   {
     "reference_id": "king-s-college-pennsylvania-pennsylvania-d3",
@@ -8382,7 +8754,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/kingscollegefb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1227"
   },
   {
     "reference_id": "knox-college-illinois-d3",
@@ -8397,7 +8770,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/FB_KnoxCollege",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/255.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/255.png",
+    "distance_miles": "531"
   },
   {
     "reference_id": "kutztown-university-of-pennsylvania-pennsylvania-d2",
@@ -8412,7 +8786,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/kubearsfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1224"
   },
   {
     "reference_id": "lackawanna-college-pennsylvania-juco",
@@ -8427,7 +8802,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/LCFalconsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1240"
   },
   {
     "reference_id": "lafayette-pennsylvania-d1-fcs",
@@ -8442,7 +8818,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/LafColFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/322.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/322.png",
+    "distance_miles": "1254"
   },
   {
     "reference_id": "lagrange-college-georgia-d3",
@@ -8457,7 +8834,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/LaGrangeFTBL",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/548.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/548.png",
+    "distance_miles": "732"
   },
   {
     "reference_id": "lake-erie-college-ohio-d2",
@@ -8472,7 +8850,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/lakeeriefb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/437.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/437.png",
+    "distance_miles": "969"
   },
   {
     "reference_id": "lake-forest-college-illinois-d3",
@@ -8487,7 +8866,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/LFAthletics",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/262.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/262.png",
+    "distance_miles": "689"
   },
   {
     "reference_id": "lakeland-university-wisconsin-d3",
@@ -8502,7 +8882,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/lumuskiefb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/6353.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/6353.png",
+    "distance_miles": "762"
   },
   {
     "reference_id": "lamar-texas-d1-fcs",
@@ -8517,7 +8898,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/lamarfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2320.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2320.png",
+    "distance_miles": "432"
   },
   {
     "reference_id": "lane-college-tennessee-d2",
@@ -8532,7 +8914,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/LaneAthletics",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2323.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2323.png",
+    "distance_miles": "486"
   },
   {
     "reference_id": "laney-college-california-juco",
@@ -8547,7 +8930,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/LaneyCollegeFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1377"
   },
   {
     "reference_id": "langston-university-oklahoma-naia",
@@ -8562,7 +8946,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/LUBoysFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "24"
   },
   {
     "reference_id": "lawrence-technological-university-michigan-naia",
@@ -8577,7 +8962,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ltu_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "897"
   },
   {
     "reference_id": "lawrence-university-wisconsin-d3",
@@ -8592,7 +8978,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/luvikingsfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/268.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/268.png",
+    "distance_miles": "763"
   },
   {
     "reference_id": "lebanon-valley-college-pennsylvania-d3",
@@ -8607,7 +8994,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/lvcfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/388.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/388.png",
+    "distance_miles": "1183"
   },
   {
     "reference_id": "lehigh-pennsylvania-d1-fcs",
@@ -8622,7 +9010,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/LehighFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2329.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2329.png",
+    "distance_miles": "1246"
   },
   {
     "reference_id": "lenoir-rhyne-university-north-carolina-d2",
@@ -8637,7 +9026,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/LRBearsFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2331.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2331.png",
+    "distance_miles": "905"
   },
   {
     "reference_id": "lewis-clark-college-oregon-d3",
@@ -8652,7 +9042,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/lcpiosfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2333.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2333.png",
+    "distance_miles": "1479"
   },
   {
     "reference_id": "liberty-virginia-d1-fbs",
@@ -8667,7 +9058,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/LibertyFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2335.png",
+    "distance_miles": "1024"
   },
   {
     "reference_id": "lincoln-university-missouri-missouri-d2",
@@ -8682,7 +9074,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/gobluetigers",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "355"
   },
   {
     "reference_id": "lincoln-university-pennsylvania-pennsylvania-d2",
@@ -8697,7 +9090,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/LUL1onsFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": ""
   },
   {
     "reference_id": "lindenwood-missouri-d1-fcs",
@@ -8712,7 +9106,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/LindenwoodFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2815.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2815.png",
+    "distance_miles": "448"
   },
   {
     "reference_id": "lindsey-wilson-college-kentucky-naia",
@@ -8727,7 +9122,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/LWC_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "684"
   },
   {
     "reference_id": "linfield-university-oregon-d3",
@@ -8742,7 +9138,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/linfieldfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/203.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/203.png",
+    "distance_miles": "1496"
   },
   {
     "reference_id": "livingstone-college-north-carolina-d2",
@@ -8757,7 +9154,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/livingstonefoo1",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2940.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2940.png",
+    "distance_miles": "953"
   },
   {
     "reference_id": "lock-haven-university-pennsylvania-d2",
@@ -8772,7 +9170,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/LHU_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/209.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/209.png",
+    "distance_miles": "1146"
   },
   {
     "reference_id": "long-beach-city-college-california-juco",
@@ -8787,7 +9186,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/lbccvikings",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1181"
   },
   {
     "reference_id": "long-island-new-york-d1-fcs",
@@ -8802,7 +9202,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/LIUSharksFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2341.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2341.png",
+    "distance_miles": "1341"
   },
   {
     "reference_id": "loras-college-iowa-d3",
@@ -8817,7 +9218,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/LorasCollegeFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/263.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/263.png",
+    "distance_miles": "597"
   },
   {
     "reference_id": "los-angeles-southwest-college-california-juco",
@@ -8832,7 +9234,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/LASCCampus",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1180"
   },
   {
     "reference_id": "los-angeles-valley-college-california-juco",
@@ -8847,7 +9250,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/valleycollegefb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1189"
   },
   {
     "reference_id": "los-medanos-college-california-juco",
@@ -8862,7 +9266,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/lmcmustangs",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1356"
   },
   {
     "reference_id": "louisburg-college-north-carolina-juco",
@@ -8877,7 +9282,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/louisburg_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1072"
   },
   {
     "reference_id": "louisiana-louisiana-d1-fbs",
@@ -8892,7 +9298,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/RaginCajunsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/309.png",
+    "distance_miles": "491"
   },
   {
     "reference_id": "louisiana-christian-university-louisiana-naia",
@@ -8907,7 +9314,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/lcu_ftball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "417"
   },
   {
     "reference_id": "louisiana-tech-louisiana-d1-fbs",
@@ -8922,7 +9330,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/LATechFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2348.png",
+    "distance_miles": "351"
   },
   {
     "reference_id": "louisiana-monroe-louisiana-d1-fbs",
@@ -8937,7 +9346,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ULM_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "376"
   },
   {
     "reference_id": "louisville-kentucky-d1-fbs",
@@ -8952,7 +9362,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/LouisvilleFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+    "distance_miles": "671"
   },
   {
     "reference_id": "lsu-louisiana-d1-fbs",
@@ -8967,7 +9378,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/LSUfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
+    "distance_miles": "512"
   },
   {
     "reference_id": "luther-college-iowa-d3",
@@ -8982,7 +9394,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/LutherFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/67.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/67.png",
+    "distance_miles": "609"
   },
   {
     "reference_id": "lycoming-college-pennsylvania-d3",
@@ -8997,7 +9410,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/warriorsfball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2354.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2354.png",
+    "distance_miles": "1170"
   },
   {
     "reference_id": "lyon-college-arkansas-d3",
@@ -9012,7 +9426,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/_Lyon_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "328"
   },
   {
     "reference_id": "macalester-college-minnesota-d3",
@@ -9027,7 +9442,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/MacalesterFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2359.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2359.png",
+    "distance_miles": "682"
   },
   {
     "reference_id": "madonna-university-michigan-naia",
@@ -9042,7 +9458,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/mucrusadersfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "887"
   },
   {
     "reference_id": "maine-maine-d1-fcs",
@@ -9057,7 +9474,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BlackBearsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/311.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/311.png",
+    "distance_miles": "1636"
   },
   {
     "reference_id": "maine-maritime-academy-maine-d3",
@@ -9072,7 +9490,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/MMA_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1623"
   },
   {
     "reference_id": "manchester-university-indiana-d3",
@@ -9087,7 +9506,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/MU_SpartanFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2362.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2362.png",
+    "distance_miles": "733"
   },
   {
     "reference_id": "marian-university-indiana-indiana-naia",
@@ -9102,7 +9522,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/marianufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "680"
   },
   {
     "reference_id": "marietta-college-ohio-d3",
@@ -9117,7 +9538,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Marietta_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/317.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/317.png",
+    "distance_miles": "914"
   },
   {
     "reference_id": "marist-new-york-d1-fcs",
@@ -9132,7 +9554,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/marist_fball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2368.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2368.png",
+    "distance_miles": "1333"
   },
   {
     "reference_id": "mars-hill-university-north-carolina-d2",
@@ -9147,7 +9570,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/marshill_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2369.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2369.png",
+    "distance_miles": "837"
   },
   {
     "reference_id": "marshall-west-virginia-d1-fbs",
@@ -9162,7 +9586,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/HerdFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/276.png",
+    "distance_miles": "850"
   },
   {
     "reference_id": "martin-luther-college-minnesota-d3",
@@ -9177,7 +9602,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/mlcfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/446.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/446.png",
+    "distance_miles": "619"
   },
   {
     "reference_id": "maryland-maryland-d1-fbs",
@@ -9192,7 +9618,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/TerpsFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
+    "distance_miles": "1149"
   },
   {
     "reference_id": "maryville-college-tennessee-d3",
@@ -9207,7 +9634,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/MCScotsFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "757"
   },
   {
     "reference_id": "massachusetts-institute-of-technology-mit-massachusetts-d3",
@@ -9222,7 +9650,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/mitfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1483"
   },
   {
     "reference_id": "massachusetts-maritime-academy-massachusetts-d3",
@@ -9237,7 +9666,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/bucs_fball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1501"
   },
   {
     "reference_id": "mayville-state-university-north-dakota-naia",
@@ -9252,7 +9682,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/mayville_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "818"
   },
   {
     "reference_id": "mcdaniel-college-maryland-d3",
@@ -9267,7 +9698,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/McDaniel_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2700.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2700.png",
+    "distance_miles": "1151"
   },
   {
     "reference_id": "mckendree-university-illinois-d2",
@@ -9282,7 +9714,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/mckendree_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2816.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2816.png",
+    "distance_miles": "469"
   },
   {
     "reference_id": "mcmurry-university-texas-d3",
@@ -9297,7 +9730,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/mcmurryfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/241.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/241.png",
+    "distance_miles": "256"
   },
   {
     "reference_id": "mcneese-state-louisiana-d1-fcs",
@@ -9312,7 +9746,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/mcneesefb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "450"
   },
   {
     "reference_id": "mcpherson-college-kansas-naia",
@@ -9327,7 +9762,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/macbulldogsfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "188"
   },
   {
     "reference_id": "memphis-tennessee-d1-fbs",
@@ -9342,7 +9778,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/MemphisFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/235.png",
+    "distance_miles": "420"
   },
   {
     "reference_id": "merced-college-california-juco",
@@ -9357,7 +9794,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CoachPinasco",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1280"
   },
   {
     "reference_id": "mercer-georgia-d1-fcs",
@@ -9372,7 +9810,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/MercerFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2382.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2382.png",
+    "distance_miles": "814"
   },
   {
     "reference_id": "mercyhurst-pennsylvania-d1-fcs",
@@ -9387,7 +9826,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/mercyhurstfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2385.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2385.png",
+    "distance_miles": "1034"
   },
   {
     "reference_id": "merrimack-massachusetts-d1-fcs",
@@ -9402,7 +9842,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Merrimack_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2771.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2771.png",
+    "distance_miles": "1485"
   },
   {
     "reference_id": "mesabi-range-college-minnesota-juco",
@@ -9417,7 +9858,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/mrcnorsefb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "859"
   },
   {
     "reference_id": "methodist-university-north-carolina-d3",
@@ -9432,7 +9874,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Methodist_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/291.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/291.png",
+    "distance_miles": "1047"
   },
   {
     "reference_id": "miami-fl-florida-d1-fbs",
@@ -9447,7 +9890,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CanesFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1228"
   },
   {
     "reference_id": "miami-oh-ohio-d1-fbs",
@@ -9462,7 +9906,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/MiamiOHFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
+    "distance_miles": "745"
   },
   {
     "reference_id": "michigan-michigan-d1-fbs",
@@ -9477,7 +9922,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UMichFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
+    "distance_miles": "867"
   },
   {
     "reference_id": "michigan-state-michigan-d1-fbs",
@@ -9492,7 +9938,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/MSU_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
+    "distance_miles": "849"
   },
   {
     "reference_id": "michigan-technological-university-michigan-d2",
@@ -9507,7 +9954,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/mtufb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "916"
   },
   {
     "reference_id": "midamerica-nazarene-university-kansas-naia",
@@ -9522,7 +9970,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/mnusports",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "267"
   },
   {
     "reference_id": "middle-tennessee-tennessee-d1-fbs",
@@ -9537,7 +9986,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/MT_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2393.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2393.png",
+    "distance_miles": "622"
   },
   {
     "reference_id": "middlebury-college-vermont-d3",
@@ -9552,7 +10002,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/MiddFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2394.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2394.png",
+    "distance_miles": "1406"
   },
   {
     "reference_id": "midland-university-nebraska-naia",
@@ -9567,7 +10018,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/MidlandU_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "403"
   },
   {
     "reference_id": "midwestern-state-university-texas-d2",
@@ -9582,7 +10034,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/msutexasfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "133"
   },
   {
     "reference_id": "miles-college-alabama-d2",
@@ -9597,7 +10050,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/miles_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2396.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2396.png",
+    "distance_miles": "619"
   },
   {
     "reference_id": "millersville-university-of-pennsylvania-pennsylvania-d2",
@@ -9612,7 +10066,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/villefb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1188"
   },
   {
     "reference_id": "millikin-university-illinois-d3",
@@ -9627,7 +10082,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/mu_bigbluefb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/74.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/74.png",
+    "distance_miles": "548"
   },
   {
     "reference_id": "millsaps-college-mississippi-d3",
@@ -9642,7 +10098,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/majorsfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2398.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2398.png",
+    "distance_miles": "478"
   },
   {
     "reference_id": "minnesota-minnesota-d1-fbs",
@@ -9657,7 +10114,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/GopherFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/135.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/135.png",
+    "distance_miles": "681"
   },
   {
     "reference_id": "minnesota-state-community-technical-college-minnesota-juco",
@@ -9672,7 +10130,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/mst8football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "738"
   },
   {
     "reference_id": "minnesota-state-university-mankato-minnesota-d2",
@@ -9687,7 +10146,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/minnstfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "616"
   },
   {
     "reference_id": "minnesota-state-university-moorhead-minnesota-d2",
@@ -9702,7 +10162,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/msum_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "776"
   },
   {
     "reference_id": "minnesota-west-community-technical-college-minnesota-juco",
@@ -9717,7 +10178,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/mnwestfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "559"
   },
   {
     "reference_id": "minot-state-university-north-dakota-d2",
@@ -9732,7 +10194,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/msubeavers",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/568.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/568.png",
+    "distance_miles": "891"
   },
   {
     "reference_id": "misericordia-university-pennsylvania-d3",
@@ -9747,7 +10210,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/mucougarsfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2969.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2969.png",
+    "distance_miles": "1224"
   },
   {
     "reference_id": "mississippi-delta-community-college-mississippi-juco",
@@ -9762,7 +10226,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/mdccathletics",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "425"
   },
   {
     "reference_id": "mississippi-gulf-coast-community-college-mississippi-juco",
@@ -9777,7 +10242,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/MGCCCBulldogs",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "588"
   },
   {
     "reference_id": "mississippi-state-mississippi-d1-fbs",
@@ -9792,7 +10258,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/HailStateFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/344.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/344.png",
+    "distance_miles": "515"
   },
   {
     "reference_id": "mississippi-valley-state-mississippi-d1-fcs",
@@ -9807,7 +10274,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ValleyStateFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2400.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2400.png",
+    "distance_miles": "434"
   },
   {
     "reference_id": "missouri-missouri-d1-fbs",
@@ -9822,7 +10290,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/MizzouFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/142.png",
+    "distance_miles": "363"
   },
   {
     "reference_id": "missouri-baptist-university-missouri-naia",
@@ -9837,7 +10306,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/mbufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2880.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2880.png",
+    "distance_miles": "450"
   },
   {
     "reference_id": "missouri-southern-state-university-missouri-d2",
@@ -9852,7 +10322,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/mosofootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2403.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2403.png",
+    "distance_miles": "192"
   },
   {
     "reference_id": "missouri-state-missouri-d1-fbs",
@@ -9867,7 +10338,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/MOStateFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2623.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2623.png",
+    "distance_miles": "256"
   },
   {
     "reference_id": "missouri-university-of-science-technology-missouri-d2",
@@ -9882,7 +10354,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/miners_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "353"
   },
   {
     "reference_id": "missouri-valley-college-missouri-naia",
@@ -9897,7 +10370,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/movalfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "336"
   },
   {
     "reference_id": "missouri-western-state-university-missouri-d2",
@@ -9912,7 +10386,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/mwsu_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": ""
   },
   {
     "reference_id": "modesto-junior-college-california-juco",
@@ -9927,7 +10402,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/MJCFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1308"
   },
   {
     "reference_id": "monmouth-new-jersey-d1-fcs",
@@ -9942,7 +10418,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/MUHawksFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2405.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2405.png",
+    "distance_miles": "1313"
   },
   {
     "reference_id": "monmouth-college-illinois-d3",
@@ -9957,7 +10434,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/rollscotsfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2405.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2405.png",
+    "distance_miles": "519"
   },
   {
     "reference_id": "monroe-university-new-rochelle-new-york-juco",
@@ -9972,7 +10450,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/_monroefootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1331"
   },
   {
     "reference_id": "montana-montana-d1-fcs",
@@ -9987,7 +10466,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/MontanaGrizFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/149.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/149.png",
+    "distance_miles": "1152"
   },
   {
     "reference_id": "montana-state-montana-d1-fcs",
@@ -10002,7 +10482,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/msubobcats_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/147.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/147.png",
+    "distance_miles": "990"
   },
   {
     "reference_id": "montana-state-university-northern-montana-naia",
@@ -10017,7 +10498,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/MSUNLightsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1086"
   },
   {
     "reference_id": "montana-technological-university-montana-naia",
@@ -10032,7 +10514,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/montechfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1060"
   },
   {
     "reference_id": "montclair-state-university-new-jersey-d3",
@@ -10047,7 +10530,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Montclair_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2818.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2818.png",
+    "distance_miles": "1309"
   },
   {
     "reference_id": "monterey-peninsula-college-california-juco",
@@ -10062,7 +10546,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/mpclobofootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1361"
   },
   {
     "reference_id": "moorpark-college-california-juco",
@@ -10077,7 +10562,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/mcraidersfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1213"
   },
   {
     "reference_id": "moravian-university-pennsylvania-d3",
@@ -10092,7 +10578,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/moravianfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/323.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/323.png",
+    "distance_miles": "1246"
   },
   {
     "reference_id": "morehead-state-kentucky-d1-fcs",
@@ -10107,7 +10594,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/MSUEaglesFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2413.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2413.png",
+    "distance_miles": "794"
   },
   {
     "reference_id": "morehouse-college-georgia-d2",
@@ -10122,7 +10610,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/morehousefb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/60.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/60.png",
+    "distance_miles": "755"
   },
   {
     "reference_id": "morgan-state-maryland-d1-fcs",
@@ -10137,7 +10626,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/MSUBearsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2415.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2415.png",
+    "distance_miles": "1169"
   },
   {
     "reference_id": "morningside-university-iowa-naia",
@@ -10152,7 +10642,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/MsideFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "477"
   },
   {
     "reference_id": "morrisville-state-college-new-york-d3",
@@ -10167,7 +10658,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/MvilleMustangFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1266"
   },
   {
     "reference_id": "mount-marty-university-south-dakota-naia",
@@ -10182,7 +10674,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/mmulancersfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "499"
   },
   {
     "reference_id": "mount-mercy-university-iowa-naia",
@@ -10197,7 +10690,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/MountMercyFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "540"
   },
   {
     "reference_id": "mount-st-joseph-university-ohio-d3",
@@ -10212,7 +10706,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/msj_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2419.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2419.png",
+    "distance_miles": "750"
   },
   {
     "reference_id": "mt-san-antonio-college-california-juco",
@@ -10227,7 +10722,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/mtsacfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1160"
   },
   {
     "reference_id": "mt-san-jacinto-college-california-juco",
@@ -10242,7 +10738,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/msjcfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1112"
   },
   {
     "reference_id": "muhlenberg-college-pennsylvania-d3",
@@ -10257,7 +10754,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/DigInMules",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2422.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2422.png",
+    "distance_miles": "1239"
   },
   {
     "reference_id": "murray-state-kentucky-d1-fcs",
@@ -10272,7 +10770,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/racersfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/93.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/93.png",
+    "distance_miles": "515"
   },
   {
     "reference_id": "muskingum-university-ohio-d3",
@@ -10287,7 +10786,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/muskingumfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/332.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/332.png",
+    "distance_miles": "909"
   },
   {
     "reference_id": "nassau-community-college-new-york-juco",
@@ -10302,7 +10802,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ncclionsftbl",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1337"
   },
   {
     "reference_id": "navarro-college-texas-juco",
@@ -10317,7 +10818,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/NCDAWGPOUND",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "253"
   },
   {
     "reference_id": "navy-maryland-d1-fbs",
@@ -10332,7 +10834,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/NavyFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2426.png",
+    "distance_miles": "1173"
   },
   {
     "reference_id": "nc-state-north-carolina-d1-fbs",
@@ -10347,7 +10850,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/PackFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
+    "distance_miles": "1055"
   },
   {
     "reference_id": "nebraska-nebraska-d1-fbs",
@@ -10362,7 +10866,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/HuskerFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+    "distance_miles": "358"
   },
   {
     "reference_id": "nebraska-wesleyan-university-nebraska-d3",
@@ -10377,7 +10882,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/NWUFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/6845.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/6845.png",
+    "distance_miles": "358"
   },
   {
     "reference_id": "nelson-university-texas-naia",
@@ -10392,7 +10898,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/NelsonUFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "229"
   },
   {
     "reference_id": "nevada-nevada-d1-fbs",
@@ -10407,7 +10914,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/NevadaFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2440.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2440.png",
+    "distance_miles": "1248"
   },
   {
     "reference_id": "new-england-college-new-hampshire-d3",
@@ -10422,7 +10930,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/GrimsFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/111675.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/111675.png",
+    "distance_miles": "1458"
   },
   {
     "reference_id": "new-hampshire-new-hampshire-d1-fcs",
@@ -10437,7 +10946,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UNH_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/160.png",
+    "distance_miles": "1501"
   },
   {
     "reference_id": "new-haven-connecticut-d2",
@@ -10452,7 +10962,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UNewHavenFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2441.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2441.png",
+    "distance_miles": "1377"
   },
   {
     "reference_id": "new-mexico-new-mexico-d1-fbs",
@@ -10467,7 +10978,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UNMLoboFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/167.png",
+    "distance_miles": "518"
   },
   {
     "reference_id": "new-mexico-highlands-university-new-mexico-d2",
@@ -10482,7 +10994,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/MNHUFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2424.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2424.png",
+    "distance_miles": "435"
   },
   {
     "reference_id": "new-mexico-military-institute-new-mexico-juco",
@@ -10497,7 +11010,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/nmmibroncos",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "430"
   },
   {
     "reference_id": "new-mexico-state-new-mexico-d1-fbs",
@@ -10512,7 +11026,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/NMStateFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/166.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/166.png",
+    "distance_miles": "580"
   },
   {
     "reference_id": "newberry-college-south-carolina-d2",
@@ -10527,7 +11042,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/newberry_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2444.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2444.png",
+    "distance_miles": "902"
   },
   {
     "reference_id": "nicholls-state-louisiana-d1-fcs",
@@ -10542,7 +11058,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Nicholls_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "560"
   },
   {
     "reference_id": "nichols-college-massachusetts-d3",
@@ -10557,7 +11074,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/NicholsBisonFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2884.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2884.png",
+    "distance_miles": "1438"
   },
   {
     "reference_id": "norfolk-state-virginia-d1-fcs",
@@ -10572,7 +11090,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/NorfolkStateFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2450.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2450.png",
+    "distance_miles": "1181"
   },
   {
     "reference_id": "north-alabama-alabama-d1-fcs",
@@ -10587,7 +11106,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UNAFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2453.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2453.png",
+    "distance_miles": "556"
   },
   {
     "reference_id": "north-carolina-north-carolina-d1-fbs",
@@ -10602,7 +11122,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UNCFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
+    "distance_miles": "1031"
   },
   {
     "reference_id": "north-carolina-a-t-north-carolina-d1-fcs",
@@ -10617,7 +11138,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ncatfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2448.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2448.png",
+    "distance_miles": "989"
   },
   {
     "reference_id": "north-carolina-central-north-carolina-d1-fcs",
@@ -10632,7 +11154,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/nccu_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2428.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2428.png",
+    "distance_miles": "1040"
   },
   {
     "reference_id": "north-carolina-wesleyan-university-north-carolina-d3",
@@ -10647,7 +11170,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ncwesleyanfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/286.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/286.png",
+    "distance_miles": "1102"
   },
   {
     "reference_id": "north-central-college-illinois-d3",
@@ -10662,7 +11186,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/football_ncc",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/3071.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/3071.png",
+    "distance_miles": "657"
   },
   {
     "reference_id": "north-dakota-north-dakota-d1-fcs",
@@ -10677,7 +11202,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UNDfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/155.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/155.png",
+    "distance_miles": "848"
   },
   {
     "reference_id": "north-dakota-state-north-dakota-d1-fbs",
@@ -10692,7 +11218,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ndsufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2449.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2449.png",
+    "distance_miles": "776"
   },
   {
     "reference_id": "north-dakota-state-college-of-science-north-dakota-juco",
@@ -10707,7 +11234,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ndscsfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "735"
   },
   {
     "reference_id": "north-greenville-university-south-carolina-d2",
@@ -10722,7 +11250,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/NGUFootball1",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2822.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2822.png",
+    "distance_miles": "852"
   },
   {
     "reference_id": "north-park-university-illinois-d3",
@@ -10737,7 +11266,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/NPUFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/75.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/75.png",
+    "distance_miles": "680"
   },
   {
     "reference_id": "north-texas-texas-d1-fbs",
@@ -10752,7 +11282,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/MeanGreenFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/249.png",
+    "distance_miles": "170"
   },
   {
     "reference_id": "northeast-mississippi-community-college-mississippi-juco",
@@ -10767,7 +11298,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/NEMCCTigers",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "508"
   },
   {
     "reference_id": "northeastern-oklahoma-a-m-college-oklahoma-juco",
@@ -10782,7 +11314,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/norsemen_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "168"
   },
   {
     "reference_id": "northeastern-state-university-oklahoma-d2",
@@ -10797,7 +11330,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/nsu_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/196.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/196.png",
+    "distance_miles": "142"
   },
   {
     "reference_id": "northern-arizona-arizona-d1-fcs",
@@ -10812,7 +11346,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/NAU_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2464.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2464.png",
+    "distance_miles": "798"
   },
   {
     "reference_id": "northern-colorado-colorado-d1-fcs",
@@ -10827,7 +11362,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UNC_BearsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2458.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2458.png",
+    "distance_miles": "513"
   },
   {
     "reference_id": "northern-illinois-illinois-d1-fbs",
@@ -10842,7 +11378,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/NIU_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2459.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2459.png",
+    "distance_miles": "639"
   },
   {
     "reference_id": "northern-iowa-iowa-d1-fcs",
@@ -10857,7 +11394,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UNIFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2460.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2460.png",
+    "distance_miles": "546"
   },
   {
     "reference_id": "northern-michigan-university-michigan-d2",
@@ -10872,7 +11410,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/NMU_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/128.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/128.png",
+    "distance_miles": "916"
   },
   {
     "reference_id": "northern-state-university-south-dakota-d2",
@@ -10887,7 +11426,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/NSUWolves_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "680"
   },
   {
     "reference_id": "northwest-mississippi-community-college-mississippi-juco",
@@ -10902,7 +11442,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/nwcc_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "430"
   },
   {
     "reference_id": "northwest-missouri-state-university-missouri-d2",
@@ -10917,7 +11458,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/nwbearcat_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/138.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/138.png",
+    "distance_miles": "354"
   },
   {
     "reference_id": "northwestern-illinois-d1-fbs",
@@ -10932,7 +11474,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/NUFBFamily",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/77.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/77.png",
+    "distance_miles": "686"
   },
   {
     "reference_id": "northwestern-college-iowa-iowa-naia",
@@ -10947,7 +11490,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/nwc_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "514"
   },
   {
     "reference_id": "northwestern-oklahoma-state-university-oklahoma-d2",
@@ -10962,7 +11506,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/nwosufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "104"
   },
   {
     "reference_id": "northwestern-state-louisiana-d1-fcs",
@@ -10977,7 +11522,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/nsudemonsfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2466.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2466.png",
+    "distance_miles": "369"
   },
   {
     "reference_id": "northwood-university-michigan-michigan-d2",
@@ -10992,7 +11538,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Northwoodfball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "892"
   },
   {
     "reference_id": "norwich-university-vermont-d3",
@@ -11007,7 +11554,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/NorwichFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2467.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2467.png",
+    "distance_miles": "1433"
   },
   {
     "reference_id": "notre-dame-indiana-d1-fbs",
@@ -11022,7 +11570,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/NDFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
+    "distance_miles": "734"
   },
   {
     "reference_id": "oberlin-college-ohio-d3",
@@ -11037,7 +11586,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Yeo_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/391.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/391.png",
+    "distance_miles": "911"
   },
   {
     "reference_id": "ohio-ohio-d1-fbs",
@@ -11052,7 +11602,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/OhioFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/195.png",
+    "distance_miles": "879"
   },
   {
     "reference_id": "ohio-dominican-university-ohio-d2",
@@ -11067,7 +11618,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ohiodominicanfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2477.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2477.png",
+    "distance_miles": "843"
   },
   {
     "reference_id": "ohio-northern-university-ohio-d3",
@@ -11082,7 +11634,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/OhioNorthernFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/427.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/427.png",
+    "distance_miles": "820"
   },
   {
     "reference_id": "ohio-state-ohio-d1-fbs",
@@ -11097,7 +11650,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/OhioStateFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+    "distance_miles": "843"
   },
   {
     "reference_id": "ohio-wesleyan-university-ohio-d3",
@@ -11112,7 +11666,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/OWUBishopFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2980.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2980.png",
+    "distance_miles": "847"
   },
   {
     "reference_id": "oklahoma-oklahoma-d1-fbs",
@@ -11127,7 +11682,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/OU_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
+    "distance_miles": "30"
   },
   {
     "reference_id": "oklahoma-baptist-university-oklahoma-d2",
@@ -11142,7 +11698,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/obu_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/319.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/319.png",
+    "distance_miles": "38"
   },
   {
     "reference_id": "oklahoma-panhandle-state-university-oklahoma-naia",
@@ -11157,7 +11714,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/opsufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "241"
   },
   {
     "reference_id": "oklahoma-state-oklahoma-d1-fbs",
@@ -11172,7 +11730,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CowboyFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/197.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/197.png",
+    "distance_miles": "40"
   },
   {
     "reference_id": "old-dominion-virginia-d1-fbs",
@@ -11187,7 +11746,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ODUFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/295.png",
+    "distance_miles": "1181"
   },
   {
     "reference_id": "ole-miss-mississippi-d1-fbs",
@@ -11202,7 +11762,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/OleMissFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
+    "distance_miles": "459"
   },
   {
     "reference_id": "olivet-nazarene-university-illinois-naia",
@@ -11217,7 +11778,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ONAZFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "643"
   },
   {
     "reference_id": "orange-coast-college-california-juco",
@@ -11232,7 +11794,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/coastfball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1168"
   },
   {
     "reference_id": "oregon-oregon-d1-fbs",
@@ -11247,7 +11810,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/oregonfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
+    "distance_miles": "1469"
   },
   {
     "reference_id": "oregon-state-oregon-d1-fbs",
@@ -11262,7 +11826,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BeaverFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/204.png",
+    "distance_miles": "1487"
   },
   {
     "reference_id": "ottawa-university-kansas-naia",
@@ -11277,7 +11842,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ottawabravesfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "238"
   },
   {
     "reference_id": "ottawa-university-surprise-arizona-naia",
@@ -11292,7 +11858,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ouazfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "855"
   },
   {
     "reference_id": "otterbein-university-ohio-d3",
@@ -11307,7 +11874,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ott_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/359.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/359.png",
+    "distance_miles": "850"
   },
   {
     "reference_id": "ouachita-baptist-university-arkansas-d2",
@@ -11322,7 +11890,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ouachitafb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2888.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2888.png",
+    "distance_miles": "272"
   },
   {
     "reference_id": "pace-university-new-york-d2",
@@ -11337,7 +11906,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/PaceUFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2487.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2487.png",
+    "distance_miles": "1333"
   },
   {
     "reference_id": "pacific-lutheran-university-washington-d3",
@@ -11352,7 +11922,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/PLUFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2486.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2486.png",
+    "distance_miles": "1511"
   },
   {
     "reference_id": "pacific-university-oregon-d3",
@@ -11367,7 +11938,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/boxer_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1499"
   },
   {
     "reference_id": "palomar-college-california-juco",
@@ -11382,7 +11954,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/palomarfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1134"
   },
   {
     "reference_id": "pasadena-city-college-california-juco",
@@ -11397,7 +11970,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/PCCLancerFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1174"
   },
   {
     "reference_id": "pearl-river-community-college-mississippi-juco",
@@ -11412,7 +11986,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/pearlriverfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "566"
   },
   {
     "reference_id": "penn-pennsylvania-d1-fcs",
@@ -11427,7 +12002,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/PENNfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/219.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/219.png",
+    "distance_miles": "1250"
   },
   {
     "reference_id": "penn-state-pennsylvania-d1-fbs",
@@ -11442,7 +12018,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/PennStateFball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/213.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/213.png",
+    "distance_miles": "1120"
   },
   {
     "reference_id": "peru-state-college-nebraska-naia",
@@ -11457,7 +12034,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/pscfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "346"
   },
   {
     "reference_id": "pierce-college-los-angeles-california-juco",
@@ -11472,7 +12050,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/lapiercefb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1199"
   },
   {
     "reference_id": "pittsburg-state-university-kansas-d2",
@@ -11487,7 +12066,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/gorillasfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/90.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/90.png",
+    "distance_miles": "196"
   },
   {
     "reference_id": "pittsburgh-pennsylvania-d1-fbs",
@@ -11502,7 +12082,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Pitt_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/221.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/221.png",
+    "distance_miles": "1005"
   },
   {
     "reference_id": "plymouth-state-university-new-hampshire-d3",
@@ -11517,7 +12098,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/psupanthersfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2972.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2972.png",
+    "distance_miles": "1473"
   },
   {
     "reference_id": "point-university-georgia-naia",
@@ -11532,7 +12114,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/pointfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "727"
   },
   {
     "reference_id": "pomona-pitzer-colleges-california-d3",
@@ -11547,7 +12130,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/hensfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1150"
   },
   {
     "reference_id": "portland-state-oregon-d1-fcs",
@@ -11562,7 +12146,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/psuviksfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2502.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2502.png",
+    "distance_miles": "1479"
   },
   {
     "reference_id": "post-university-connecticut-d2",
@@ -11577,7 +12162,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/post_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/126086.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/126086.png",
+    "distance_miles": "1375"
   },
   {
     "reference_id": "prairie-view-a-m-texas-d1-fcs",
@@ -11592,7 +12178,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/pvamufb_",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2504.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2504.png",
+    "distance_miles": "394"
   },
   {
     "reference_id": "presbyterian-south-carolina-d1-fcs",
@@ -11607,7 +12194,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BlueHoseFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2506.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2506.png",
+    "distance_miles": "885"
   },
   {
     "reference_id": "princeton-new-jersey-d1-fcs",
@@ -11622,7 +12210,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/PrincetonFTBL",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/163.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/163.png",
+    "distance_miles": "1280"
   },
   {
     "reference_id": "purdue-indiana-d1-fbs",
@@ -11637,7 +12226,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BoilerFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2509.png",
+    "distance_miles": "662"
   },
   {
     "reference_id": "quincy-university-illinois-d2",
@@ -11652,7 +12242,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/QUHawksFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2825.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2825.png",
+    "distance_miles": "444"
   },
   {
     "reference_id": "randolph-macon-college-virginia-d3",
@@ -11667,7 +12258,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/RMCfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2516.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2516.png",
+    "distance_miles": "1115"
   },
   {
     "reference_id": "reedley-college-california-juco",
@@ -11682,7 +12274,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ReedleyCFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1225"
   },
   {
     "reference_id": "reinhardt-university-georgia-naia",
@@ -11697,7 +12290,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ReinhardtFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "737"
   },
   {
     "reference_id": "rensselaer-polytechnic-institute-rpi-new-york-d3",
@@ -11712,7 +12306,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/rpifootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1359"
   },
   {
     "reference_id": "rhode-island-rhode-island-d1-fcs",
@@ -11727,7 +12322,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/RhodyFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/227.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/227.png",
+    "distance_miles": "1453"
   },
   {
     "reference_id": "rhodes-college-tennessee-d3",
@@ -11742,7 +12338,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/rhodesfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2519.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2519.png",
+    "distance_miles": "420"
   },
   {
     "reference_id": "rice-texas-d1-fbs",
@@ -11757,7 +12354,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/RiceFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/242.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/242.png",
+    "distance_miles": "425"
   },
   {
     "reference_id": "richmond-virginia-d1-fcs",
@@ -11772,7 +12370,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Spiders_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/257.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/257.png",
+    "distance_miles": "1116"
   },
   {
     "reference_id": "ripon-college-wisconsin-d3",
@@ -11787,7 +12386,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/riponredhawkfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2891.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2891.png",
+    "distance_miles": "728"
   },
   {
     "reference_id": "riverside-city-college-california-juco",
@@ -11802,7 +12402,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/rcctigerfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1134"
   },
   {
     "reference_id": "roanoke-college-virginia-d3",
@@ -11817,7 +12418,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/RoanokeFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "973"
   },
   {
     "reference_id": "robert-morris-pennsylvania-d1-fcs",
@@ -11832,7 +12434,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/RMU_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2523.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2523.png",
+    "distance_miles": "994"
   },
   {
     "reference_id": "rochester-community-technical-college-minnesota-juco",
@@ -11847,7 +12450,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/rctc_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "636"
   },
   {
     "reference_id": "rockford-university-illinois-d3",
@@ -11862,7 +12466,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/rockfordufb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2524.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2524.png",
+    "distance_miles": "641"
   },
   {
     "reference_id": "rocky-mountain-college-montana-naia",
@@ -11877,7 +12482,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Rocky_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "905"
   },
   {
     "reference_id": "roosevelt-university-illinois-naia",
@@ -11892,7 +12498,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/RULAKERFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "680"
   },
   {
     "reference_id": "rose-hulman-institute-of-technology-indiana-d3",
@@ -11907,7 +12514,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/RoseHulmanFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "610"
   },
   {
     "reference_id": "rowan-university-new-jersey-d3",
@@ -11922,7 +12530,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/rowan_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2827.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2827.png",
+    "distance_miles": "1251"
   },
   {
     "reference_id": "rutgers-new-jersey-d1-fbs",
@@ -11937,7 +12546,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/RFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/164.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/164.png",
+    "distance_miles": "1295"
   },
   {
     "reference_id": "sacramento-city-college-california-juco",
@@ -11952,7 +12562,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/SacCityFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1335"
   },
   {
     "reference_id": "sacramento-state-california-d1-fbs",
@@ -11967,7 +12578,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/SacHornetsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/16.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/16.png",
+    "distance_miles": "1335"
   },
   {
     "reference_id": "sacred-heart-connecticut-d1-fcs",
@@ -11982,7 +12594,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/shu__football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2529.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2529.png",
+    "distance_miles": "1360"
   },
   {
     "reference_id": "saddleback-college-california-juco",
@@ -11997,7 +12610,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Saddleback_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1155"
   },
   {
     "reference_id": "saginaw-valley-state-university-michigan-d2",
@@ -12012,7 +12626,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/svsu_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/129.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/129.png",
+    "distance_miles": "901"
   },
   {
     "reference_id": "saint-anselm-college-new-hampshire-d2",
@@ -12027,7 +12642,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/stahawksfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2830.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2830.png",
+    "distance_miles": "1466"
   },
   {
     "reference_id": "saint-francis-university-pennsylvania-d3",
@@ -12042,7 +12658,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/RedFlashFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2598.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2598.png",
+    "distance_miles": "1076"
   },
   {
     "reference_id": "saint-john-s-university-minnesota-minnesota-d3",
@@ -12057,7 +12674,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/sjufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "706"
   },
   {
     "reference_id": "saint-mary-of-the-woods-college-indiana-naia",
@@ -12072,7 +12690,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/SMWCFB/highlights",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": ""
   },
   {
     "reference_id": "saint-thomas-university-florida-naia",
@@ -12087,7 +12706,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/stu_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1220"
   },
   {
     "reference_id": "saint-vincent-college-pennsylvania-pennsylvania-d3",
@@ -12102,7 +12722,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/SVC_FTBL",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1035"
   },
   {
     "reference_id": "saint-xavier-university-illinois-naia",
@@ -12117,7 +12738,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/sxufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "680"
   },
   {
     "reference_id": "salem-community-college-new-jersey-juco",
@@ -12132,7 +12754,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/sccmightyoaks",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1232"
   },
   {
     "reference_id": "salisbury-university-maryland-d3",
@@ -12147,7 +12770,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/seagullfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2532.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2532.png",
+    "distance_miles": "1219"
   },
   {
     "reference_id": "salve-regina-university-rhode-island-d3",
@@ -12162,7 +12786,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/salve_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2776.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2776.png",
+    "distance_miles": "1463"
   },
   {
     "reference_id": "sam-houston-state-texas-d1-fbs",
@@ -12177,7 +12802,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BearkatsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "358"
   },
   {
     "reference_id": "samford-alabama-d1-fcs",
@@ -12192,7 +12818,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/SamfordFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2535.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2535.png",
+    "distance_miles": "625"
   },
   {
     "reference_id": "san-bernardino-valley-college-california-juco",
@@ -12207,7 +12834,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/sbvc_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1126"
   },
   {
     "reference_id": "san-diego-california-d1-fcs",
@@ -12222,7 +12850,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/usdfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/301.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/301.png",
+    "distance_miles": "1141"
   },
   {
     "reference_id": "san-diego-mesa-college-california-juco",
@@ -12237,7 +12866,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/SDmesafootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1141"
   },
   {
     "reference_id": "san-diego-state-california-d1-fbs",
@@ -12252,7 +12882,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/AztecFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/21.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/21.png",
+    "distance_miles": "1141"
   },
   {
     "reference_id": "san-joaquin-delta-college-california-juco",
@@ -12267,7 +12898,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/sjdcfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1323"
   },
   {
     "reference_id": "san-jose-city-college-california-juco",
@@ -12282,7 +12914,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/sjcc_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1357"
   },
   {
     "reference_id": "san-jose-state-california-d1-fbs",
@@ -12297,7 +12930,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/SanJoseStateFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/23.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/23.png",
+    "distance_miles": "1357"
   },
   {
     "reference_id": "santa-ana-college-california-juco",
@@ -12312,7 +12946,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/sacdons",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1164"
   },
   {
     "reference_id": "santa-barbara-city-college-california-juco",
@@ -12327,7 +12962,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/sbccfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1257"
   },
   {
     "reference_id": "santa-monica-college-california-juco",
@@ -12342,7 +12978,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/smc_corsairfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1195"
   },
   {
     "reference_id": "santa-rosa-junior-college-california-juco",
@@ -12357,7 +12994,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/srjcfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1401"
   },
   {
     "reference_id": "savannah-state-university-georgia-d2",
@@ -12372,7 +13010,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/savannahstatefb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2542.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2542.png",
+    "distance_miles": "970"
   },
   {
     "reference_id": "schreiner-university-texas-d3",
@@ -12387,7 +13026,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/SchreinerFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "399"
   },
   {
     "reference_id": "seton-hill-university-pennsylvania-d2",
@@ -12402,7 +13042,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/SHU_FBALL",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/611.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/611.png",
+    "distance_miles": "1026"
   },
   {
     "reference_id": "sewanee-the-university-of-the-south-tennessee-d3",
@@ -12417,7 +13058,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/sewaneefootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "651"
   },
   {
     "reference_id": "shasta-college-california-juco",
@@ -12432,7 +13074,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Shastaknightsfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1391"
   },
   {
     "reference_id": "shaw-university-north-carolina-d2",
@@ -12447,7 +13090,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/shawufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2551.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2551.png",
+    "distance_miles": "1055"
   },
   {
     "reference_id": "shenandoah-university-virginia-d3",
@@ -12462,7 +13106,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/SUhornetsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2828.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2828.png",
+    "distance_miles": "1085"
   },
   {
     "reference_id": "shepherd-university-west-virginia-d2",
@@ -12477,7 +13122,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/suramsfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2974.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2974.png",
+    "distance_miles": "1107"
   },
   {
     "reference_id": "shippensburg-university-of-pennsylvania-pennsylvania-d2",
@@ -12492,7 +13138,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/shipuraiders",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1128"
   },
   {
     "reference_id": "shorter-university-georgia-d2",
@@ -12507,7 +13154,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Shorter_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2560.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2560.png",
+    "distance_miles": "703"
   },
   {
     "reference_id": "siena-heights-university-michigan-naia",
@@ -12522,7 +13170,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/sienaheightsfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "841"
   },
   {
     "reference_id": "sierra-college-california-juco",
@@ -12537,7 +13186,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/SierraCollegeFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1321"
   },
   {
     "reference_id": "simpson-college-iowa-d3",
@@ -12552,7 +13202,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/scstormfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "447"
   },
   {
     "reference_id": "simpson-university-california-naia",
@@ -12567,7 +13218,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/SimpsonU_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1391"
   },
   {
     "reference_id": "slippery-rock-university-pennsylvania-d2",
@@ -12582,7 +13234,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/srurockfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/215.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/215.png",
+    "distance_miles": "1013"
   },
   {
     "reference_id": "smu-texas-d1-fbs",
@@ -12597,7 +13250,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/SMUFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2567.png",
+    "distance_miles": "441"
   },
   {
     "reference_id": "snow-college-utah-juco",
@@ -12612,7 +13266,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/snowcollegefb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "814"
   },
   {
     "reference_id": "south-alabama-alabama-d1-fbs",
@@ -12627,7 +13282,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/SouthAlabamaFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/6.png",
+    "distance_miles": "644"
   },
   {
     "reference_id": "south-carolina-south-carolina-d1-fbs",
@@ -12642,7 +13298,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/GamecockFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
+    "distance_miles": "938"
   },
   {
     "reference_id": "south-carolina-state-south-carolina-d1-fcs",
@@ -12657,7 +13314,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/SCState_Fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2569.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2569.png",
+    "distance_miles": "956"
   },
   {
     "reference_id": "south-dakota-south-dakota-d1-fcs",
@@ -12672,7 +13330,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/sdcoyotes",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/233.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/233.png",
+    "distance_miles": "493"
   },
   {
     "reference_id": "south-dakota-school-of-mines-technology-south-dakota-d2",
@@ -12687,7 +13346,8 @@ export const collegePrograms = [
     "program_x_url": "https://mobile.twitter.com/hardrockerfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "657"
   },
   {
     "reference_id": "south-dakota-state-south-dakota-d1-fcs",
@@ -12702,7 +13362,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/GoJacksFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2571.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2571.png",
+    "distance_miles": "599"
   },
   {
     "reference_id": "south-florida-florida-d1-fbs",
@@ -12717,7 +13378,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/USFFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/58.png",
+    "distance_miles": "1028"
   },
   {
     "reference_id": "southeast-missouri-state-missouri-d1-fcs",
@@ -12732,7 +13394,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/SEMOfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2546.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2546.png",
+    "distance_miles": "457"
   },
   {
     "reference_id": "southeastern-louisiana-louisiana-d1-fcs",
@@ -12747,7 +13410,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/lionupfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "540"
   },
   {
     "reference_id": "southeastern-oklahoma-state-university-oklahoma-d2",
@@ -12762,7 +13426,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/GoSoutheastern",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/199.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/199.png",
+    "distance_miles": "131"
   },
   {
     "reference_id": "southeastern-university-florida-naia",
@@ -12777,7 +13442,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/SEUFireFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1050"
   },
   {
     "reference_id": "southern-louisiana-d1-fcs",
@@ -12792,7 +13458,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/geauxjags",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2582.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2582.png",
+    "distance_miles": "512"
   },
   {
     "reference_id": "southern-arkansas-university-arkansas-d2",
@@ -12807,7 +13474,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/saufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2568.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2568.png",
+    "distance_miles": "292"
   },
   {
     "reference_id": "southern-connecticut-state-university-connecticut-d2",
@@ -12822,7 +13490,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/SCSUFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2583.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2583.png",
+    "distance_miles": "1379"
   },
   {
     "reference_id": "southern-illinois-illinois-d1-fcs",
@@ -12837,7 +13506,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/SIU_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/79.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/79.png",
+    "distance_miles": "479"
   },
   {
     "reference_id": "southern-miss-mississippi-d1-fbs",
@@ -12852,7 +13522,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/SouthernMissFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2572.png",
+    "distance_miles": "558"
   },
   {
     "reference_id": "southern-nazarene-university-oklahoma-d2",
@@ -12867,7 +13538,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/snufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/200.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/200.png",
+    "distance_miles": "13"
   },
   {
     "reference_id": "southern-oregon-university-oregon-naia",
@@ -12882,7 +13554,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/sou_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2584.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2584.png",
+    "distance_miles": "1423"
   },
   {
     "reference_id": "southern-utah-utah-d1-fcs",
@@ -12897,7 +13570,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/suufb_",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/253.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/253.png",
+    "distance_miles": "874"
   },
   {
     "reference_id": "southern-virginia-university-virginia-d3",
@@ -12912,7 +13586,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/knight_ftbl",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2896.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2896.png",
+    "distance_miles": "1013"
   },
   {
     "reference_id": "southwest-baptist-university-missouri-d2",
@@ -12927,7 +13602,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/sbu_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2586.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2586.png",
+    "distance_miles": "263"
   },
   {
     "reference_id": "southwest-minnesota-state-university-minnesota-d2",
@@ -12942,7 +13618,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/smsufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2587.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2587.png",
+    "distance_miles": "614"
   },
   {
     "reference_id": "southwest-mississippi-community-college-mississippi-juco",
@@ -12957,7 +13634,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/smccfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "504"
   },
   {
     "reference_id": "southwestern-college-california-california-juco",
@@ -12972,7 +13650,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/builderfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1138"
   },
   {
     "reference_id": "southwestern-college-kansas-kansas-naia",
@@ -12987,7 +13666,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/builderfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "113"
   },
   {
     "reference_id": "southwestern-oklahoma-state-university-oklahoma-d2",
@@ -13002,7 +13682,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/SWOSUFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2927.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2927.png",
+    "distance_miles": "70"
   },
   {
     "reference_id": "southwestern-university-texas-d3",
@@ -13017,7 +13698,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/supiratesfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2588.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2588.png",
+    "distance_miles": "347"
   },
   {
     "reference_id": "springfield-college-massachusetts-d3",
@@ -13032,7 +13714,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/_scfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/81.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/81.png",
+    "distance_miles": "1405"
   },
   {
     "reference_id": "st-ambrose-university-iowa-naia",
@@ -13047,7 +13730,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/FightingBeesFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2591.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2591.png",
+    "distance_miles": "550"
   },
   {
     "reference_id": "st-andrews-university-north-carolina-naia",
@@ -13062,7 +13746,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/StAndrewsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1017"
   },
   {
     "reference_id": "st-john-fisher-university-new-york-d3",
@@ -13077,7 +13762,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/sjffootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/374.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/374.png",
+    "distance_miles": "1180"
   },
   {
     "reference_id": "st-lawrence-university-new-york-d3",
@@ -13092,7 +13778,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/slu_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2779.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2779.png",
+    "distance_miles": "1325"
   },
   {
     "reference_id": "st-norbert-college-wisconsin-d3",
@@ -13107,7 +13794,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/sncfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2832.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2832.png",
+    "distance_miles": "785"
   },
   {
     "reference_id": "st-olaf-college-minnesota-d3",
@@ -13122,7 +13810,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/stolaffb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/133.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/133.png",
+    "distance_miles": "650"
   },
   {
     "reference_id": "st-thomas-minnesota-d1-fcs",
@@ -13137,7 +13826,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ust_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2900.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2900.png",
+    "distance_miles": "682"
   },
   {
     "reference_id": "st-thomas-university-florida-florida-naia",
@@ -13152,7 +13842,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/STU_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1220"
   },
   {
     "reference_id": "stanford-california-d1-fbs",
@@ -13167,7 +13858,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/StanfordFball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/24.png",
+    "distance_miles": "1372"
   },
   {
     "reference_id": "state-university-of-new-york-at-cortland-new-york-d3",
@@ -13182,7 +13874,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CortlandFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1234"
   },
   {
     "reference_id": "stephen-f-austin-texas-d1-fcs",
@@ -13197,7 +13890,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/SFA_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2617.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2617.png",
+    "distance_miles": "323"
   },
   {
     "reference_id": "sterling-college-kansas-kansas-naia",
@@ -13212,7 +13906,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/scwarriorfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "181"
   },
   {
     "reference_id": "stetson-florida-d1-fcs",
@@ -13227,7 +13922,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/stetsonfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/56.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/56.png",
+    "distance_miles": "1047"
   },
   {
     "reference_id": "stevenson-university-maryland-d3",
@@ -13242,7 +13938,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/SUMustangFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/471.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/471.png",
+    "distance_miles": "1161"
   },
   {
     "reference_id": "stonehill-massachusetts-d1-fcs",
@@ -13257,7 +13954,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/stonehillfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/284.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/284.png",
+    "distance_miles": "1478"
   },
   {
     "reference_id": "stony-brook-new-york-d1-fcs",
@@ -13272,7 +13970,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/StonyBrookFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2619.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2619.png",
+    "distance_miles": "1364"
   },
   {
     "reference_id": "sul-ross-state-university-texas-d2",
@@ -13287,7 +13986,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/srsufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2834.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2834.png",
+    "distance_miles": "512"
   },
   {
     "reference_id": "suny-brockport-new-york-d3",
@@ -13302,7 +14002,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/bport_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1162"
   },
   {
     "reference_id": "suny-buffalo-state-university-new-york-d3",
@@ -13317,7 +14018,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BuffStateFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1110"
   },
   {
     "reference_id": "suny-erie-community-college-new-york-juco",
@@ -13332,7 +14034,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/erieccathletics",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1110"
   },
   {
     "reference_id": "suny-hudson-valley-community-college-new-york-juco",
@@ -13347,7 +14050,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/hvccfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1359"
   },
   {
     "reference_id": "suny-maritime-college-new-york-d3",
@@ -13362,7 +14066,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/MaritimeFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2951.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2951.png",
+    "distance_miles": "1329"
   },
   {
     "reference_id": "susquehanna-university-pennsylvania-d3",
@@ -13377,7 +14082,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/suriverhawksfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/216.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/216.png",
+    "distance_miles": "1171"
   },
   {
     "reference_id": "sussex-county-community-college-new-jersey-juco",
@@ -13392,7 +14098,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Sussexfootball5",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1282"
   },
   {
     "reference_id": "syracuse-new-york-d1-fbs",
@@ -13407,7 +14114,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CuseFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
+    "distance_miles": "1244"
   },
   {
     "reference_id": "tabor-college-kansas-naia",
@@ -13422,7 +14130,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/tabor_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "187"
   },
   {
     "reference_id": "tarleton-state-texas-d1-fcs",
@@ -13437,7 +14146,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/TarletonFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2627.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2627.png",
+    "distance_miles": "241"
   },
   {
     "reference_id": "taylor-university-indiana-naia",
@@ -13452,7 +14162,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/TrojansFBL",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "731"
   },
   {
     "reference_id": "tcu-texas-d1-fbs",
@@ -13467,7 +14178,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/TCUFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png",
+    "distance_miles": "202"
   },
   {
     "reference_id": "temple-pennsylvania-d1-fbs",
@@ -13482,7 +14194,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Temple_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/218.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/218.png",
+    "distance_miles": "1250"
   },
   {
     "reference_id": "tennessee-tennessee-d1-fbs",
@@ -13497,7 +14210,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Vol_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
+    "distance_miles": "759"
   },
   {
     "reference_id": "tennessee-state-tennessee-d1-fcs",
@@ -13512,7 +14226,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/TSUTigersFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2634.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2634.png",
+    "distance_miles": "599"
   },
   {
     "reference_id": "tennessee-tech-tennessee-d1-fcs",
@@ -13527,7 +14242,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/TNTechFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2635.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2635.png",
+    "distance_miles": "671"
   },
   {
     "reference_id": "texas-texas-d1-fbs",
@@ -13542,7 +14258,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/TexasFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "372"
   },
   {
     "reference_id": "texas-a-m-texas-d1-fbs",
@@ -13557,7 +14274,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/AggieFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/245.png",
+    "distance_miles": "353"
   },
   {
     "reference_id": "texas-a-m-university-kingsville-texas-d2",
@@ -13572,7 +14290,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/javelinafb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2658.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2658.png",
+    "distance_miles": "563"
   },
   {
     "reference_id": "texas-college-texas-naia",
@@ -13587,7 +14306,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/texascollege23",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "260"
   },
   {
     "reference_id": "texas-lutheran-university-texas-d3",
@@ -13602,7 +14322,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/tlu_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2639.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2639.png",
+    "distance_miles": "421"
   },
   {
     "reference_id": "texas-southern-texas-d1-fcs",
@@ -13617,7 +14338,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/TSUFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2640.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2640.png",
+    "distance_miles": "425"
   },
   {
     "reference_id": "texas-state-texas-d1-fbs",
@@ -13632,7 +14354,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/TXSTATEFOOTBALL",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/326.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/326.png",
+    "distance_miles": "400"
   },
   {
     "reference_id": "texas-tech-texas-d1-fbs",
@@ -13647,7 +14370,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/TexasTechFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+    "distance_miles": "287"
   },
   {
     "reference_id": "texas-wesleyan-university-texas-naia",
@@ -13662,7 +14386,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/txwesfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "202"
   },
   {
     "reference_id": "thaddeus-stevens-college-of-technology-pennsylvania-juco",
@@ -13677,7 +14402,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/tsctfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1191"
   },
   {
     "reference_id": "the-citadel-south-carolina-d1-fcs",
@@ -13692,7 +14418,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CitadelFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2643.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2643.png",
+    "distance_miles": "1021"
   },
   {
     "reference_id": "the-college-of-idaho-idaho-naia",
@@ -13707,7 +14434,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/yotesfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1158"
   },
   {
     "reference_id": "the-college-of-new-jersey-new-jersey-d3",
@@ -13722,7 +14450,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/tcnjfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2442.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2442.png",
+    "distance_miles": "1272"
   },
   {
     "reference_id": "the-college-of-st-scholastica-minnesota-d3",
@@ -13737,7 +14466,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CSSSaintsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/375.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/375.png",
+    "distance_miles": "818"
   },
   {
     "reference_id": "the-university-of-virginia-s-college-at-wise-virginia-d2",
@@ -13752,7 +14482,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UVAWiseCavsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "834"
   },
   {
     "reference_id": "thiel-college-pennsylvania-d3",
@@ -13767,7 +14498,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/thiel_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2644.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2644.png",
+    "distance_miles": "1003"
   },
   {
     "reference_id": "thomas-more-university-kentucky-naia",
@@ -13782,7 +14514,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/TMU_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "745"
   },
   {
     "reference_id": "thomas-university-georgia-naia",
@@ -13797,7 +14530,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/NightHawksMFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "847"
   },
   {
     "reference_id": "tiffin-university-ohio-d2",
@@ -13812,7 +14546,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/TUDragonFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2838.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2838.png",
+    "distance_miles": "860"
   },
   {
     "reference_id": "toledo-ohio-d1-fbs",
@@ -13827,7 +14562,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ToledoFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2649.png",
+    "distance_miles": "857"
   },
   {
     "reference_id": "towson-maryland-d1-fcs",
@@ -13842,7 +14578,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Towson_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/119.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/119.png",
+    "distance_miles": "1170"
   },
   {
     "reference_id": "trine-university-indiana-d3",
@@ -13857,7 +14594,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/TrineThunderFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2651.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2651.png",
+    "distance_miles": "789"
   },
   {
     "reference_id": "trinity-college-connecticut-connecticut-d3",
@@ -13872,7 +14610,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/trincollfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1396"
   },
   {
     "reference_id": "trinity-university-texas-texas-d3",
@@ -13887,7 +14626,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/TUFootballTX",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "434"
   },
   {
     "reference_id": "trinity-valley-community-college-texas-juco",
@@ -13902,7 +14642,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/TVCCFOOTBALL",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "256"
   },
   {
     "reference_id": "troy-alabama-d1-fbs",
@@ -13917,7 +14658,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/TroyTrojansFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "712"
   },
   {
     "reference_id": "truman-state-university-missouri-d2",
@@ -13932,7 +14674,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/truman_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2654.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2654.png",
+    "distance_miles": "412"
   },
   {
     "reference_id": "tufts-university-massachusetts-d3",
@@ -13947,7 +14690,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/footballtufts",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/112.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/112.png",
+    "distance_miles": "1483"
   },
   {
     "reference_id": "tulane-louisiana-d1-fbs",
@@ -13962,7 +14706,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/GreenWaveFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2655.png",
+    "distance_miles": "583"
   },
   {
     "reference_id": "tulsa-oklahoma-d1-fbs",
@@ -13977,7 +14722,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/TulsaFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/202.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/202.png",
+    "distance_miles": "90"
   },
   {
     "reference_id": "tusculum-university-tennessee-d2",
@@ -13992,7 +14738,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/tusculumfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2839.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2839.png",
+    "distance_miles": "824"
   },
   {
     "reference_id": "tuskegee-university-alabama-d2",
@@ -14007,7 +14754,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/MyTUAthletics",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2657.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2657.png",
+    "distance_miles": "710"
   },
   {
     "reference_id": "tyler-junior-college-texas-juco",
@@ -14022,7 +14770,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/tjcfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "260"
   },
   {
     "reference_id": "uab-alabama-d1-fbs",
@@ -14037,7 +14786,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UAB_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/5.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/5.png",
+    "distance_miles": "625"
   },
   {
     "reference_id": "uc-davis-california-d1-fcs",
@@ -14052,7 +14802,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UCDfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/302.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/302.png",
+    "distance_miles": "1348"
   },
   {
     "reference_id": "ucf-florida-d1-fbs",
@@ -14067,7 +14818,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UCF_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2116.png",
+    "distance_miles": "1061"
   },
   {
     "reference_id": "ucla-california-d1-fbs",
@@ -14082,7 +14834,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UCLAFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
+    "distance_miles": "1180"
   },
   {
     "reference_id": "uconn-connecticut-d1-fbs",
@@ -14097,7 +14850,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UConnFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
+    "distance_miles": "1419"
   },
   {
     "reference_id": "umass-massachusetts-d1-fbs",
@@ -14112,7 +14866,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UMassFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/113.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/113.png",
+    "distance_miles": "1412"
   },
   {
     "reference_id": "union-college-new-york-new-york-d3",
@@ -14127,7 +14882,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UnionCollegeFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1348"
   },
   {
     "reference_id": "union-commonwealth-university-kentucky-naia",
@@ -14142,7 +14898,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/unionbulldogfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "761"
   },
   {
     "reference_id": "united-states-coast-guard-academy-connecticut-d3",
@@ -14157,7 +14914,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/uscga_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1422"
   },
   {
     "reference_id": "united-states-merchant-marine-academy-new-york-d3",
@@ -14172,7 +14930,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/USMMAFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1332"
   },
   {
     "reference_id": "university-of-arkansas-at-monticello-arkansas-d2",
@@ -14187,7 +14946,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/weevilfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2028.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2028.png",
+    "distance_miles": "352"
   },
   {
     "reference_id": "university-of-central-missouri-missouri-d2",
@@ -14202,7 +14962,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UCMFootballTeam",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2118.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2118.png",
+    "distance_miles": "298"
   },
   {
     "reference_id": "university-of-central-oklahoma-oklahoma-d2",
@@ -14217,7 +14978,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ucobronchofb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2122.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2122.png",
+    "distance_miles": "0"
   },
   {
     "reference_id": "university-of-charleston-west-virginia-d2",
@@ -14232,7 +14994,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ucwv_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "893"
   },
   {
     "reference_id": "university-of-chicago-illinois-d3",
@@ -14247,7 +15010,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UChicagoFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/80.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/80.png",
+    "distance_miles": "680"
   },
   {
     "reference_id": "university-of-dubuque-iowa-d3",
@@ -14262,7 +15026,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/dubuquefootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/49.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/49.png",
+    "distance_miles": "597"
   },
   {
     "reference_id": "university-of-findlay-ohio-d2",
@@ -14277,7 +15042,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ufoilersfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2224.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2224.png",
+    "distance_miles": "835"
   },
   {
     "reference_id": "university-of-indianapolis-indiana-d2",
@@ -14292,7 +15058,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/uindyfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2292.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2292.png",
+    "distance_miles": "680"
   },
   {
     "reference_id": "university-of-jamestown-north-dakota-naia",
@@ -14307,7 +15074,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/jimmiefootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "780"
   },
   {
     "reference_id": "university-of-la-verne-california-d3",
@@ -14322,7 +15090,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ulv_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2318.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2318.png",
+    "distance_miles": "1153"
   },
   {
     "reference_id": "university-of-mary-north-dakota-d2",
@@ -14337,7 +15106,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UMaryFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/559.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/559.png",
+    "distance_miles": "789"
   },
   {
     "reference_id": "university-of-mary-hardin-baylor-texas-d3",
@@ -14352,7 +15122,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CruFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2371.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2371.png",
+    "distance_miles": "318"
   },
   {
     "reference_id": "university-of-massachusetts-dartmouth-massachusetts-d3",
@@ -14367,7 +15138,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/corsairfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1482"
   },
   {
     "reference_id": "university-of-minnesota-duluth-minnesota-d2",
@@ -14382,7 +15154,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UMD_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/134.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/134.png",
+    "distance_miles": "818"
   },
   {
     "reference_id": "university-of-minnesota-morris-minnesota-d3",
@@ -14397,7 +15170,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ummfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2399.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2399.png",
+    "distance_miles": "691"
   },
   {
     "reference_id": "university-of-montana-western-montana-naia",
@@ -14412,7 +15186,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UMWFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2701.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2701.png",
+    "distance_miles": "1032"
   },
   {
     "reference_id": "university-of-mount-union-ohio-d3",
@@ -14427,7 +15202,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/mountunionfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/426.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/426.png",
+    "distance_miles": "958"
   },
   {
     "reference_id": "university-of-nebraska-at-kearney-nebraska-d2",
@@ -14442,7 +15218,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/unk_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2438.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2438.png",
+    "distance_miles": "359"
   },
   {
     "reference_id": "university-of-new-england-maine-d3",
@@ -14457,7 +15234,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/unefootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/111675.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/111675.png",
+    "distance_miles": "1529"
   },
   {
     "reference_id": "university-of-north-carolina-at-pembroke-north-carolina-d2",
@@ -14472,7 +15250,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/uncp_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1033"
   },
   {
     "reference_id": "university-of-northwestern-st-paul-minnesota-d3",
@@ -14487,7 +15266,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/unwfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "685"
   },
   {
     "reference_id": "university-of-olivet-michigan-d3",
@@ -14502,7 +15282,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/uolivetfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/354.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/354.png",
+    "distance_miles": "819"
   },
   {
     "reference_id": "university-of-pikeville-kentucky-naia",
@@ -14517,7 +15298,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/upikefootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "839"
   },
   {
     "reference_id": "university-of-puget-sound-washington-d3",
@@ -14532,7 +15314,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/PSLoggers",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2508.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2508.png",
+    "distance_miles": "1511"
   },
   {
     "reference_id": "university-of-redlands-california-d3",
@@ -14547,7 +15330,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/uofr_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/29.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/29.png",
+    "distance_miles": "1121"
   },
   {
     "reference_id": "university-of-rio-grande-ohio-naia",
@@ -14562,7 +15346,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/URGFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "858"
   },
   {
     "reference_id": "university-of-rochester-new-york-d3",
@@ -14577,7 +15362,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/uofrfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1176"
   },
   {
     "reference_id": "university-of-saint-francis-fort-wayne-indiana-naia",
@@ -14592,7 +15378,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/usf_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "767"
   },
   {
     "reference_id": "university-of-saint-mary-kansas-naia",
@@ -14607,7 +15394,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Spire_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "289"
   },
   {
     "reference_id": "university-of-sioux-falls-south-dakota-d2",
@@ -14622,7 +15410,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/USFCougarsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2894.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2894.png",
+    "distance_miles": "547"
   },
   {
     "reference_id": "university-of-st-francis-illinois-illinois-naia",
@@ -14637,7 +15426,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/usfsaintsfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "649"
   },
   {
     "reference_id": "university-of-texas-permian-basin-texas-d2",
@@ -14652,7 +15442,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/utpbfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "385"
   },
   {
     "reference_id": "university-of-the-cumberlands-kentucky-naia",
@@ -14667,7 +15458,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ucpatriotfball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "746"
   },
   {
     "reference_id": "university-of-west-alabama-alabama-d2",
@@ -14682,7 +15474,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/uwa_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2695.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2695.png",
+    "distance_miles": "572"
   },
   {
     "reference_id": "university-of-wisconsin-eau-claire-wisconsin-d3",
@@ -14697,7 +15490,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/uwecfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2738.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2738.png",
+    "distance_miles": "707"
   },
   {
     "reference_id": "university-of-wisconsin-la-crosse-wisconsin-d3",
@@ -14712,7 +15506,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UWLEagleFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2740.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2740.png",
+    "distance_miles": "653"
   },
   {
     "reference_id": "university-of-wisconsin-oshkosh-wisconsin-d3",
@@ -14727,7 +15522,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/uwofootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/271.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/271.png",
+    "distance_miles": "747"
   },
   {
     "reference_id": "university-of-wisconsin-platteville-wisconsin-d3",
@@ -14742,7 +15538,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UWPlattfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/272.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/272.png",
+    "distance_miles": "616"
   },
   {
     "reference_id": "university-of-wisconsin-river-falls-wisconsin-d3",
@@ -14757,7 +15554,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UWRFFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2723.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2723.png",
+    "distance_miles": "685"
   },
   {
     "reference_id": "university-of-wisconsin-stevens-point-wisconsin-d3",
@@ -14772,7 +15570,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/uwspfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2743.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2743.png",
+    "distance_miles": "741"
   },
   {
     "reference_id": "university-of-wisconsin-stout-wisconsin-d3",
@@ -14787,7 +15586,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UWStoutFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2744.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2744.png",
+    "distance_miles": "701"
   },
   {
     "reference_id": "university-of-wisconsin-whitewater-wisconsin-d3",
@@ -14802,7 +15602,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/warhawkfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2745.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2745.png",
+    "distance_miles": "681"
   },
   {
     "reference_id": "unlv-nevada-d1-fbs",
@@ -14817,7 +15618,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/unlvfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2439.png",
+    "distance_miles": "987"
   },
   {
     "reference_id": "upper-iowa-university-iowa-d2",
@@ -14832,7 +15634,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Upper_Iowa_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/389.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/389.png",
+    "distance_miles": "582"
   },
   {
     "reference_id": "ursinus-college-pennsylvania-d3",
@@ -14847,7 +15650,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UrsinusFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2667.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2667.png",
+    "distance_miles": "1237"
   },
   {
     "reference_id": "usc-california-d1-fbs",
@@ -14862,7 +15666,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/uscfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
+    "distance_miles": "1180"
   },
   {
     "reference_id": "ut-martin-tennessee-d1-fcs",
@@ -14877,7 +15682,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UTM_FOOTBALL",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2630.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2630.png",
+    "distance_miles": "484"
   },
   {
     "reference_id": "utah-utah-d1-fbs",
@@ -14892,7 +15698,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Utah_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/254.png",
+    "distance_miles": "857"
   },
   {
     "reference_id": "utah-state-utah-d1-fbs",
@@ -14907,7 +15714,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/USUFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/328.png",
+    "distance_miles": "879"
   },
   {
     "reference_id": "utah-tech-utah-d1-fcs",
@@ -14922,7 +15730,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UtahTech_Fball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/3101.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/3101.png",
+    "distance_miles": "900"
   },
   {
     "reference_id": "utep-texas-d1-fbs",
@@ -14937,7 +15746,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UTEPFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2638.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2638.png",
+    "distance_miles": "583"
   },
   {
     "reference_id": "utica-university-new-york-d3",
@@ -14952,7 +15762,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Utica_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/390.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/390.png",
+    "distance_miles": "1290"
   },
   {
     "reference_id": "utrgv-texas-d1-fcs",
@@ -14967,7 +15778,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/utrgvfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "647"
   },
   {
     "reference_id": "utsa-texas-d1-fbs",
@@ -14982,7 +15794,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UTSAFTBL",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2636.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2636.png",
+    "distance_miles": "434"
   },
   {
     "reference_id": "valdosta-state-university-georgia-d2",
@@ -14997,7 +15810,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/VState_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2673.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2673.png",
+    "distance_miles": "884"
   },
   {
     "reference_id": "valley-city-state-university-north-dakota-naia",
@@ -15012,7 +15826,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/vcsuvikings",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "779"
   },
   {
     "reference_id": "valparaiso-indiana-d1-fcs",
@@ -15027,7 +15842,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/valpoufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2674.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2674.png",
+    "distance_miles": "691"
   },
   {
     "reference_id": "vanderbilt-tennessee-d1-fbs",
@@ -15042,7 +15858,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/VandyFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/238.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/238.png",
+    "distance_miles": "599"
   },
   {
     "reference_id": "ventura-college-california-juco",
@@ -15057,7 +15874,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/vcpiratefb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1236"
   },
   {
     "reference_id": "vermilion-community-college-minnesota-juco",
@@ -15072,7 +15890,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/MnNorthCollege",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "894"
   },
   {
     "reference_id": "victor-valley-college-california-juco",
@@ -15087,7 +15906,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/vvcfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1121"
   },
   {
     "reference_id": "villanova-pennsylvania-d1-fcs",
@@ -15102,7 +15922,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/novafootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/222.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/222.png",
+    "distance_miles": "1241"
   },
   {
     "reference_id": "virginia-virginia-d1-fbs",
@@ -15117,7 +15938,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UVAFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
+    "distance_miles": "1062"
   },
   {
     "reference_id": "virginia-state-university-virginia-d2",
@@ -15132,7 +15954,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/vsu_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/330.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/330.png",
+    "distance_miles": "1118"
   },
   {
     "reference_id": "virginia-tech-virginia-d1-fbs",
@@ -15147,7 +15970,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/HokiesFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/259.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/259.png",
+    "distance_miles": "953"
   },
   {
     "reference_id": "virginia-union-university-virginia-d2",
@@ -15162,7 +15986,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/vuu_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2676.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2676.png",
+    "distance_miles": "1116"
   },
   {
     "reference_id": "vmi-virginia-d1-fcs",
@@ -15177,7 +16002,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/VMI_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2678.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2678.png",
+    "distance_miles": "1008"
   },
   {
     "reference_id": "wabash-college-indiana-d3",
@@ -15192,7 +16018,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/WabashFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/89.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/89.png",
+    "distance_miles": "653"
   },
   {
     "reference_id": "wagner-new-york-d1-fcs",
@@ -15207,7 +16034,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Wagner_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2681.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2681.png",
+    "distance_miles": "1317"
   },
   {
     "reference_id": "wake-forest-north-carolina-d1-fbs",
@@ -15222,7 +16050,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/WakeFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/154.png",
+    "distance_miles": "964"
   },
   {
     "reference_id": "waldorf-university-iowa-naia",
@@ -15237,7 +16066,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/wu_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "564"
   },
   {
     "reference_id": "walsh-university-ohio-d2",
@@ -15252,7 +16082,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/walshufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2682.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2682.png",
+    "distance_miles": "942"
   },
   {
     "reference_id": "warner-university-florida-naia",
@@ -15267,7 +16098,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/WarnerUFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1074"
   },
   {
     "reference_id": "wartburg-college-iowa-d3",
@@ -15282,7 +16114,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/wartburgfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2685.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2685.png",
+    "distance_miles": "557"
   },
   {
     "reference_id": "washburn-university-kansas-d2",
@@ -15297,7 +16130,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ichabodftbl",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2687.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2687.png",
+    "distance_miles": "255"
   },
   {
     "reference_id": "washington-washington-d1-fbs",
@@ -15312,7 +16146,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/uw_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
+    "distance_miles": "1516"
   },
   {
     "reference_id": "washington-jefferson-college-pennsylvania-d3",
@@ -15327,7 +16162,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/wjfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2686.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2686.png",
+    "distance_miles": "988"
   },
   {
     "reference_id": "washington-lee-university-virginia-d3",
@@ -15342,7 +16178,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Generals_Fball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2688.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2688.png",
+    "distance_miles": "1008"
   },
   {
     "reference_id": "washington-state-washington-d1-fbs",
@@ -15357,7 +16194,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/WSUCougarFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/265.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/265.png",
+    "distance_miles": "1273"
   },
   {
     "reference_id": "washington-university-in-st-louis-missouri-d3",
@@ -15372,7 +16210,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/washufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "450"
   },
   {
     "reference_id": "wayland-baptist-university-texas-naia",
@@ -15387,7 +16226,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/wbufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "260"
   },
   {
     "reference_id": "wayne-state-college-nebraska-d2",
@@ -15402,7 +16242,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/waynestfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "455"
   },
   {
     "reference_id": "wayne-state-university-michigan-d2",
@@ -15417,7 +16258,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/wsuwarriorsfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "900"
   },
   {
     "reference_id": "waynesburg-university-pennsylvania-d3",
@@ -15432,7 +16274,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Waynesburg_FTBL",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2845.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2845.png",
+    "distance_miles": "987"
   },
   {
     "reference_id": "webber-international-university-florida-naia",
@@ -15447,7 +16290,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/webberfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1080"
   },
   {
     "reference_id": "weber-state-utah-d1-fcs",
@@ -15462,7 +16306,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/weberstatefb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2692.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2692.png",
+    "distance_miles": "872"
   },
   {
     "reference_id": "wesleyan-university-connecticut-d3",
@@ -15477,7 +16322,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/wes_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1396"
   },
   {
     "reference_id": "west-chester-university-of-pennsylvania-pennsylvania-d2",
@@ -15492,7 +16338,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/WCUAthletics",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1227"
   },
   {
     "reference_id": "west-florida-florida-d1-fcs",
@@ -15507,7 +16354,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/uwffootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/110242.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/110242.png",
+    "distance_miles": "695"
   },
   {
     "reference_id": "west-georgia-georgia-d1-fcs",
@@ -15522,7 +16370,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/UWGFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2698.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2698.png",
+    "distance_miles": "719"
   },
   {
     "reference_id": "west-hills-college-coalinga-california-juco",
@@ -15537,7 +16386,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/whc_falcons",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1278"
   },
   {
     "reference_id": "west-liberty-university-west-virginia-d2",
@@ -15552,7 +16402,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/WLU_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2699.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2699.png",
+    "distance_miles": "970"
   },
   {
     "reference_id": "west-los-angeles-college-california-juco",
@@ -15567,7 +16418,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/wlacathletics",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1189"
   },
   {
     "reference_id": "west-texas-a-m-university-texas-d2",
@@ -15582,7 +16434,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/WTAMUFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "255"
   },
   {
     "reference_id": "west-virginia-west-virginia-d1-fbs",
@@ -15597,7 +16450,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/WVUfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
+    "distance_miles": "995"
   },
   {
     "reference_id": "west-virginia-state-university-west-virginia-d2",
@@ -15612,7 +16466,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/wvsu_gojackets",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2707.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2707.png",
+    "distance_miles": "886"
   },
   {
     "reference_id": "west-virginia-wesleyan-college-west-virginia-d2",
@@ -15627,7 +16482,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/wvwcfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/455.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/455.png",
+    "distance_miles": "974"
   },
   {
     "reference_id": "western-carolina-north-carolina-d1-fcs",
@@ -15642,7 +16498,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/CatamountsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2717.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2717.png",
+    "distance_miles": "804"
   },
   {
     "reference_id": "western-connecticut-state-university-connecticut-d3",
@@ -15657,7 +16514,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/WestConnFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2843.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2843.png",
+    "distance_miles": "1353"
   },
   {
     "reference_id": "western-illinois-illinois-d1-fcs",
@@ -15672,7 +16530,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/WIUfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2710.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2710.png",
+    "distance_miles": "497"
   },
   {
     "reference_id": "western-kentucky-kentucky-d1-fbs",
@@ -15687,7 +16546,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/WKUFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/98.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/98.png",
+    "distance_miles": "621"
   },
   {
     "reference_id": "western-michigan-michigan-d1-fbs",
@@ -15702,7 +16562,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/WMU_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2711.png",
+    "distance_miles": "785"
   },
   {
     "reference_id": "western-new-england-university-massachusetts-d3",
@@ -15717,7 +16578,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/WNEFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2702.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2702.png",
+    "distance_miles": "1405"
   },
   {
     "reference_id": "western-new-mexico-university-new-mexico-d2",
@@ -15732,7 +16594,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/WNMUFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2703.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2703.png",
+    "distance_miles": "648"
   },
   {
     "reference_id": "western-oregon-university-oregon-d2",
@@ -15747,7 +16610,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/WOU_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2848.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2848.png",
+    "distance_miles": "1491"
   },
   {
     "reference_id": "western-state-colorado-university-colorado-d2",
@@ -15762,7 +16626,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/mountaineerfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "557"
   },
   {
     "reference_id": "westfield-state-university-massachusetts-d3",
@@ -15777,7 +16642,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/wsuowlsfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2909.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2909.png",
+    "distance_miles": "1397"
   },
   {
     "reference_id": "westminster-college-missouri-missouri-d3",
@@ -15792,7 +16658,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/westmofb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "376"
   },
   {
     "reference_id": "westminster-college-pennsylvania-pennsylvania-d3",
@@ -15807,7 +16674,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/wctitansfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1000"
   },
   {
     "reference_id": "wheaton-college-illinois-illinois-d3",
@@ -15822,7 +16690,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/wheatonfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "662"
   },
   {
     "reference_id": "wheeling-university-west-virginia-d2",
@@ -15837,7 +16706,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/wheelingu_fb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/112335.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/112335.png",
+    "distance_miles": "962"
   },
   {
     "reference_id": "whittier-college-california-d3",
@@ -15852,7 +16722,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Poetfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2850.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2850.png",
+    "distance_miles": "1170"
   },
   {
     "reference_id": "whitworth-university-washington-d3",
@@ -15867,7 +16738,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/WhitworthFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2721.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2721.png",
+    "distance_miles": "1316"
   },
   {
     "reference_id": "widener-university-pennsylvania-d3",
@@ -15882,7 +16754,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Widener_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2725.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2725.png",
+    "distance_miles": "1239"
   },
   {
     "reference_id": "wilkes-university-pennsylvania-d3",
@@ -15897,7 +16770,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/wilkesfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/398.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/398.png",
+    "distance_miles": "1227"
   },
   {
     "reference_id": "willamette-university-oregon-d3",
@@ -15912,7 +16786,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/WillametteFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2930.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2930.png",
+    "distance_miles": "1483"
   },
   {
     "reference_id": "william-mary-virginia-d1-fcs",
@@ -15927,7 +16802,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/WMTribeFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2729.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2729.png",
+    "distance_miles": "1157"
   },
   {
     "reference_id": "william-jewell-college-missouri-d2",
@@ -15942,7 +16818,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/jewellfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2911.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2911.png",
+    "distance_miles": "300"
   },
   {
     "reference_id": "william-paterson-university-of-new-jersey-new-jersey-d3",
@@ -15957,7 +16834,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/wpufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1305"
   },
   {
     "reference_id": "william-penn-university-iowa-naia",
@@ -15972,7 +16850,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/WPU_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "469"
   },
   {
     "reference_id": "william-woods-university-missouri-naia",
@@ -15987,7 +16866,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/wwuowlsFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "376"
   },
   {
     "reference_id": "williams-college-massachusetts-d3",
@@ -16002,7 +16882,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/williamsephsfb",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2731.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2731.png",
+    "distance_miles": "1383"
   },
   {
     "reference_id": "williamson-college-of-the-trades-pennsylvania-juco",
@@ -16017,7 +16898,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/WilliamsonTrade",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1238"
   },
   {
     "reference_id": "wilmington-college-ohio-d3",
@@ -16032,7 +16914,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/dubc_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "791"
   },
   {
     "reference_id": "wingate-university-north-carolina-d2",
@@ -16047,7 +16930,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/WU_Bulldogs",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/351.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/351.png",
+    "distance_miles": "960"
   },
   {
     "reference_id": "winona-state-university-minnesota-d2",
@@ -16062,7 +16946,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/WinonaStateATH",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2851.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2851.png",
+    "distance_miles": "657"
   },
   {
     "reference_id": "winston-salem-state-university-north-carolina-d2",
@@ -16077,7 +16962,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/wssuramfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2736.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2736.png",
+    "distance_miles": "964"
   },
   {
     "reference_id": "wisconsin-wisconsin-d1-fbs",
@@ -16092,7 +16978,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/BadgerFootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/275.png",
+    "distance_miles": "669"
   },
   {
     "reference_id": "wisconsin-lutheran-college-wisconsin-d3",
@@ -16107,7 +16994,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/WLC_Football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2741.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2741.png",
+    "distance_miles": "722"
   },
   {
     "reference_id": "wittenberg-university-ohio-d3",
@@ -16122,7 +17010,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/wittfootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2746.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2746.png",
+    "distance_miles": "802"
   },
   {
     "reference_id": "wofford-south-carolina-d1-fcs",
@@ -16137,7 +17026,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/Wofford_FB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2747.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2747.png",
+    "distance_miles": "877"
   },
   {
     "reference_id": "worcester-polytechnic-institute-massachusetts-d3",
@@ -16152,7 +17042,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/wpifootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1447"
   },
   {
     "reference_id": "worcester-state-university-massachusetts-d3",
@@ -16167,7 +17058,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/WSU_LancerFB",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/402.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/402.png",
+    "distance_miles": "1447"
   },
   {
     "reference_id": "wyoming-wyoming-d1-fbs",
@@ -16182,7 +17074,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/wyo_football",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2751.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2751.png",
+    "distance_miles": "587"
   },
   {
     "reference_id": "yale-connecticut-d1-fcs",
@@ -16197,7 +17090,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/yalefootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/43.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/43.png",
+    "distance_miles": "1379"
   },
   {
     "reference_id": "youngstown-state-ohio-d1-fcs",
@@ -16212,7 +17106,8 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/ysufootball",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2754.png"
+    "logo_url": "https://a.espncdn.com/i/teamlogos/ncaa/500/2754.png",
+    "distance_miles": "984"
   },
   {
     "reference_id": "yuba-college-california-juco",
@@ -16227,6 +17122,7 @@ export const collegePrograms = [
     "program_x_url": "https://x.com/yubaathletics",
     "source_url": "https://www.lewisvillerecruiting.com/college-search-tool",
     "snapshot_date": "2026-09-23",
-    "logo_url": ""
+    "logo_url": "",
+    "distance_miles": "1341"
   }
 ];

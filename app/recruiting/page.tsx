@@ -101,6 +101,12 @@ const schoolKey = (school: string) =>
     .replace(/[^a-z0-9]+/g, ' ')
     .trim();
 
+const schoolPrograms = [...collegePrograms].sort((first, second) => {
+  const firstDistance = Number(first.distance_miles) || Number.POSITIVE_INFINITY;
+  const secondDistance = Number(second.distance_miles) || Number.POSITIVE_INFINITY;
+  return firstDistance - secondDistance || first.school.localeCompare(second.school);
+});
+
 export default function Recruiting() {
   return (
     <main className="recruiting-page">
@@ -369,7 +375,7 @@ export default function Recruiting() {
             <p className="school-results" aria-live="polite"></p>
           </div>
           <div className="school-grid">
-            {collegePrograms.map((program) => (
+            {schoolPrograms.map((program) => (
               <details
                 className="school-profile"
                 data-search={`${program.school} ${program.city} ${program.state} ${program.division} ${program.conference}`.toLowerCase()}

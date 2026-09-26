@@ -4,7 +4,7 @@
   const classButtons = [...document.querySelectorAll('.class-filter button')];
   const playerCards = [...document.querySelectorAll('.player-profile')];
   const search = document.querySelector('#school-search');
-  const schoolCards = [...document.querySelectorAll('.school-profile')];
+  let schoolCards = [...document.querySelectorAll('.school-profile')];
   const resultText = document.querySelector('.school-results');
   const loadMore = document.querySelector('.school-load-more');
   const staffPanels = [...document.querySelectorAll('.school-staff-panel')];
@@ -50,6 +50,40 @@
       },
     );
     return coachDirectoryPromise;
+  };
+
+  const sortSchoolsByDistance = async () => {
+    const grid = document.querySelector('.school-grid');
+    if (!grid) return;
+    try {
+      const text = await fetch('/data/lewisville-college-contacts.csv').then(
+        (response) => response.text(),
+      );
+      const [header, ...rows] = text.trim().split(/\r?\n/);
+      const columns = header.split(',');
+      const schoolIndex = columns.indexOf('school');
+      const distanceIndex = columns.indexOf('distance_miles');
+      if (schoolIndex < 0 || distanceIndex < 0) return;
+      const distances = new Map(
+        rows.map((row) => {
+          const cells = row.split(',');
+          return [cells[schoolIndex], Number(cells[distanceIndex]) || Infinity];
+        }),
+      );
+      schoolCards.sort((first, second) => {
+        const firstName = first.querySelector('h3')?.textContent?.trim() || '';
+        const secondName = second.querySelector('h3')?.textContent?.trim() || '';
+        return (
+          (distances.get(firstName) || Infinity) -
+            (distances.get(secondName) || Infinity) ||
+          firstName.localeCompare(secondName)
+        );
+      });
+      grid.append(...schoolCards);
+      applySchoolFilter();
+    } catch {
+      // Alphabetical order remains available if the data file cannot load.
+    }
   };
 
   const coachLink = ([name, position, url]) => {
@@ -132,4 +166,5 @@
     }),
   );
   applySchoolFilter();
+  void sortSchoolsByDistance();
 })();

@@ -84,6 +84,7 @@ const schemas = {
     'source_url',
     'snapshot_date',
     'logo_url',
+    'distance_miles',
   ],
 };
 const filenames = {
