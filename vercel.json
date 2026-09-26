@@ -4,6 +4,6 @@
   "outputDirectory": "static",
   "cleanUrls": true,
   "rewrites": [
-    {"source": "/program/norman-north-2026", "destination": "/program/"}
+    {"source": "/program/norman-north-2026/:path*", "destination": "/program/"}
   ]
 }
