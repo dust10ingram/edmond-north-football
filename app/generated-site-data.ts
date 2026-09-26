@@ -2334,7 +2334,7 @@ export const schedules = [
     "ticket_url": "https://gofan.co/event/6739397?schoolId=OK21048",
     "result": "",
     "score": "",
-    "program_url": ""
+    "program_url": "/program/norman-north-2026/"
   },
   {
     "game_id": "2026-varsity-07",
@@ -2659,6 +2659,26 @@ export const gamePrograms = [
     "photo_album_url": "",
     "broadcast_url": "https://krefsports.tv/edmond-north/",
     "published": "yes"
+  },
+  {
+    "game_id": "2026-varsity-06",
+    "slug": "norman-north-2026",
+    "week": "6",
+    "story_label": "Week 6 · Homecoming",
+    "story_headline": "A statement game.",
+    "headline": "Huskies",
+    "headline_emphasis": "vs. Norman North.",
+    "opponent_mascot": "Timberwolves",
+    "hero_summary": "Homecoming under the lights at Edmond North.",
+    "intro_1": "Two of Oklahoma City’s top teams meet in a game that can reshape the 6A playoff race. Norman North arrives after a tough loss to 6A favorite Broken Arrow, while Edmond North is riding the emotion of a 39–36 Edlam win over Memorial. Both sides have a response to make—and four quarters to prove it.",
+    "intro_2": "The Huskies celebrate Homecoming with a chance to build real district momentum. At 3–1, Edmond North is off to its best start since 2012. A win would keep the North right in the middle of the 6A playoff picture and turn a great start into a statement.",
+    "north_record": "3–1",
+    "opponent_record": "3–1",
+    "game_fact_title": "Best start since 2012.",
+    "game_fact_body": "At 3–1 the Huskies have matched the program’s best opening stretch in more than a decade.",
+    "photo_album_url": "",
+    "broadcast_url": "https://krefsports.tv/edmond-north/",
+    "published": "yes"
   }
 ];
 
@@ -2695,6 +2715,46 @@ export const gameLeaders = [
   },
   {
     "game_id": "2026-varsity-05",
+    "category": "Defense",
+    "player_id": "varsity-hudson-hunter",
+    "primary_stat": "33",
+    "primary_label": "TKL",
+    "secondary_stats": "4 TFL",
+    "ranking": "",
+    "sort_order": "4"
+  },
+  {
+    "game_id": "2026-varsity-06",
+    "category": "Passing",
+    "player_id": "varsity-chauncey-cravens",
+    "primary_stat": "909",
+    "primary_label": "YDS",
+    "secondary_stats": "11 TD · 67.7% COMP",
+    "ranking": "#1 in 6A",
+    "sort_order": "1"
+  },
+  {
+    "game_id": "2026-varsity-06",
+    "category": "Rushing",
+    "player_id": "varsity-chauncey-cravens",
+    "primary_stat": "158",
+    "primary_label": "YDS",
+    "secondary_stats": "2 TD · 26 CAR",
+    "ranking": "",
+    "sort_order": "2"
+  },
+  {
+    "game_id": "2026-varsity-06",
+    "category": "Receiving",
+    "player_id": "varsity-reece-fisher",
+    "primary_stat": "343",
+    "primary_label": "YDS",
+    "secondary_stats": "21 REC · 4 TD",
+    "ranking": "",
+    "sort_order": "3"
+  },
+  {
+    "game_id": "2026-varsity-06",
     "category": "Defense",
     "player_id": "varsity-hudson-hunter",
     "primary_stat": "33",

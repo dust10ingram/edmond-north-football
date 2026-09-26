@@ -18,9 +18,76 @@ const mountHeroTicker=()=>{
 mountHeroTicker();
 
 const parseDataCsv=(text:string)=>{
-  const [headers,...rows]=text.trim().split(/\r?\n/).map(line=>line.split(','));
-  return rows.map(row=>Object.fromEntries(headers.map((header,index)=>[header,row[index]||''])));
+  const rows:string[][]=[];
+  let row:string[]=[],value='',quoted=false;
+  for(let index=0;index<text.length;index+=1){
+    const char=text[index];
+    if(quoted){if(char==='"'&&text[index+1]==='"'){value+='"';index+=1;}else if(char==='"')quoted=false;else value+=char;}
+    else if(char==='"')quoted=true;
+    else if(char===','){row.push(value);value='';}
+    else if(char==='\n'){row.push(value.replace(/\r$/,''));if(row.some(cell=>cell!==''))rows.push(row);row=[];value='';}
+    else value+=char;
+  }
+  if(value||row.length){row.push(value.replace(/\r$/,''));if(row.some(cell=>cell!==''))rows.push(row);}
+  const [headers,...records]=rows;
+  return records.map(record=>Object.fromEntries(headers.map((header,index)=>[header,record[index]||''])));
 };
+
+const setProgramCountdown=(game:Record<string,string>)=>{
+  const current=document.querySelector<HTMLElement>('.gameday-page .program-countdown');
+  if(!current)return;
+  const countdown=current.cloneNode(true) as HTMLElement;
+  current.replaceWith(countdown);
+  const target=new Date(`${game.date_iso}T19:00:00-05:00`).getTime();
+  countdown.dataset.kickoff=`${game.date_iso}T19:00:00-05:00`;
+  countdown.setAttribute('aria-label',`Countdown to ${game.opponent} kickoff`);
+  const tick=()=>{
+    const remaining=Math.max(0,target-Date.now());
+    const values={days:Math.floor(remaining/86400000),hours:Math.floor(remaining/3600000)%24,minutes:Math.floor(remaining/60000)%60,seconds:Math.floor(remaining/1000)%60};
+    Object.entries(values).forEach(([unit,value])=>{const digit=countdown.querySelector<HTMLElement>(`[data-unit="${unit}"]`);if(digit)digit.textContent=String(value).padStart(2,'0');});
+  };
+  tick();
+  setInterval(tick,1000);
+};
+
+const loadStaticProgram=async()=>{
+  const page=document.querySelector<HTMLElement>('.gameday-page');
+  if(!page)return;
+  try{
+    const [programsText,schedulesText]=await Promise.all([fetch('/data/game-programs.csv').then(response=>response.text()),fetch('/data/schedules.csv').then(response=>response.text())]);
+    const programs=parseDataCsv(programsText).filter(program=>program.published==='yes');
+    const games=parseDataCsv(schedulesText);
+    const path=location.pathname.split('/').filter(Boolean).at(-1);
+    const program=programs.find(item=>item.slug===path)||programs.find(item=>!games.find(game=>game.game_id===item.game_id)?.result)||programs.at(-1);
+    const game=games.find(item=>item.game_id===program?.game_id);
+    if(!program||!game)return;
+    const date=new Date(`${game.date_iso}T12:00:00`).toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});
+    const hero=page.querySelector('.gameday-hero');
+    const week=hero?.querySelector(':scope > span');if(week)week.textContent=`Week ${program.week} · ${date}`;
+    const title=hero?.querySelector('h1');if(title)title.innerHTML=`${program.headline}<br><em>${program.headline_emphasis}</em>`;
+    const summary=[...hero?.querySelectorAll<HTMLElement>(':scope > p')||[]].find(item=>!item.classList.contains('eyebrow'));if(summary)summary.textContent=program.hero_summary;
+    const ticket=hero?.querySelector<HTMLAnchorElement>('.button.light');if(ticket&&game.ticket_url)ticket.href=game.ticket_url;
+    const matchup=[...page.querySelectorAll<HTMLElement>('.gameday-matchup > div')];
+    if(matchup[0]){const values=matchup[0].querySelectorAll('small,strong,span');if(values[2])values[2].textContent=program.north_record;}
+    if(matchup[1]){const values=matchup[1].querySelectorAll('small,strong,span');if(values[0])values[0].textContent=game.opponent;if(values[1])values[1].textContent=program.opponent_mascot;if(values[2])values[2].textContent=`${program.opponent_record} · ${game.detail}`;}
+    const story=page.querySelector('.program-story');
+    const label=story?.querySelector('.eyebrow');if(label)label.textContent=program.story_label;
+    const headline=story?.querySelector('h2');if(headline)headline.textContent=program.story_headline;
+    const paragraphs=[...story?.querySelectorAll<HTMLElement>(':scope > p')||[]].filter(item=>!item.classList.contains('eyebrow'));
+    if(paragraphs[0])paragraphs[0].textContent=program.intro_1;
+    if(paragraphs[1])paragraphs[1].textContent=program.intro_2;
+    const fact=page.querySelector('.program-fact');
+    const factTitle=fact?.querySelector('h3');if(factTitle)factTitle.textContent=program.game_fact_title;
+    const factCopy=[...fact?.querySelectorAll('p')||[]].find(item=>!item.classList.contains('eyebrow'));if(factCopy)factCopy.textContent=program.game_fact_body;
+    const weeklyNote=page.querySelector('.weekly-board-heading > span');if(weeklyNote)weeklyNote.textContent=`Updated for week ${program.week}`;
+    setProgramCountdown(game);
+    updateProgramResults(games.filter(item=>item.team==='Varsity'));
+  }catch{
+    // The committed markup remains available if program data cannot load.
+  }
+};
+
+const programDataReady=loadStaticProgram();
 
 const loadProgramCaptains=async()=>{
   const container=document.querySelector<HTMLElement>('.gameday-page .captains');
@@ -63,7 +130,7 @@ const loadProgramCaptains=async()=>{
   }
 };
 
-void loadProgramCaptains();
+void programDataReady.then(loadProgramCaptains);
 
 const displayMeasurement=(value:string)=>value||'TBD';
 
@@ -248,7 +315,6 @@ const loadStaticScheduleData=async()=>{
     });
     updateFeaturedGame(games);
     updateLevelNextGames(allGames);
-    updateProgramResults(games);
   }catch{
     // Static markup remains readable while a data file is unavailable.
   }
