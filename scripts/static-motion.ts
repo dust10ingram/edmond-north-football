@@ -80,8 +80,21 @@ const loadStaticProgram=async()=>{
     const factTitle=fact?.querySelector('h3');if(factTitle)factTitle.textContent=program.game_fact_title;
     const factCopy=[...fact?.querySelectorAll('p')||[]].find(item=>!item.classList.contains('eyebrow'));if(factCopy)factCopy.textContent=program.game_fact_body;
     const weeklyNote=page.querySelector('.weekly-board-heading > span');if(weeklyNote)weeklyNote.textContent=`Updated for week ${program.week}`;
+    const results=page.querySelector<HTMLElement>('.program-results');
+    if(results){
+      const played=games.filter(item=>item.team===game.team&&item.result&&item.date_iso<game.date_iso);
+      results.querySelectorAll(':scope > article').forEach(card=>card.remove());
+      const link=results.querySelector(':scope > a');
+      played.forEach(item=>{
+        const card=document.createElement('article');
+        const result=document.createElement('b');result.className=item.result==='W'?'win':'loss';result.textContent=item.result;
+        const opponent=document.createElement('span');opponent.textContent=item.opponent;
+        const score=document.createElement('strong');score.textContent=item.score;
+        card.append(result,opponent,score);
+        results.insertBefore(card,link);
+      });
+    }
     setProgramCountdown(game);
-    updateProgramResults(games.filter(item=>item.team==='Varsity'));
   }catch{
     // The committed markup remains available if program data cannot load.
   }
