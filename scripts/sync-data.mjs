@@ -83,6 +83,7 @@ const schemas = {
     'program_x_url',
     'source_url',
     'snapshot_date',
+    'logo_url',
   ],
 };
 const filenames = {
@@ -386,6 +387,7 @@ data.collegePrograms.forEach((program, index) => {
     'camp_url',
     'recruiting_questionnaire_url',
     'program_x_url',
+    'logo_url',
     'source_url',
   ]) {
     if (!validUrl(program[column]))

@@ -367,6 +367,30 @@ const loadStaticScheduleData=async()=>{
 
 void loadStaticScheduleData();
 
+const addSchoolLogos=async()=>{
+  const directory=document.querySelector('.school-directory');
+  if(!directory)return;
+  try{
+    const programs=parseDataCsv(await fetch('/data/lewisville-college-contacts.csv').then(response=>response.text()));
+    const logos=new Map(programs.filter(program=>program.logo_url).map(program=>[program.school,program.logo_url]));
+    directory.querySelectorAll<HTMLElement>('.school-profile').forEach(card=>{
+      const school=card.querySelector('h3')?.textContent?.trim()||'';
+      const logo=logos.get(school);
+      const mark=card.querySelector<HTMLElement>('.school-mark');
+      if(!logo||!mark)return;
+      const image=new Image();
+      image.alt='';
+      image.loading='lazy';
+      image.src=logo;
+      image.addEventListener('load',()=>mark.replaceChildren(image),{once:true});
+    });
+  }catch{
+    // Initial badges remain in place if the logo data cannot be loaded.
+  }
+};
+
+void addSchoolLogos();
+
 if(!reduced){
   const ease=[.22,1,.36,1] as const;
   const slowEase=[.16,1,.3,1] as const;

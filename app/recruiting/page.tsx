@@ -377,7 +377,11 @@ export default function Recruiting() {
               >
                 <summary>
                   <span className="school-mark" aria-hidden="true">
-                    {schoolMark(program.school)}
+                    {program.logo_url ? (
+                      <img src={program.logo_url} alt="" loading="lazy" />
+                    ) : (
+                      schoolMark(program.school)
+                    )}
                   </span>
                   <div>
                     <p>
