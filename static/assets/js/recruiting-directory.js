@@ -59,15 +59,37 @@
       const text = await fetch('/data/lewisville-college-contacts.csv').then(
         (response) => response.text(),
       );
-      const [header, ...rows] = text.trim().split(/\r?\n/);
-      const columns = header.split(',');
+      const rows = [];
+      let row = [];
+      let value = '';
+      let quoted = false;
+      for (let index = 0; index < text.length; index += 1) {
+        const character = text[index];
+        if (quoted) {
+          if (character === '"' && text[index + 1] === '"') {
+            value += '"';
+            index += 1;
+          } else if (character === '"') quoted = false;
+          else value += character;
+        } else if (character === '"') quoted = true;
+        else if (character === ',') {
+          row.push(value);
+          value = '';
+        } else if (character === '\n') {
+          row.push(value.replace(/\r$/, ''));
+          rows.push(row);
+          row = [];
+          value = '';
+        } else value += character;
+      }
+      if (value || row.length) rows.push([...row, value.replace(/\r$/, '')]);
+      const [columns, ...records] = rows;
       const schoolIndex = columns.indexOf('school');
       const distanceIndex = columns.indexOf('distance_miles');
       if (schoolIndex < 0 || distanceIndex < 0) return;
       const distances = new Map(
-        rows.map((row) => {
-          const cells = row.split(',');
-          return [cells[schoolIndex], Number(cells[distanceIndex]) || Infinity];
+        records.map((record) => {
+          return [record[schoolIndex], Number(record[distanceIndex]) || Infinity];
         }),
       );
       schoolCards.sort((first, second) => {
