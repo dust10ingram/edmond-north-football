@@ -2727,9 +2727,9 @@ export const gameLeaders = [
     "game_id": "2026-varsity-06",
     "category": "Passing",
     "player_id": "varsity-chauncey-cravens",
-    "primary_stat": "909",
+    "primary_stat": "1248",
     "primary_label": "YDS",
-    "secondary_stats": "11 TD · 67.7% COMP",
+    "secondary_stats": "13 TD · 68.5% COMP",
     "ranking": "#1 in 6A",
     "sort_order": "1"
   },
@@ -2737,19 +2737,19 @@ export const gameLeaders = [
     "game_id": "2026-varsity-06",
     "category": "Rushing",
     "player_id": "varsity-chauncey-cravens",
-    "primary_stat": "158",
+    "primary_stat": "273",
     "primary_label": "YDS",
-    "secondary_stats": "2 TD · 26 CAR",
+    "secondary_stats": "4 TD · 53 CAR",
     "ranking": "",
     "sort_order": "2"
   },
   {
     "game_id": "2026-varsity-06",
     "category": "Receiving",
-    "player_id": "varsity-reece-fisher",
-    "primary_stat": "343",
+    "player_id": "varsity-deuce-martin",
+    "primary_stat": "428",
     "primary_label": "YDS",
-    "secondary_stats": "21 REC · 4 TD",
+    "secondary_stats": "20 REC · 3 TD",
     "ranking": "",
     "sort_order": "3"
   },
@@ -2757,9 +2757,9 @@ export const gameLeaders = [
     "game_id": "2026-varsity-06",
     "category": "Defense",
     "player_id": "varsity-hudson-hunter",
-    "primary_stat": "33",
+    "primary_stat": "40",
     "primary_label": "TKL",
-    "secondary_stats": "4 TFL",
+    "secondary_stats": "5 TFL",
     "ranking": "",
     "sort_order": "4"
   }

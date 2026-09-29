@@ -66,7 +66,7 @@ const loadStaticProgram=async()=>{
   const page=document.querySelector<HTMLElement>('.gameday-page');
   if(!page)return;
   try{
-    const [programsText,schedulesText]=await Promise.all([fetch('/data/game-programs.csv').then(response=>response.text()),fetch('/data/schedules.csv').then(response=>response.text())]);
+    const [programsText,schedulesText,leadersText,playersText]=await Promise.all([fetch('/data/game-programs.csv').then(response=>response.text()),fetch('/data/schedules.csv').then(response=>response.text()),fetch('/data/game-leaders.csv').then(response=>response.text()),fetch('/data/players.csv').then(response=>response.text())]);
     const programs=parseDataCsv(programsText).filter(program=>program.published==='yes');
     const games=parseDataCsv(schedulesText);
     const path=location.pathname.split('/').filter(Boolean).at(-1);
@@ -112,6 +112,24 @@ const loadStaticProgram=async()=>{
       const note=page.querySelector('.program-standings > small');if(note)note.textContent='District 6A Division I-1 · Overall · District W–L';
     }
     const weeklyNote=page.querySelector('.weekly-board-heading > span');if(weeklyNote)weeklyNote.textContent=`Updated for week ${program.week}`;
+    const leaderGrid=page.querySelector('.leader-grid');
+    if(leaderGrid){
+      const players=new Map(parseDataCsv(playersText).map(player=>[player.player_id,player]));
+      const leaders=parseDataCsv(leadersText).filter(leader=>leader.game_id===program.game_id).sort((first,second)=>Number(first.sort_order)-Number(second.sort_order));
+      if(leaders.length){
+        leaderGrid.innerHTML='';
+        leaders.forEach(leader=>{
+          const player=players.get(leader.player_id);
+          const card=document.createElement('article');
+          const label=document.createElement('small');label.textContent=`${leader.category}${leader.ranking?` · ${leader.ranking}`:''}`;
+          const name=document.createElement('strong');name.textContent=player?.name||'Player pending';
+          if(player?.number){const jersey=document.createElement('i');jersey.className='stat-jersey';jersey.textContent=`#${player.number}`;name.append(' ',jersey);}
+          const stat=document.createElement('b');stat.append(`${leader.primary_stat} `);const unit=document.createElement('em');unit.textContent=leader.primary_label;stat.append(unit);
+          const detail=document.createElement('p');detail.textContent=leader.secondary_stats;
+          card.append(label,name,stat,detail);leaderGrid.append(card);
+        });
+      }
+    }
     const results=page.querySelector<HTMLElement>('.program-results');
     if(results){
       const played=games.filter(item=>item.team===game.team&&item.result&&item.date_iso<game.date_iso);
