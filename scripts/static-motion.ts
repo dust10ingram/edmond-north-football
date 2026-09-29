@@ -118,6 +118,7 @@ const loadStaticProgram=async()=>{
       const leaders=parseDataCsv(leadersText).filter(leader=>leader.game_id===program.game_id).sort((first,second)=>Number(first.sort_order)-Number(second.sort_order));
       if(leaders.length){
         leaderGrid.innerHTML='';
+        const cards:HTMLElement[]=[];
         leaders.forEach(leader=>{
           const player=players.get(leader.player_id);
           const card=document.createElement('article');
@@ -127,9 +128,23 @@ const loadStaticProgram=async()=>{
           const stat=document.createElement('b');stat.append(`${leader.primary_stat} `);const unit=document.createElement('em');unit.textContent=leader.primary_label;stat.append(unit);
           const detail=document.createElement('p');detail.textContent=leader.secondary_stats;
           card.append(label,name,stat,detail);leaderGrid.append(card);
-          card.style.opacity='1';
-          card.style.transform='translateY(0px)';
+          cards.push(card);
         });
+        if(reduced){
+          cards.forEach(card=>{card.style.opacity='1';card.style.transform='translateY(0px)';});
+        }else{
+          cards.forEach(card=>{card.style.opacity='0';card.style.transform='translateY(24px)';});
+          inView(leaderGrid,()=>{
+            animate(cards,{opacity:1,transform:'translateY(0px)'},{duration:2.1,delay:stagger(.1),ease:[.22,1,.36,1]});
+            cards.forEach(card=>{
+              const value=card.querySelector<HTMLElement>('b');
+              const target=Number((value?.childNodes[0]?.textContent||'').trim().replace(/,/g,''));
+              if(!value||!Number.isFinite(target)||!value.childNodes[0])return;
+              value.childNodes[0].textContent='0 ';
+              animate(0,target,{duration:1.05,ease:[.22,1,.36,1],onUpdate:number=>{if(value.childNodes[0])value.childNodes[0].textContent=`${Math.round(number).toLocaleString()} `;}});
+            });
+          },{amount:.12});
+        }
       }
     }
     const results=page.querySelector<HTMLElement>('.program-results');
