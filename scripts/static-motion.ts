@@ -127,6 +127,8 @@ const loadStaticProgram=async()=>{
           const stat=document.createElement('b');stat.append(`${leader.primary_stat} `);const unit=document.createElement('em');unit.textContent=leader.primary_label;stat.append(unit);
           const detail=document.createElement('p');detail.textContent=leader.secondary_stats;
           card.append(label,name,stat,detail);leaderGrid.append(card);
+          card.style.opacity='1';
+          card.style.transform='translateY(0px)';
         });
       }
     }
