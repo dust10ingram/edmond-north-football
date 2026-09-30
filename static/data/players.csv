@@ -1,7 +1,7 @@
 player_id,team,number,name,position,class_year,image,height,weight,x_url,hudl_url,maxpreps_url,recruiting_profile,active
 varsity-parker-mcmahan,Varsity,0,Parker McMahan,TE / DE,2029,f0-caab2257.jpg,"6'2""",215,,,,yes,yes
 varsity-chauncey-cravens,Varsity,1,Chauncey Cravens,QB / CB,2027,f1-191c46d9.jpg,"6'0""",165,,https://www.hudl.com/profile/20706114,,yes,yes
-varsity-tripp-jones,Varsity,2,Tripp Jones,WR / FS,2028,f2-cc1bc1e6.jpg,,,,,,yes,yes
+varsity-tripp-jones,Varsity,2,Tripp Jones,WR / FS,2028,recruiting-fallback.jpg,,,,,,yes,yes
 varsity-deuce-martin,Varsity,2,Deuce Martin,WR / CB,2027,f2-cc1bc1e6.jpg,"5'9""",165,,,,yes,yes
 varsity-andrew-rankin,Varsity,3,Andrew Rankin,WR / FS,2029,f3-767e543f.jpg,"5'10""",180,,,,yes,yes
 varsity-kaden-collins,Varsity,4,Kaden Collins,TE / DE,2027,f4-5804baf2.jpg,"6'3""",205,,,,yes,yes
