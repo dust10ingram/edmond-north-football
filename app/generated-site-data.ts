@@ -39,7 +39,7 @@ export const players = [
     "name": "Tripp Jones",
     "position": "WR / FS",
     "class_year": "2028",
-    "image": "f2-cc1bc1e6.jpg",
+    "image": "recruiting-fallback.jpg",
     "height": "",
     "weight": "",
     "x_url": "",
