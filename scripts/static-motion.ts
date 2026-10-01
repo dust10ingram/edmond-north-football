@@ -1,6 +1,11 @@
 import {animate,hover,inView,stagger} from 'motion';
+import {inject} from '@vercel/analytics';
 
 const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+// This site is served from the committed static directory, so analytics is
+// initialized in the browser bundle shared by every page.
+inject();
 
 const mountHeroTicker=()=>{
   const hero=document.querySelector<HTMLElement>('.hero');
