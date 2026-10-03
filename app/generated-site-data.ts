@@ -2332,8 +2332,8 @@ export const schedules = [
     "location": "Home",
     "logo": "norman-north-b7d4bc4b.png",
     "ticket_url": "https://gofan.co/event/6739397?schoolId=OK21048",
-    "result": "",
-    "score": "",
+    "result": "L",
+    "score": "28–35",
     "program_url": "/program/norman-north-2026/"
   },
   {
