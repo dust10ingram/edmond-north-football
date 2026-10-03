@@ -97,9 +97,9 @@ const loadStaticProgram=async()=>{
     if(program.game_id==='2026-varsity-06'){
       const recap=page.querySelector('.photo-recap-track');
       const photos=[
-        ['/assets/last-game/edlam-line.jpg','Edmond North defense lines up against Edmond Memorial'],
-        ['/assets/last-game/edlam-flags.jpg','Edmond North takes the field before Edlam'],
-        ['/assets/last-game/edlam-captains.jpg','Edmond North captains meet Edmond Memorial at midfield'],
+        ['/assets/last-game/norman-north-defense.jpg','Edmond North defense lines up against Norman North'],
+        ['/assets/last-game/norman-north-kickoff.jpg','Edmond North kicks off against Norman North'],
+        ['/assets/last-game/norman-north-huddle.jpg','Edmond North gathers during the Norman North game'],
       ];
       if(recap){recap.innerHTML='';photos.forEach(([src,alt])=>{const image=document.createElement('img');image.src=src;image.alt=alt;recap.append(image);});}
     }
