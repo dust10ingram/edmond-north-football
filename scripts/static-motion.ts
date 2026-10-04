@@ -150,8 +150,10 @@ const loadStaticProgram=async()=>{
             });
           },{amount:.12});
         }
+      }else{
+          leaderGrid.innerHTML='<p class="leader-placeholder">Season leaders will be refreshed after the game.</p>';
+        }
       }
-    }
     const results=page.querySelector<HTMLElement>('.program-results');
     if(results){
       const played=games.filter(item=>item.team===game.team&&item.result&&item.date_iso<game.date_iso);

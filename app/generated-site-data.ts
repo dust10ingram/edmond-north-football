@@ -2349,7 +2349,7 @@ export const schedules = [
     "ticket_url": "https://gofan.co/event/6723321?schoolId=OK21048",
     "result": "",
     "score": "",
-    "program_url": ""
+    "program_url": "/program/?game=mustang-2026"
   },
   {
     "game_id": "2026-varsity-08",
@@ -2676,6 +2676,26 @@ export const gamePrograms = [
     "opponent_record": "3–1",
     "game_fact_title": "Best start since 2012.",
     "game_fact_body": "At 3–1 the Huskies have matched the program’s best opening stretch in more than a decade.",
+    "photo_album_url": "",
+    "broadcast_url": "https://krefsports.tv/edmond-north/",
+    "published": "yes"
+  },
+  {
+    "game_id": "2026-varsity-07",
+    "slug": "mustang-2026",
+    "week": "7",
+    "story_label": "Week 7 · District road trip",
+    "story_headline": "Road work.",
+    "headline": "Huskies",
+    "headline_emphasis": "at Mustang.",
+    "opponent_mascot": "Broncos",
+    "hero_summary": "The Huskies head west for another key 6A-I district test.",
+    "intro_1": "Edmond North takes its next district challenge on the road at Mustang. Both teams enter Friday at 3–2 overall and 1–1 in district play, giving this matchup real weight in a crowded 6A-I race.",
+    "intro_2": "The Huskies will look to respond after a hard-fought Homecoming night and carry that urgency into Mustang. Four quarters on the road provide the next chance to reset, compete, and build district momentum.",
+    "north_record": "3–2",
+    "opponent_record": "3–2",
+    "game_fact_title": "The road is part of the test.",
+    "game_fact_body": "Every district trip presents a new challenge—and an opportunity to keep moving forward.",
     "photo_album_url": "",
     "broadcast_url": "https://krefsports.tv/edmond-north/",
     "published": "yes"
