@@ -2785,13 +2785,23 @@ export const gameLeaders = [
   },
   {
     "game_id": "2026-varsity-07",
+    "category": "Passing",
+    "player_id": "varsity-chauncey-cravens",
+    "primary_stat": "1533",
+    "primary_label": "YDS",
+    "secondary_stats": "15 TD · 64.1% COMP",
+    "ranking": "",
+    "sort_order": "1"
+  },
+  {
+    "game_id": "2026-varsity-07",
     "category": "Rushing",
     "player_id": "varsity-chauncey-cravens",
     "primary_stat": "385",
     "primary_label": "YDS",
     "secondary_stats": "6 TD · 62 CAR",
     "ranking": "",
-    "sort_order": "1"
+    "sort_order": "2"
   },
   {
     "game_id": "2026-varsity-07",
@@ -2801,7 +2811,7 @@ export const gameLeaders = [
     "primary_label": "YDS",
     "secondary_stats": "23 REC · 3 TD",
     "ranking": "",
-    "sort_order": "2"
+    "sort_order": "3"
   },
   {
     "game_id": "2026-varsity-07",
@@ -2811,7 +2821,7 @@ export const gameLeaders = [
     "primary_label": "TKL",
     "secondary_stats": "7.5 TFL",
     "ranking": "",
-    "sort_order": "3"
+    "sort_order": "4"
   }
 ];
 
