@@ -2790,7 +2790,7 @@ export const gameLeaders = [
     "primary_stat": "1533",
     "primary_label": "YDS",
     "secondary_stats": "15 TD · 64.1% COMP",
-    "ranking": "",
+    "ranking": "#1 in Oklahoma",
     "sort_order": "1"
   },
   {
