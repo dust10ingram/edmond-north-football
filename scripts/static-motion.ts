@@ -11,12 +11,12 @@ const mountHeroTicker=()=>{
   const hero=document.querySelector<HTMLElement>('.hero');
   if(!hero||hero.querySelector('.hero-ticker'))return;
   const style=document.createElement('style');
-  style.textContent='.hero-ticker{position:absolute;z-index:2;top:0;left:0;right:0;overflow:hidden;border-top:1px solid rgba(255,255,255,.58);border-bottom:1px solid rgba(255,255,255,.58);background:rgba(2,14,32,.52);color:#fff}.hero-ticker-track{display:flex;width:max-content;animation:hero-ticker-scroll 24s linear infinite}.hero-ticker span{display:flex;align-items:center;gap:26px;white-space:nowrap;padding:9px 26px;font-size:.66rem;font-weight:900;letter-spacing:.22em;text-transform:uppercase}.hero-ticker span:after{content:"◆";color:#4e9ff1;font-size:.5rem}@keyframes hero-ticker-scroll{to{transform:translateX(-50%)}}@media (prefers-reduced-motion:reduce){.hero-ticker-track{animation:none}}@media (max-width:640px){.hero-ticker span{padding-block:8px;font-size:.6rem}}';
+  style.textContent='.hero-ticker{position:absolute;z-index:2;bottom:0;left:0;right:0;overflow:hidden;border-top:1px solid rgba(255,255,255,.58);border-bottom:1px solid rgba(255,255,255,.58);background:rgba(2,14,32,.52);color:#fff}.hero-ticker-track{display:flex;width:max-content;animation:hero-ticker-scroll 24s linear infinite}.hero-ticker span{display:flex;align-items:center;gap:26px;white-space:nowrap;padding:9px 26px;font-size:.66rem;font-weight:900;letter-spacing:.22em;text-transform:uppercase}.hero-ticker span:after{content:"◆";color:#4e9ff1;font-size:.5rem}@keyframes hero-ticker-scroll{to{transform:translateX(-50%)}}@media (prefers-reduced-motion:reduce){.hero-ticker-track{animation:none}}@media (max-width:640px){.hero-ticker span{padding-block:8px;font-size:.6rem}}';
   document.head.append(style);
   const ticker=document.createElement('div');
   ticker.className='hero-ticker';
-  ticker.setAttribute('aria-label','City Champions. Edmond North beats Memorial 39 to 36.');
-  ticker.innerHTML='<div class="hero-ticker-track"><span>City Champions</span><span>Edmond North beats Memorial 39–36</span><span aria-hidden="true">City Champions</span><span aria-hidden="true">Edmond North beats Memorial 39–36</span></div>';
+  ticker.setAttribute('aria-label','2026 City Champions');
+  ticker.innerHTML='<div class="hero-ticker-track"><span>2026 City Champions</span><span>2026 City Champions</span><span aria-hidden="true">2026 City Champions</span><span aria-hidden="true">2026 City Champions</span></div>';
   hero.querySelector('.hero-shade')?.insertAdjacentElement('afterend',ticker);
 };
 
@@ -394,7 +394,17 @@ const loadStaticScheduleData=async()=>{
       const opponent=card.querySelector('strong')?.textContent?.trim();
       const date=card.querySelector('time')?.textContent?.trim();
       const game=games.find(item=>item.opponent===opponent&&item.date_label===date);
-      if(!game?.result)return;
+      if(!game)return;
+      if(game.ticket_url&&!game.result&&!card.querySelector('.ticket-link')){
+        const ticket=document.createElement('a');
+        ticket.className='ticket-link';
+        ticket.href=game.ticket_url;
+        ticket.target='_blank';
+        ticket.rel='noreferrer';
+        ticket.innerHTML='<span aria-hidden="true">🎟</span> Tickets';
+        card.append(ticket);
+      }
+      if(!game.result)return;
       card.classList.add('completed-game');
       card.querySelector('.ticket-link')?.remove();
       const details=card.querySelector('strong')?.parentElement;
