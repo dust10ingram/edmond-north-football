@@ -2347,8 +2347,8 @@ export const schedules = [
     "location": "Away",
     "logo": "mustang-6cf56a6f.png",
     "ticket_url": "https://gofan.co/event/6723321?schoolId=OK21048",
-    "result": "",
-    "score": "",
+    "result": "L",
+    "score": "54–7",
     "program_url": "/program/?game=mustang-2026"
   },
   {
@@ -2361,7 +2361,7 @@ export const schedules = [
     "detail": "Thursday · 7:00 PM",
     "location": "Home",
     "logo": "westmoore-edf593ef.png",
-    "ticket_url": "",
+    "ticket_url": "https://gofan.co/event/6739396",
     "result": "",
     "score": "",
     "program_url": ""
@@ -2447,7 +2447,7 @@ export const schedules = [
     "season": "2026",
     "date_label": "OCT 12",
     "date_iso": "2026-10-12",
-    "opponent": "Opponent TBA",
+    "opponent": "Piedmont",
     "detail": "7:00–9:00 PM",
     "location": "TBD",
     "logo": "",
@@ -2537,7 +2537,7 @@ export const schedules = [
     "season": "2026",
     "date_label": "OCT 12",
     "date_iso": "2026-10-12",
-    "opponent": "Opponent TBA",
+    "opponent": "Piedmont",
     "detail": "5:30–7:00 PM",
     "location": "TBD",
     "logo": "",
