@@ -359,7 +359,8 @@ const updateLevelNextGames=(games:Record<string,string>[])=>{
     const detail=game.detail.split('–')[0].trim();
     const suffix=game.detail.match(/(AM|PM)$/)?.[1];
     const info=compact.querySelector('span');
-    if(info)info.innerHTML=`<b>Next game · ${game.location}</b>${game.opponent} · ${detail}${suffix?` ${suffix}`:''}`;
+    const knownLocation=game.location&&game.location.toUpperCase()!=='TBD';
+    if(info)info.innerHTML=`<b>Next game${knownLocation?` · ${game.location}`:''}</b>${game.opponent} · ${detail}${suffix?` ${suffix}`:''}`;
   });
 };
 
