@@ -2847,9 +2847,9 @@ export const gameLeaders = [
     "game_id": "2026-varsity-08",
     "category": "Passing",
     "player_id": "varsity-chauncey-cravens",
-    "primary_stat": "1533",
+    "primary_stat": "1729",
     "primary_label": "YDS",
-    "secondary_stats": "15 TD · 64.1% COMP",
+    "secondary_stats": "16 TD · 62.1% COMP",
     "ranking": "#1 in Oklahoma",
     "sort_order": "1"
   },
@@ -2857,9 +2857,9 @@ export const gameLeaders = [
     "game_id": "2026-varsity-08",
     "category": "Rushing",
     "player_id": "varsity-chauncey-cravens",
-    "primary_stat": "385",
+    "primary_stat": "404",
     "primary_label": "YDS",
-    "secondary_stats": "6 TD · 62 CAR",
+    "secondary_stats": "6 TD · 70 CAR",
     "ranking": "",
     "sort_order": "2"
   },
@@ -2867,9 +2867,9 @@ export const gameLeaders = [
     "game_id": "2026-varsity-08",
     "category": "Receiving",
     "player_id": "varsity-deuce-martin",
-    "primary_stat": "504",
+    "primary_stat": "534",
     "primary_label": "YDS",
-    "secondary_stats": "23 REC · 3 TD",
+    "secondary_stats": "26 REC · 3 TD",
     "ranking": "",
     "sort_order": "3"
   },
@@ -2877,9 +2877,9 @@ export const gameLeaders = [
     "game_id": "2026-varsity-08",
     "category": "Defense",
     "player_id": "varsity-hudson-hunter",
-    "primary_stat": "56",
+    "primary_stat": "69",
     "primary_label": "TKL",
-    "secondary_stats": "7.5 TFL",
+    "secondary_stats": "8.5 TFL",
     "ranking": "",
     "sort_order": "4"
   }
