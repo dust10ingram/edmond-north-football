@@ -2364,7 +2364,7 @@ export const schedules = [
     "ticket_url": "https://gofan.co/event/6739396",
     "result": "",
     "score": "",
-    "program_url": ""
+    "program_url": "/program/?game=westmoore-2026"
   },
   {
     "game_id": "2026-varsity-09",
@@ -2699,6 +2699,26 @@ export const gamePrograms = [
     "photo_album_url": "",
     "broadcast_url": "https://krefsports.tv/edmond-north/",
     "published": "yes"
+  },
+  {
+    "game_id": "2026-varsity-08",
+    "slug": "westmoore-2026",
+    "week": "8",
+    "story_label": "Week 8 · District matchup",
+    "story_headline": "Back at home.",
+    "headline": "Huskies",
+    "headline_emphasis": "vs. Westmoore.",
+    "opponent_mascot": "Jaguars",
+    "hero_summary": "Edmond North returns home for another important 6A-I district matchup.",
+    "intro_1": "The Huskies return to Edmond North for a Thursday-night district game against Westmoore. Every possession matters as the 6A-I standings take shape down the stretch.",
+    "intro_2": "Edmond North brings its current season leaders and a chance to reset on its home field. The next step is simple: play fast, play together, and protect the North.",
+    "north_record": "3–3",
+    "opponent_record": "1–4",
+    "game_fact_title": "District race.",
+    "game_fact_body": "The 6A-I standings remain tight, making every district game important.",
+    "photo_album_url": "",
+    "broadcast_url": "https://krefsports.tv/edmond-north/",
+    "published": "yes"
   }
 ];
 
@@ -2815,6 +2835,46 @@ export const gameLeaders = [
   },
   {
     "game_id": "2026-varsity-07",
+    "category": "Defense",
+    "player_id": "varsity-hudson-hunter",
+    "primary_stat": "56",
+    "primary_label": "TKL",
+    "secondary_stats": "7.5 TFL",
+    "ranking": "",
+    "sort_order": "4"
+  },
+  {
+    "game_id": "2026-varsity-08",
+    "category": "Passing",
+    "player_id": "varsity-chauncey-cravens",
+    "primary_stat": "1533",
+    "primary_label": "YDS",
+    "secondary_stats": "15 TD · 64.1% COMP",
+    "ranking": "#1 in Oklahoma",
+    "sort_order": "1"
+  },
+  {
+    "game_id": "2026-varsity-08",
+    "category": "Rushing",
+    "player_id": "varsity-chauncey-cravens",
+    "primary_stat": "385",
+    "primary_label": "YDS",
+    "secondary_stats": "6 TD · 62 CAR",
+    "ranking": "",
+    "sort_order": "2"
+  },
+  {
+    "game_id": "2026-varsity-08",
+    "category": "Receiving",
+    "player_id": "varsity-deuce-martin",
+    "primary_stat": "504",
+    "primary_label": "YDS",
+    "secondary_stats": "23 REC · 3 TD",
+    "ranking": "",
+    "sort_order": "3"
+  },
+  {
+    "game_id": "2026-varsity-08",
     "category": "Defense",
     "player_id": "varsity-hudson-hunter",
     "primary_stat": "56",
