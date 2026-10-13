@@ -39,14 +39,14 @@ const parseDataCsv=(text:string)=>{
 };
 
 const districtStandings=[
-  ['Bixby','5–0','2–0'],
-  ['Broken Arrow','5–0','2–0'],
-  ['Mustang','3–2','1–1'],
-  ['Edmond North','3–2','1–1'],
-  ['Norman North','4–1','1–1'],
-  ['Westmoore','1–4','1–1'],
-  ['Southmoore','0–5','0–2'],
-  ['Edmond Memorial','2–3','0–2'],
+  ['Broken Arrow','6–0','3–0'],
+  ['Bixby','6–0','3–0'],
+  ['Mustang','4–2','2–1'],
+  ['Norman North','5–1','2–1'],
+  ['Edmond North','3–3','1–2'],
+  ['Westmoore','1–5','1–2'],
+  ['Southmoore','0–6','0–3'],
+  ['Edmond Memorial','2–4','0–3'],
 ];
 
 const setProgramCountdown=(game:Record<string,string>)=>{
