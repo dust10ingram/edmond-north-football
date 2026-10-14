@@ -239,7 +239,7 @@ const wireRosterRecruitingLinks=()=>{
     action.href=destination;
     action.setAttribute('aria-label',`View ${name}'s recruiting profile`);
     action.title='View recruiting profile';
-    action.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h11a3 3 0 0 1 3 3v11a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3Zm2 5h6m-6 4h6m-6 4h3m5-8-5 5m0-5h5v5"/></svg>';
+    action.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.25"/><path d="M5.25 20c.55-3.85 3.28-6.2 6.75-6.2s6.2 2.35 6.75 6.2"/></svg>';
     card.insertBefore(action,card.querySelector('.roster-index'));
   });
 };
