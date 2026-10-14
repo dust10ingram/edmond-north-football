@@ -1351,7 +1351,7 @@ export const players = [
     "name": "Tyson Harvey",
     "position": "WR / C",
     "class_year": "2030",
-    "image": "freshman-tyson-harvey.jpg",
+    "image": "",
     "height": "",
     "weight": "",
     "x_url": "",
