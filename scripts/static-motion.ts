@@ -221,6 +221,34 @@ void programDataReady.then(loadProgramCaptains);
 
 const displayMeasurement=(value:string)=>value||'TBD';
 
+const recruitingCardId=(number:string,name:string)=>
+  `player-${number}-${name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')}`;
+
+const wireRosterRecruitingLinks=()=>{
+  const roster=document.querySelector<HTMLElement>('.roster-list');
+  if(!roster)return;
+  roster.querySelectorAll<HTMLElement>('.roster-varsity,.roster-freshman').forEach(card=>{
+    if(card.dataset.recruitingLinked)return;
+    const number=card.querySelector('.roster-number')?.textContent?.trim();
+    const name=card.querySelector('strong')?.textContent?.trim();
+    if(!number||!name)return;
+    const destination=`/recruiting/#${recruitingCardId(number,name)}`;
+    card.dataset.recruitingLinked='true';
+    card.classList.add('roster-recruiting-link');
+    card.setAttribute('role','link');
+    card.tabIndex=0;
+    card.setAttribute('aria-label',`View ${name}'s recruiting profile`);
+    const visit=()=>{window.location.assign(destination);};
+    card.addEventListener('click',visit);
+    card.addEventListener('keydown',event=>{
+      if(event.key==='Enter'||event.key===' '){
+        event.preventDefault();
+        visit();
+      }
+    });
+  });
+};
+
 const insertRosterPlayer=(player:Record<string,string>)=>{
   const roster=document.querySelector<HTMLElement>('.roster-list');
   if(!roster||[...roster.querySelectorAll('article strong')].some(node=>node.textContent===player.name))return;
@@ -245,7 +273,7 @@ const insertRecruitingPlayer=(player:Record<string,string>)=>{
   const source=grid.querySelector<HTMLDetailsElement>('.player-profile');
   if(!source)return;
   const card=source.cloneNode(true) as HTMLDetailsElement;
-  const key=`player-${player.number}-${player.name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')}`;
+  const key=recruitingCardId(player.number,player.name);
   card.id=key;
   card.dataset.class=player.class_year;
   const photo=card.querySelector<HTMLImageElement>('.player-photo img');
@@ -279,12 +307,15 @@ const loadMissingStaticPlayers=async()=>{
         insertRecruitingPlayer(player);
       }
     });
+    wireRosterRecruitingLinks();
+    if(document.querySelector('.recruiting-page'))document.dispatchEvent(new Event('recruiting-cards-ready'));
   }catch{
     // Existing static content remains available if the player data cannot load.
   }
 };
 
 void loadMissingStaticPlayers();
+wireRosterRecruitingLinks();
 
 const createResult=(game:Record<string,string>)=>{
   const result=document.createElement('span');

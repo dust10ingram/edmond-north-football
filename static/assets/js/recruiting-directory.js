@@ -179,6 +179,27 @@
       });
     }),
   );
+
+  const revealRecruitingHash = () => {
+    const id = decodeURIComponent(location.hash.slice(1));
+    if (!id.startsWith('player-')) return false;
+    const card = document.getElementById(id);
+    if (!card?.classList.contains('player-profile')) return false;
+    const classButton = classButtons.find(
+      (button) => button.dataset.filter === card.dataset.class,
+    );
+    classButton?.click();
+    card.open = true;
+    requestAnimationFrame(() => {
+      card.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      card.querySelector('summary')?.focus({ preventScroll: true });
+    });
+    return true;
+  };
+
+  addEventListener('hashchange', revealRecruitingHash);
+  document.addEventListener('recruiting-cards-ready', revealRecruitingHash);
+  requestAnimationFrame(revealRecruitingHash);
   search?.addEventListener('input', () => {
     schoolLimit = 48;
     applySchoolFilter();

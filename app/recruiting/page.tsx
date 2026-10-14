@@ -468,7 +468,7 @@ export default function Recruiting() {
           </button>
         </section>
       </section>
-      <script defer src="/assets/js/recruiting-directory.js?v=5" />
+      <script defer src="/assets/js/recruiting-directory.js?v=6" />
     </main>
   );
 }
