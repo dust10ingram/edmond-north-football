@@ -2,7 +2,7 @@
   const viewButtons = [...document.querySelectorAll('[data-recruiting-tab]')];
   const viewPanels = [...document.querySelectorAll('[data-recruiting-view]')];
   const classButtons = [...document.querySelectorAll('.class-filter button')];
-  const playerCards = [...document.querySelectorAll('.player-profile')];
+  const playerCards = () => [...document.querySelectorAll('.player-profile')];
   const search = document.querySelector('#school-search');
   let schoolCards = [...document.querySelectorAll('.school-profile')];
   const resultText = document.querySelector('.school-results');
@@ -172,7 +172,7 @@
       classButtons.forEach((item) =>
         item.setAttribute('aria-pressed', String(item === button)),
       );
-      playerCards.forEach((card) => {
+      playerCards().forEach((card) => {
         const show = value === 'All' || card.dataset.class === value;
         card.hidden = !show;
         if (!show) card.removeAttribute('open');

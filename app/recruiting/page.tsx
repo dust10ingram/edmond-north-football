@@ -8,8 +8,8 @@ import {
 const activeRecruits = players.filter(
   (player) =>
     player.active === 'yes' &&
-    player.team === 'Varsity' &&
-    player.recruiting_profile === 'yes',
+    ((player.team === 'Varsity' && player.recruiting_profile === 'yes') ||
+      player.team === 'Freshman'),
 );
 
 const recruits = activeRecruits.map((player) => ({
@@ -468,7 +468,7 @@ export default function Recruiting() {
           </button>
         </section>
       </section>
-      <script defer src="/assets/js/recruiting-directory.js?v=1" />
+      <script defer src="/assets/js/recruiting-directory.js?v=5" />
     </main>
   );
 }
