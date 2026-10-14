@@ -268,6 +268,29 @@ const insertRecruitingPlayer=(player:Record<string,string>)=>{
   grid.insertBefore(card,next||null);
 };
 
+const mountRosterPortraits=(players:Record<string,string>[])=>{
+  const roster=document.querySelector<HTMLElement>('.roster-list');
+  if(!roster)return;
+  const portraits=new Map(players
+    .filter(player=>player.team==='Freshman'&&player.active==='yes'&&player.image)
+    .map(player=>[player.name,player.image]));
+  roster.querySelectorAll<HTMLElement>('.roster-freshman').forEach(card=>{
+    const name=card.querySelector('strong')?.textContent?.trim();
+    const image=name?portraits.get(name):undefined;
+    if(!image||card.querySelector('.roster-photo'))return;
+    const photo=document.createElement('span');
+    photo.className='roster-photo';
+    const portrait=document.createElement('img');
+    portrait.src=`/assets/players/${image}`;
+    portrait.alt=`${name}, Edmond North football`;
+    portrait.loading='lazy';
+    photo.append(portrait);
+    const details=card.querySelector('div');
+    card.classList.add('has-roster-photo');
+    card.insertBefore(photo,details);
+  });
+};
+
 const loadMissingStaticPlayers=async()=>{
   if(!document.querySelector('.roster-list,.recruiting-page'))return;
   try{
@@ -278,6 +301,7 @@ const loadMissingStaticPlayers=async()=>{
         insertRosterPlayer(player);
         if(player.recruiting_profile==='yes')insertRecruitingPlayer(player);
       });
+    mountRosterPortraits(players);
   }catch{
     // Existing static content remains available if the player data cannot load.
   }
