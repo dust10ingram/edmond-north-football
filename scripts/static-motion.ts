@@ -234,18 +234,13 @@ const wireRosterRecruitingLinks=()=>{
     if(!number||!name)return;
     const destination=`/recruiting/#${recruitingCardId(number,name)}`;
     card.dataset.recruitingLinked='true';
-    card.classList.add('roster-recruiting-link');
-    card.setAttribute('role','link');
-    card.tabIndex=0;
-    card.setAttribute('aria-label',`View ${name}'s recruiting profile`);
-    const visit=()=>{window.location.assign(destination);};
-    card.addEventListener('click',visit);
-    card.addEventListener('keydown',event=>{
-      if(event.key==='Enter'||event.key===' '){
-        event.preventDefault();
-        visit();
-      }
-    });
+    const action=document.createElement('a');
+    action.className='roster-recruiting-action';
+    action.href=destination;
+    action.setAttribute('aria-label',`View ${name}'s recruiting profile`);
+    action.title='View recruiting profile';
+    action.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h11a3 3 0 0 1 3 3v11a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3Zm2 5h6m-6 4h6m-6 4h3m5-8-5 5m0-5h5v5"/></svg>';
+    card.insertBefore(action,card.querySelector('.roster-index'));
   });
 };
 
