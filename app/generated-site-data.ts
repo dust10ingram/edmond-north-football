@@ -2362,8 +2362,8 @@ export const schedules = [
     "location": "Home",
     "logo": "westmoore-edf593ef.png",
     "ticket_url": "https://gofan.co/event/6739396",
-    "result": "",
-    "score": "",
+    "result": "W",
+    "score": "44–7",
     "program_url": "/program/?game=westmoore-2026"
   },
   {
