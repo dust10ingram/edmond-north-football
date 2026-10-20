@@ -70,6 +70,18 @@ const schemas = {
     'sort_order',
   ],
   gameCaptains: ['game_id', 'player_id', 'role'],
+  allTimeRecords: [
+    'record_id',
+    'category',
+    'metric',
+    'scope',
+    'player',
+    'value',
+    'season',
+    'opponent',
+    'notes',
+    'sort_order',
+  ],
   collegePrograms: [
     'reference_id',
     'school',
@@ -91,6 +103,7 @@ const filenames = {
   gamePrograms: 'game-programs',
   gameLeaders: 'game-leaders',
   gameCaptains: 'game-captains',
+  allTimeRecords: 'all-time-records',
   collegePrograms: 'lewisville-college-contacts',
 };
 const filenameFor = (name) => filenames[name] || name;
@@ -375,6 +388,21 @@ data.gameCaptains.forEach((captain, index) => {
     );
   if (!captain.role)
     errors.push(`game-captains.csv row ${row}: role is required.`);
+});
+unique(data.allTimeRecords, 'record_id', 'all-time-records');
+data.allTimeRecords.forEach((record, index) => {
+  const row = index + 2;
+  for (const column of ['category', 'metric', 'scope', 'player', 'value'])
+    if (!record[column])
+      errors.push(`all-time-records.csv row ${row}: ${column} is required.`);
+  if (!['Game', 'Season', 'Career'].includes(record.scope))
+    errors.push(
+      `all-time-records.csv row ${row}: scope must be Game, Season, or Career.`,
+    );
+  if (record.sort_order && !/^\d+$/.test(record.sort_order))
+    errors.push(
+      `all-time-records.csv row ${row}: sort_order must be a whole number.`,
+    );
 });
 unique(data.collegePrograms, 'reference_id', 'lewisville-college-contacts');
 data.collegePrograms.forEach((program, index) => {

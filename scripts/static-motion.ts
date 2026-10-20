@@ -38,6 +38,35 @@ const parseDataCsv=(text:string)=>{
   return records.map(record=>Object.fromEntries(headers.map((header,index)=>[header,record[index]||''])));
 };
 
+const loadAllTimeRecords=async()=>{
+  const container=document.querySelector<HTMLElement>('.all-time-records');
+  if(!container)return;
+  try{
+    const records=parseDataCsv(await fetch('/data/all-time-records.csv').then(response=>response.text()));
+    const categories=['Passing','Rushing','Receiving','Defense','Scoring'];
+    container.replaceChildren();
+    categories.forEach(category=>{
+      const group=document.createElement('article');
+      group.className='record-group';
+      const title=document.createElement('h3');title.textContent=category;
+      const list=document.createElement('div');list.className='record-list';
+      records.filter(record=>record.category===category).sort((a,b)=>Number(a.sort_order)-Number(b.sort_order)).forEach(record=>{
+        const row=document.createElement('div');row.className='record-row';
+        const label=document.createElement('small');label.textContent=`${record.metric} · ${record.scope}`;
+        const player=document.createElement('strong');player.textContent=record.player;
+        const value=document.createElement('b');value.textContent=record.value;
+        const detail=document.createElement('span');detail.textContent=[record.season,record.opponent&&`vs. ${record.opponent}`].filter(Boolean).join(' · ');
+        row.append(label,player,value,detail);list.append(row);
+      });
+      group.append(title,list);container.append(group);
+    });
+  }catch{
+    container.textContent='Record data is temporarily unavailable.';
+  }
+};
+
+void loadAllTimeRecords();
+
 const districtStandings=[
   ['Broken Arrow','6–0','3–0'],
   ['Bixby','6–0','3–0'],

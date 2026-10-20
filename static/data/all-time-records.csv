@@ -1,0 +1,30 @@
+record_id,category,metric,scope,player,value,season,opponent,notes,sort_order
+passing-yards-game,Passing,Passing yards,Game,Colby Entwistle,484,2018,Moore,,1
+passing-yards-season,Passing,Passing yards,Season,Pryce Bender,"2,528",2022,,,2
+passing-touchdowns-game,Passing,Passing touchdowns,Game,Ben McNaughton,5,2017,PC North,,3
+passing-touchdowns-season,Passing,Passing touchdowns,Season,Pryce Bender,17,2022,,,4
+completions-season,Passing,Completions,Season,Pryce Bender,210,2022,,,5
+completions-career,Passing,Completions,Career,Pryce Bender,398,2021-2023,,,6
+rushing-yards-season,Rushing,Rushing yards,Season,Bryan Blew,"2,030",1998,,,1
+rushing-yards-career,Rushing,Rushing yards,Career,Bryan Blew,"3,117",1996-1998,,,2
+rushing-touchdowns-season,Rushing,Rushing touchdowns,Season,Bryan Blew,23,1998,,,3
+rushing-touchdowns-career,Rushing,Rushing touchdowns,Career,Chris Jones,37,2001-2003,,,4
+receiving-yards-game,Receiving,Receiving yards,Game,Elijah Fisher,226,2016,Norman North,,1
+receiving-yards-season,Receiving,Receiving yards,Season,Sedrick Frazier,924,2022,,,2
+receiving-yards-career,Receiving,Receiving yards,Career,Marquis Hamilton,"1,645",2002-2004,,,3
+receiving-touchdowns-season,Receiving,Receiving touchdowns,Season,Luke Rossi,9,2013,,,4
+receiving-touchdowns-career,Receiving,Receiving touchdowns,Career,Luke Rossi,16,2012-2013,,,5
+receptions-game,Receiving,Receptions,Game,Elijah Fisher,17,2017,PC North,,6
+receptions-season,Receiving,Receptions,Season,Sedrick Frazier,88,2022,,,7
+receptions-career,Receiving,Receptions,Career,Sedrick Frazier,99,2021-2022,,,8
+tackles-game,Defense,Tackles,Game,Zach Paty,25,2016,Westmoore,,1
+tackles-season,Defense,Tackles,Season,Zach Paty,163,2007,,,2
+tackles-career,Defense,Tackles,Career,Derrick Lippert,309,2000-2002,,,3
+sacks-game,Defense,Sacks,Game,Chris Jones,4,2003,Choctaw,,4
+sacks-season,Defense,Sacks,Season,Noah Hooks,12,2007,,,5
+sacks-career,Defense,Sacks,Career,Noah Hooks,20,2015-2017,,,6
+interceptions-game,Defense,Interceptions,Game,Carter Randolph,3,2015,Mustang,,7
+interceptions-season,Defense,Interceptions,Season,Britton Langdon,9,1999,,,8
+interceptions-career,Defense,Interceptions,Career,Carter Randolph,13,2014-2016,,,9
+scoring-season,Scoring,Points,Season,Bryan Blew,144,1998,,,1
+scoring-career,Scoring,Points,Career,Bryan Blew / Chris Jones,228,1996-1998 / 2001-2003,,,2
