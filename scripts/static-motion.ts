@@ -48,6 +48,10 @@ const loadAllTimeRecords=async()=>{
     categories.forEach(category=>{
       const group=document.createElement('article');
       group.className='record-group';
+      // These cards are added after the page-level reveal animation starts.
+      // Keep them visible instead of inheriting the initial hidden state.
+      group.style.opacity='1';
+      group.style.transform='none';
       const title=document.createElement('h3');title.textContent=category;
       const list=document.createElement('div');list.className='record-list';
       records.filter(record=>record.category===category).sort((a,b)=>Number(a.sort_order)-Number(b.sort_order)).forEach(record=>{
