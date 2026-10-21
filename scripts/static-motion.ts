@@ -71,6 +71,25 @@ const loadAllTimeRecords=async()=>{
 
 void loadAllTimeRecords();
 
+const loadAdditionalAlumni=async()=>{
+  const container=document.querySelector<HTMLElement>('.additional-alumni-grid');
+  if(!container)return;
+  try{
+    const alumni=parseDataCsv(await fetch('/data/additional-alumni.csv').then(response=>response.text()));
+    container.replaceChildren();
+    alumni.sort((a,b)=>Number(a.sort_order)-Number(b.sort_order)).forEach(alumnus=>{
+      const card=document.createElement('article');
+      const name=document.createElement('strong');name.textContent=alumnus.name;
+      const school=document.createElement('span');school.textContent=alumnus.school;
+      card.append(name,school);container.append(card);
+    });
+  }catch{
+    container.textContent='Additional alumni data is temporarily unavailable.';
+  }
+};
+
+void loadAdditionalAlumni();
+
 const districtStandings=[
   ['Broken Arrow','6–0','3–0'],
   ['Bixby','6–0','3–0'],

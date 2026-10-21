@@ -82,6 +82,7 @@ const schemas = {
     'notes',
     'sort_order',
   ],
+  additionalAlumni: ['alumni_id', 'name', 'school', 'notes', 'sort_order'],
   collegePrograms: [
     'reference_id',
     'school',
@@ -104,6 +105,7 @@ const filenames = {
   gameLeaders: 'game-leaders',
   gameCaptains: 'game-captains',
   allTimeRecords: 'all-time-records',
+  additionalAlumni: 'additional-alumni',
   collegePrograms: 'lewisville-college-contacts',
 };
 const filenameFor = (name) => filenames[name] || name;
@@ -402,6 +404,17 @@ data.allTimeRecords.forEach((record, index) => {
   if (record.sort_order && !/^\d+$/.test(record.sort_order))
     errors.push(
       `all-time-records.csv row ${row}: sort_order must be a whole number.`,
+    );
+});
+unique(data.additionalAlumni, 'alumni_id', 'additional-alumni');
+data.additionalAlumni.forEach((alumnus, index) => {
+  const row = index + 2;
+  for (const column of ['name', 'school'])
+    if (!alumnus[column])
+      errors.push(`additional-alumni.csv row ${row}: ${column} is required.`);
+  if (alumnus.sort_order && !/^\d+$/.test(alumnus.sort_order))
+    errors.push(
+      `additional-alumni.csv row ${row}: sort_order must be a whole number.`,
     );
 });
 unique(data.collegePrograms, 'reference_id', 'lewisville-college-contacts');

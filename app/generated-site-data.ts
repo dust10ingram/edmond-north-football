@@ -3259,6 +3259,338 @@ export const allTimeRecords = [
   }
 ];
 
+export const additionalAlumni = [
+  {
+    "alumni_id": "matt-anderson",
+    "name": "Matt Anderson",
+    "school": "Oklahoma Sooners",
+    "notes": "",
+    "sort_order": "1"
+  },
+  {
+    "alumni_id": "kyle-aschenbrenner",
+    "name": "Kyle Aschenbrenner",
+    "school": "UCO Broncos",
+    "notes": "",
+    "sort_order": "2"
+  },
+  {
+    "alumni_id": "nate-aschenbrenner",
+    "name": "Nate Aschenbrenner",
+    "school": "Southwestern OSU Bulldogs",
+    "notes": "",
+    "sort_order": "3"
+  },
+  {
+    "alumni_id": "joe-aska",
+    "name": "Joe Aska",
+    "school": "Oklahoma State Cowboys",
+    "notes": "",
+    "sort_order": "4"
+  },
+  {
+    "alumni_id": "paul-barnes-warren",
+    "name": "Paul Barnes-Warren",
+    "school": "NEO A&M Norsemen",
+    "notes": "",
+    "sort_order": "5"
+  },
+  {
+    "alumni_id": "joe-barresi",
+    "name": "Joe Barresi",
+    "school": "Arizona Wildcats",
+    "notes": "",
+    "sort_order": "6"
+  },
+  {
+    "alumni_id": "brad-beeston",
+    "name": "Brad Beeston",
+    "school": "Eastern Arizona Monsters",
+    "notes": "",
+    "sort_order": "7"
+  },
+  {
+    "alumni_id": "bryan-blew",
+    "name": "Bryan Blew",
+    "school": "Air Force Academy Falcons",
+    "notes": "",
+    "sort_order": "8"
+  },
+  {
+    "alumni_id": "joey-bolinger",
+    "name": "Joey Bolinger",
+    "school": "Utah Utes",
+    "notes": "",
+    "sort_order": "9"
+  },
+  {
+    "alumni_id": "austin-brasher",
+    "name": "Austin Brasher",
+    "school": "Brigham Young Cougars",
+    "notes": "",
+    "sort_order": "10"
+  },
+  {
+    "alumni_id": "blake-byford",
+    "name": "Blake Byford",
+    "school": "Pittsburg State Gorillas",
+    "notes": "",
+    "sort_order": "11"
+  },
+  {
+    "alumni_id": "colton-byford",
+    "name": "Colton Byford",
+    "school": "UCO Broncos",
+    "notes": "",
+    "sort_order": "12"
+  },
+  {
+    "alumni_id": "antonio-cole",
+    "name": "Antonio Cole",
+    "school": "NEO A&M Norsemen",
+    "notes": "",
+    "sort_order": "13"
+  },
+  {
+    "alumni_id": "corey-collier",
+    "name": "Corey Collier",
+    "school": "UCO Broncos",
+    "notes": "",
+    "sort_order": "14"
+  },
+  {
+    "alumni_id": "brandon-downing",
+    "name": "Brandon Downing",
+    "school": "Washburn University Ichabods",
+    "notes": "",
+    "sort_order": "15"
+  },
+  {
+    "alumni_id": "alex-fain",
+    "name": "Alex Fain",
+    "school": "SNU Storm",
+    "notes": "",
+    "sort_order": "16"
+  },
+  {
+    "alumni_id": "wes-fawcett",
+    "name": "Wes Fawcett",
+    "school": "East Central Tigers",
+    "notes": "",
+    "sort_order": "17"
+  },
+  {
+    "alumni_id": "chase-funderburk",
+    "name": "Chase Funderburk",
+    "school": "Cornell University Big Red",
+    "notes": "",
+    "sort_order": "18"
+  },
+  {
+    "alumni_id": "blake-gatewood",
+    "name": "Blake Gatewood",
+    "school": "UCO Broncos",
+    "notes": "",
+    "sort_order": "19"
+  },
+  {
+    "alumni_id": "kellen-graham",
+    "name": "Kellen Graham",
+    "school": "Oklahoma State Cowboys",
+    "notes": "",
+    "sort_order": "20"
+  },
+  {
+    "alumni_id": "kelly-gregg",
+    "name": "Kelly Gregg",
+    "school": "Oklahoma Sooners",
+    "notes": "",
+    "sort_order": "21"
+  },
+  {
+    "alumni_id": "marquis-hamilton",
+    "name": "Marquis Hamilton",
+    "school": "Iowa State Cyclones",
+    "notes": "",
+    "sort_order": "22"
+  },
+  {
+    "alumni_id": "evan-helvey",
+    "name": "Evan Helvey",
+    "school": "UCO Broncos",
+    "notes": "",
+    "sort_order": "23"
+  },
+  {
+    "alumni_id": "erin-helvey",
+    "name": "Erin Helvey",
+    "school": "Oklahoma Sooners",
+    "notes": "",
+    "sort_order": "24"
+  },
+  {
+    "alumni_id": "scott-hill",
+    "name": "Scott Hill",
+    "school": "Southern Nazarene Storm",
+    "notes": "",
+    "sort_order": "25"
+  },
+  {
+    "alumni_id": "mason-hopkins",
+    "name": "Mason Hopkins",
+    "school": "Harding University Bison",
+    "notes": "",
+    "sort_order": "26"
+  },
+  {
+    "alumni_id": "greg-hopkins",
+    "name": "Greg Hopkins",
+    "school": "Oklahoma Sooners",
+    "notes": "",
+    "sort_order": "27"
+  },
+  {
+    "alumni_id": "luke-hoskins",
+    "name": "Luke Hoskins",
+    "school": "Southwestern OSU Bulldogs",
+    "notes": "",
+    "sort_order": "28"
+  },
+  {
+    "alumni_id": "frankie-johnson",
+    "name": "Frankie Johnson",
+    "school": "Tulsa Golden Hurricane",
+    "notes": "",
+    "sort_order": "29"
+  },
+  {
+    "alumni_id": "britton-langdon",
+    "name": "Britton Langdon",
+    "school": "UCLA Bruins",
+    "notes": "",
+    "sort_order": "30"
+  },
+  {
+    "alumni_id": "ricky-lawyer",
+    "name": "Ricky Lawyer",
+    "school": "NEO A&M Norsemen",
+    "notes": "",
+    "sort_order": "31"
+  },
+  {
+    "alumni_id": "taber-leblanc",
+    "name": "Taber LeBlanc",
+    "school": "Oklahoma State Cowboys",
+    "notes": "",
+    "sort_order": "32"
+  },
+  {
+    "alumni_id": "brian-merkley",
+    "name": "Brian Merkley",
+    "school": "Navy Midshipmen",
+    "notes": "",
+    "sort_order": "33"
+  },
+  {
+    "alumni_id": "britt-morris",
+    "name": "Britt Morris",
+    "school": "Mary Hardin-Baylor Crusaders",
+    "notes": "",
+    "sort_order": "34"
+  },
+  {
+    "alumni_id": "brad-morton",
+    "name": "Brad Morton",
+    "school": "Southwestern Oklahoma State Bulldogs",
+    "notes": "",
+    "sort_order": "35"
+  },
+  {
+    "alumni_id": "todd-nelson",
+    "name": "Todd Nelson",
+    "school": "Oklahoma State Cowboys",
+    "notes": "",
+    "sort_order": "36"
+  },
+  {
+    "alumni_id": "jerach-page",
+    "name": "Jerach Page",
+    "school": "Southwestern OSU Bulldogs",
+    "notes": "",
+    "sort_order": "37"
+  },
+  {
+    "alumni_id": "zach-paty",
+    "name": "Zach Paty",
+    "school": "Sam Houston State Bearkats",
+    "notes": "",
+    "sort_order": "38"
+  },
+  {
+    "alumni_id": "baron-potter",
+    "name": "Baron Potter",
+    "school": "Harding University Bison",
+    "notes": "",
+    "sort_order": "39"
+  },
+  {
+    "alumni_id": "brayden-prough",
+    "name": "Brayden Prough",
+    "school": "Missouri Southern Lions",
+    "notes": "",
+    "sort_order": "40"
+  },
+  {
+    "alumni_id": "kaleb-prough",
+    "name": "Kaleb Prough",
+    "school": "Southwestern OSU Bulldogs",
+    "notes": "",
+    "sort_order": "41"
+  },
+  {
+    "alumni_id": "lex-rosson",
+    "name": "Lex Rosson",
+    "school": "Fort Hays State Tigers",
+    "notes": "",
+    "sort_order": "42"
+  },
+  {
+    "alumni_id": "xavier-smith",
+    "name": "Xavier Smith",
+    "school": "Missouri Tigers",
+    "notes": "",
+    "sort_order": "43"
+  },
+  {
+    "alumni_id": "ahmad-swan",
+    "name": "Ahmad Swan",
+    "school": "Air Force Academy Falcons",
+    "notes": "",
+    "sort_order": "44"
+  },
+  {
+    "alumni_id": "brad-wilcox",
+    "name": "Brad Wilcox",
+    "school": "Brigham Young University Cougars",
+    "notes": "",
+    "sort_order": "45"
+  },
+  {
+    "alumni_id": "kyle-wiley",
+    "name": "Kyle Wiley",
+    "school": "Mississippi State Bulldogs",
+    "notes": "",
+    "sort_order": "46"
+  },
+  {
+    "alumni_id": "phillip-woods",
+    "name": "Phillip Woods",
+    "school": "Northeastern State RiverHawks",
+    "notes": "",
+    "sort_order": "47"
+  }
+];
+
 export const collegePrograms = [
   {
     "reference_id": "abilene-christian-texas-d1-fcs",
